@@ -1,9 +1,9 @@
 # What is this?
-We're connecting financial institutions and mobile providers in a level playing field in order to reduce costs and fees paid by poor people. See [LevelOneProject.org](leveloneproject.org) or our [README.md](./README.md) for more.
+We're connecting financial institutions and mobile providers in a level playing field in order to reduce costs and fees paid by poor people. See [LevelOneProject.org](leveloneproject.org) or our [README.md](https://github.com/LevelOneProject/Docs/blob/master/README.md) for more.
 
 Does this really work? Yes, in 8 years, 194,000 Kenyan's moved out of absolute poverty due to a [similar system](http://news.mit.edu/2016/mobile-money-kenyans-out-poverty-1208). That's a single system. We want to connect multiple systems together using a [set of principles](https://leveloneproject.org/wp-content/uploads/2016/03/L1P_Level-One-Principles-and-Perspective.pdf) that are targetted at helping poor people.
 
-The [Docs repo](https://github.com/LevelOneProject/Docs) contains overview of how things are put together. The [wiki](https://github.com/LevelOneProject/Docs/wiki) contains information on how we work beyond this contribution guide. 
+The [Docs repo](https://github.com/LevelOneProject/Docs) contains overview of how things are put together. The [Docs wiki](https://github.com/LevelOneProject/Docs/wiki) contains information on how we work beyond this contribution guide. 
 
 # What can I help with?
 
