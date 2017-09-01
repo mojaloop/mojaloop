@@ -3,29 +3,29 @@ We're connecting financial institutions and mobile money providers to address th
 
 Does this really work? Yes, in 8 years, 194,000 Kenyan's moved out of absolute poverty due to a [similar system](http://news.mit.edu/2016/mobile-money-kenyans-out-poverty-1208). That's a single system. We want to connect multiple systems together using a [set of principles](https://leveloneproject.org/wp-content/uploads/2016/03/L1P_Level-One-Principles-and-Perspective.pdf) that are targetted at helping poor people. Paymoja is a shared service platform designed to support realtime clearing and net settlement of large volumes of small payments between users of independently operated financial service platforms.
 
-The [Docs repo](https://github.com/LevelOneProject/Docs) contains overview of how things are put together. The [Docs wiki](https://github.com/LevelOneProject/Docs/wiki) contains information on how we work beyond this contribution guide. 
+The [Docs repo](https://github.com/LevelOneProject/Docs) contains overview of how things are put together. The [contribute directory](https://github.com/LevelOneProject/paymoja/contribute/readme.md) contains information on how we work beyond this contribution guide. 
 
 # What can I help with?
 
 ## What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
 
-There's a [roadmap](https://github.com/LevelOneProject/Docs/wiki/Roadmap) that shows larger work that people could do or are working on. It has some main initiatives and epics and the order, but lacks dates as this work is community driven.
+There's a [roadmap](https://github.com/LevelOneProject/Docs/paymoja/contribute/Roadmap.md) that shows larger work that people could do or are working on. It has some main initiatives and epics and the order, but lacks dates as this work is community driven. Work is broken down from there into issues in GitHub.
 
 ## Where to I send bugs, questions, and feedback?
-For bugs, see [Reporting bugs](https://github.com/LevelOneProject/Docs/wiki/Reporting-Bugs). 
+For bugs, see [Reporting bugs](https://github.com/LevelOneProject/paymoja/contribute/Reporting-Bugs.md). 
 
-For questions or feedback, we're on [Slack](leveloneproject.slack.com). Also checkout the [FAQ](https://github.com/LevelOneProject/Docs/wiki/FAQ)
+For questions or feedback, we're on [Slack](leveloneproject.slack.com). Also checkout the [FAQ](https://github.com/LevelOneProject/Docs/paymoja/contribute/FAQ.md)
 
 # How do I contribute?
-See also [Onboarding Developers](https://github.com/LevelOneProject/Docs/wiki/Onboarding-Developers) in the wiki
+See also [Onboarding Developers](https://github.com/LevelOneProject/Docs/paymoja/contribute/Onboarding-Developers.md)
 
 
 ## Style guides and templates
-- [Documentation standards](https://github.com/LevelOneProject/Docs/wiki/L1P-Documentation-and-Template-Standards)
-- [Documentation style guide](https://github.com/LevelOneProject/Docs/wiki/Documentation-Style-Guide)
-- [Code Style](https://github.com/LevelOneProject/Docs/wiki/Code-Style)
-- [Code Quality Metrics](https://github.com/LevelOneProject/Docs/wiki/Code-Quality-Metrics)
+- [Documentation standards](https://github.com/LevelOneProject/Docs/paymoja/contribute/L1P-Documentation-and-Template-Standards.md)
+- [Documentation style guide](https://github.com/LevelOneProject/Docs/paymoja/contribute/Documentation-Style-Guide.md)
+- [Code Style](https://github.com/LevelOneProject/Docs/paymoja/contribute/Code-Style.md)
+- [Code Quality Metrics](https://github.com/LevelOneProject/Docs/paymoja/contribute/Code-Quality-Metrics.md)
 
 ## Pull Request Process
 
@@ -37,7 +37,7 @@ Update the version appropriately.
 We use a [standard developer code of conduct](http://contributor-covenant.org/version/1/4/code_of_conduct.md)
 
 ## Licensing
-See [License](https://github.com/LevelOneProject/Docs/wiki/License) policy
+See [License](https://github.com/LevelOneProject/Docs/paymoja/contribute/License.md) policy
 
 # How do I install this?
 
