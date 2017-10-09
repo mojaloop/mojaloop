@@ -5,11 +5,11 @@
 To prevent duplication and allow for easy maintenance, the documentation
 follows a simple hierarchical pattern:
 
--   Overview – anything that spans the project
+-   Overview - anything that spans the project
 
--   Service – specific to a single service
+-   Service - specific to a single service
 
--   Repo – specific to a single component or microservice
+-   Repo - specific to a single component or microservice
 
 More specifics are below.
 
@@ -22,19 +22,12 @@ repo](https://github.com/LevelOneProject/Docs). Examples or topics
 and examples that span the entire project are included below:
 
 -   Paymoja Overview
-
 -   Scenarios
-
 -   Scenario Tests
-
 -   Cross-service architecture
-
 -   Test strategy
-
 -   Physical Architecture
-
 -   Overall threat model
-
 -   Overall resilience model
 
 ## Services Documentation
@@ -43,9 +36,7 @@ Each of the main services also have a section describing them in the Docs repo. 
 
 
 -   DFSP
-
 -   Central Services (Overview)
-
 -   Portal
 
 Services docs cover the service architecture, service deployment,
@@ -64,17 +55,11 @@ repo](https://github.com/LevelOneProject/Docs). Examples or topics
 that will be part of a specific repo include:
 
 * Microservices/Components
-
 * USSD Admin
-
 * DFSP USSD
-
 * Central Rules
-
 * Fraud Services
-
 * SPSP Client
-
 * ILP Adapter
 
 For these topics, please use the [README-Template](./README-Template.md)
@@ -101,7 +86,7 @@ For these topics, please use the [README-Template](./README-Template.md)
 ### Retrievability 
 
 * For sections that contain many subsections of endpoints or methods, provide a table of contents at the beginning of the section
-* Don’t say the word project; use component, microservice, interfaces, etc
+* Don't say the word project; use component, microservice, interfaces, etc
 
 ### Language
 
@@ -115,29 +100,3 @@ Instead of the word "project," use a specific noun such as component, microservi
 1. Step 1
 2. Step 2
 3. Step 2
-  
- 
-
-
-                                        
-
-                                        
-
-
-                                         
-· 
-
-                                                
-              
-                        
-
-
-                                        
-                                             
-
-                                                
-
-
- 
-  
-
