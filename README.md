@@ -3,7 +3,7 @@ The Level One Project advocates and promotes financial inclusion for everyone. T
 
 The Level One Project is a sofware implementation of the Level One Project. For more information on the Level One Project, see the https://LevelOneProject.org
 
-Overview documentation is in the [Docs repository](https://github.com/LevelOneProject/Docs/README.md).
+Overview documentation is in the [Docs repository](https://github.com/LevelOneProject/Docs/blob/master/README.md).
 
 ## Why should I contribute?
 The Level One Project is an initiative started by the Bill and Melinda Gates Foundation to make it easier for developing countries to provide useful digital financial services to the people who live there. To participate in the formal, global economy, everyone needs access to digital financial services so they can transact quickly and safely, across distances long and short.  
