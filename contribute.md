@@ -1,4 +1,4 @@
-Note: The name of the code will soon be updated to “[INSERT NAME].” The code itself will remain the same._  
+_Note: The name of the code will soon be updated to “[INSERT NAME].” The code itself will remain the same._  
 
 # What is this?  
 We’re sharing code to help create interoperable payments platforms that can be deployed on a national scale. The idea is to make it easier for financial providers to deliver digital financial services to new customers in new markets, especially in the developing world. See our [README.md](https://github.com/LevelOneProject/Docs/blob/master/README.md) for an overview, or visit [LevelOneProject.org](https://github.com/LevelOneProject/Docs/blob/master/leveloneproject.org) for complete context and information.
