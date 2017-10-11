@@ -1,4 +1,4 @@
-#Frequently Asked Questions
+# Frequently Asked Questions
 
 _Note: The name of the code will soon be updated to “[INSERT NAME].” The code itself will remain the same._
 
