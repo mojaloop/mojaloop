@@ -1,16 +1,20 @@
-# The Level One Project Overview
-The Level One Project advocates and promotes financial inclusion for everyone. Today more than 2 billion adults do not have a bank account or access to a formal financial institution.  The Level One Project is aimed at changing this denominator by making banking accessible by everyone via a standard flip phone.  Our project is aimed at building a national digital financial solution that is open to everyone.  Specifically, any person in any location with a phone can open a back account, send money, receive money or get paid for services.  This open system will help the poorest people in the most remote locations to ensure a safe and reliable solution.  
+_Note: The name of the code will soon be updated to “[INSERT NAME].” The code itself will remain the same._
 
-The Level One Project is a sofware implementation of the Level One Project. For more information on the Level One Project, see the https://LevelOneProject.org
+# Level One Project Overview  
+Digital and mobile technologies make it possible to reach new customers in developing markets with innovative, low-cost financial services. The lack of a shared platform, though, means that financial providers have to build everything on their own. This raises costs and keeps the digital financial industry from growing and innovating as fast as it could.  
 
-Overview documentation is in the [Docs repository](https://github.com/LevelOneProject/Docs/blob/master/README.md).
+Level One Project is open-source software for creating digital payments platforms that connect all customers, merchants, banks, and other financial providers in a country’s economy. Rather than a financial product or application in itself, Level One Project establishes a blueprint for technology that bridges all the financial products and applications in any given market.  
 
-## Why should I contribute?
-The Level One Project is an initiative started by the Bill and Melinda Gates Foundation to make it easier for developing countries to provide useful digital financial services to the people who live there. To participate in the formal, global economy, everyone needs access to digital financial services so they can transact quickly and safely, across distances long and short.  
+The intention is for financial institutions and commercial providers to use the open-source software to help build digital, interoperable payments platforms that drive financial inclusion on a national scale. Specifically, the platforms will enable seamless, low-cost transactions between individual users, merchants, banks, providers, and even government offices—helping connect poor customers with everyone else in the digital economy.  
 
-This project started with a model and prototype for a financial system that could be implemented in any country.  In addition, this code takes that a step further by implementing a strong reliable messaging using the [Interledger](http://interledger.org) protocol as well as a functioning central hub that financial providers can connect to facilitate common settlement and regulatory compliance.
+Level One Projectgrew out of principles set forth by the Financial Services for the Poor team at the Bill & Melinda Gates Foundation to extend digital financial services to the world's two billion unbanked people.The code won’t address the gap in digital financial services on its own, but we believe it is a strong foundation for opening the market and accelerating progress.  
 
-> In order to expand financial inclusion and ensure a level playing field for everyone, we need your help to enhance this project and help to realize the vision of having a digital financial system in every country around the world.
+With support and funding from the Bill & Melinda Gates Foundation, Level One Project was designed by a team of leading tech and fintech companies: [Ripple](https://github.com/ripple), [Dwolla](https://github.com/dwolla), [ModusBox](http://www.modusbox.com/), [Software Group](http://www.softwaregroup-bg.com/) and [Crosslake Technologies](http://www.crosslaketech.com/). It is available now as an open-source project—free to be used and adapted by anyone under the [insert name of new license and link to file here]. For more information on Level One Project, visit [LevelOneProject.org](leveloneproject.org).
+
+## Why should I contribute to Level One Project?
+Level One Project makes it easier for financial providers and entrepreneurs to go to market with products and services, especially in developing markets where demand is high and supply is low.  
+
+A nationwide interoperable digital payments platform requires really good code. Your contributions will help ensure that Level One Project covers all the bases, translates well to real-world scenarios, and meets the many and diverse needs of financial providers and customers.  
 
 ## Getting Started
 The project is in GitHub and is organized on the basis of component microservices.  As such, there are over twenty different repositories in GitHub that align to the different services.  The _Docs_ repository documents the overall architecture, component design, message flow, and an overview of the Level One software. Individual repositories in the [Level One GitHub organization](https://github.com/LevelOneProject/) each describe component-specific details including source and APIs.
