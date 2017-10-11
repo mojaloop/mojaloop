@@ -1,9 +1,7 @@
-# What is this?
-We're connecting financial institutions and mobile money providers to address the needs of the unbanked. We believe in a level playing field that interconnects diverse digital financial service providers in order to reach the world's poor at reduced cost. We believe lower costs can lower the fees paid by poor people for access to financial servies. See [LevelOneProject.org](leveloneproject.org) or our [README.md](https://github.com/LevelOneProject/Docs/blob/master/README.md) for more.
+Note: The name of the code will soon be updated to “[INSERT NAME].” The code itself will remain the same._  
 
-Does this really work? Yes, in 8 years, 194,000 Kenyan's moved out of absolute poverty due to a [similar system](http://news.mit.edu/2016/mobile-money-kenyans-out-poverty-1208). That's a single system. We want to connect multiple systems together using a [set of principles](https://leveloneproject.org/wp-content/uploads/2016/03/L1P_Level-One-Principles-and-Perspective.pdf) that are targetted at helping poor people. The Level One Project is a shared service platform designed to support realtime clearing and net settlement of large volumes of small payments between users of independently operated financial service platforms.
-
-The [Docs repo](https://github.com/LevelOneProject/Docs) contains overview of how things are put together. The [contribute directory](https://github.com/LevelOneProject/leveloneproject/contribute/readme.md) contains information on how we work beyond this contribution guide. 
+# What is this?  
+We’re sharing code to help create interoperable payments platforms that can be deployed on a national scale. The idea is to make it easier for financial providers to deliver digital financial services to new customers in new markets, especially in the developing world. See our [README.md](https://github.com/LevelOneProject/Docs/blob/master/README.md) for an overview, or visit [LevelOneProject.org](https://github.com/LevelOneProject/Docs/blob/master/leveloneproject.org) for complete context and information.
 
 # What can I help with?
 
