@@ -1,4 +1,4 @@
-_Note: The name of the code will soon be updated to “[INSERT NAME].” The code itself will remain the same._
+_Note: The name of the code will soon be updated to Mojaloop The code itself will remain the same._
 
 # Level One Project Overview  
 Digital and mobile technologies make it possible to reach new customers in developing markets with innovative, low-cost financial services. The lack of a shared platform, though, means that financial providers have to build everything on their own. This raises costs and keeps the digital financial industry from growing and innovating as fast as it could.  
