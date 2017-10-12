@@ -18,7 +18,7 @@ files. Syntax example: \[Display Text](./images/diagram.png). Diagrams are store
 
 ## Component/Service Name
 
-(Intro blurb - a paragraph or two explaining what this component or service is for and how it fits into the overall Paymoja Project)
+(Intro blurb - a paragraph or two explaining what this component or service is for and how it fits into the overall Level One Project Project)
 
 It is expected that this template would not be fully complete at the beginning of development. Design details are expected to emerge in an Agile fashion. However, the building blocks such as key components, high-level interactions, protocols, approaches, and general test strategy need to be thought through due to all the moving parts in the project. Specify enough detail such that another engineer can review the approach and provide feedback, but don’t be too detailed that the architecture/design is obsolete in the very short term.  Architecture/Design documents are stored as many smaller files rather than one large one. This way individual parts of the design can be worked on separately and in parallel.
 
@@ -37,7 +37,7 @@ In keeping with agile development, documents can be simple diagrams and do not n
 
 ## Component Diagram
 
-(This shows the sub-components of the service and their relationships.  Paymoja will have at least two levels of design, one overall system level design which shows the big picture, which the main components are and the primary connections. Each service or main component also has a set of design documents, so we can drill from the big picture into
+(This shows the sub-components of the service and their relationships. The Level One Project will have at least two levels of design, one overall system level design which shows the big picture, which the main components are and the primary connections. Each service or main component also has a set of design documents, so we can drill from the big picture into
 the design of a particular service.  These design documents might exist in the specific repo.)
 
 ## User Message/Flow Diagrams

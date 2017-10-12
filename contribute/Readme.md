@@ -20,4 +20,4 @@ The [Structure of the Documentation](Structure-of-the-Documentation.md)
 
 [Debugging]  [Topic still in development, will cover ELK and trace ID]
 
-[Paymoja Terminology](https://github.com/LevelOneProject/Docs/blob/master/terminology.md)
+[Terminology](https://github.com/LevelOneProject/Docs/blob/master/terminology.md)

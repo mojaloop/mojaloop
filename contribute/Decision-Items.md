@@ -1,4 +1,4 @@
-# **Paymoja Design Decisions:**
+# **Level One Project Design Decisions:**
 
 ## Bulk Payments
 The user number will be used for identification purposes; 2nd verification form is required for confirmation.
@@ -22,9 +22,9 @@ Realtime - show charges presented to the customer only show in flight charges (o
 For phase one we care about the retail fees that the payee needs to pay (especially if this is not a closed loop system.
 
 ## Fraud Management
-Paymoja has a shared fraud detection system and will document best practices for DFSPs.  
+The Level One Project has a shared fraud detection system and will document best practices for DFSPs.  
 
-## Paymoja Decimal Type
+## The Level One Project Decimal Type
 When dealing with ISO20022 systems without rewriting amounts, we should limit the amount to a format that matches closely the XML Schema definition and doesn't allow for exponents at that can lead to potential loss of precision when talking to those external systems. For now for this project we should use the decimal type based on the XML Schema.
 
 ## Pending transaction workflow
@@ -40,9 +40,9 @@ Refunds should be handled by the system and there should be meta-data to link to
 Customer that is paying the invoice needs to be informed with error messages.  Both limits need to be respected with scheme rules. Merchant and customer can both reject the invoice. No other special cases.  IST tier limits will focus on the tiers at the DFSP.
 
 ## No Reconciliation 
-Because the Paymoja is designed to enable many very small transactions in a very reliable way at low cost, we don't build in manual reconciliation into the system as this would make the system more expensive. The system is specifically designed to minimize counterparty risk to prevent the need for reconciliation. It is possible to perform reconciliation though a business process that compares DFSP and the Central ledger, but that is out of scope.
+Because the Level One Project is designed to enable many very small transactions in a very reliable way at low cost, we don't build in manual reconciliation into the system as this would make the system more expensive. The system is specifically designed to minimize counterparty risk to prevent the need for reconciliation. It is possible to perform reconciliation though a business process that compares DFSP and the Central ledger, but that is out of scope.
 
-# **Paymoja Process Decisions**
+# **The Level One Project Process Decisions**
 
 ## GitHub
 Create one story every time there is integration work. Create bugs for any issues.  Ensure all stories are tracked throughout the pipeline to ensure reliable metrics.

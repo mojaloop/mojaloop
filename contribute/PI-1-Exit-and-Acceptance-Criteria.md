@@ -1,4 +1,4 @@
-Purpose: This document describes the specific exit and acceptance criteria for planning increment #1 of the Paymoja Project.
+Purpose: This document describes the specific exit and acceptance criteria for planning increment #1 of the Level One Project Project.
 
 ## Limiting Assumptions
 * 	PI-1 limited to “Send money to anyone anywhere”
@@ -23,7 +23,7 @@ The Central ledger must handle 100 complete transfers / second
 We need the basic data flow diagrams before we can do these, so they are delayed till the next PI. 
 *       Our DFSP must be separable
 
-Because financial institutions will have their own DFSP code, the non-DFSP components and services of Paymoja must be able to connect through a simple set of interfaces on a proxy API to a real DFSP. We should be able to choose which services we attach, for example, if they don't need/want bulk payment, we don't have to attach it. 
+Because financial institutions will have their own DFSP code, the non-DFSP components and services of the Level One Project must be able to connect through a simple set of interfaces on a proxy API to a real DFSP. We should be able to choose which services we attach, for example, if they don't need/want bulk payment, we don't have to attach it. 
 
 * Design expecting On-premise. 
 
@@ -50,7 +50,7 @@ Because of poor infrastructure support by IaaS and PaaS providers and also natio
 	       See [Architecture Documentation Design](./Architecture-Documentation-Guidelines.md) on the GitHub wiki for additional details.
 
 ## Terminology and Glossary v1.0 completed
-*       Updates to the Paymoja glossary are commonly understood
+*       Updates to the Level One Project glossary are commonly understood
 *       Any additional terms/changes in terms have been voted on and approved (CL to add them to the glossary).
 
 ## Issues/Bugs

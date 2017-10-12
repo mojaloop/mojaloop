@@ -1,10 +1,10 @@
 # Structure of the Documentation
 
-The [Paymoja wiki](https://github.com/LevelOneProject/Docs/wiki) describes how developers collaborate together on the code base.
+The [Contribution Guides](https://github.com/LevelOneProject/leveloneproject/contribute.md) describes how developers collaborate together on the code base.
 
-The [Paymoja **Docs** repo](https://github.com/LevelOneProject/Docs) details overall architecture of the Level One Project (starting in it's README.md) while each other repo has architecture details specific to it (starting in the README.md for that repo).
+The [Level One Project **Docs** repo](https://github.com/LevelOneProject/Docs) details overall architecture of the Level One Project (starting in it's README.md) while each other repo has architecture details specific to it (starting in the README.md for that repo).
 
-* The [Paymoja Documentation and Template Standards](./Documentation-and-Template-Standards.md) describes how the documents are structured.
+* The [Level One Project Documentation and Template Standards](./Documentation-and-Template-Standards.md) describes how the documents are structured.
 
 * The [Architecture-Documentation-Guidelines](./Architecture-Documentation-Guidelines.md) describes types of individual documents and how they are built.
 

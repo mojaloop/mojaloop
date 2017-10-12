@@ -1,4 +1,4 @@
-# Paymoja Documentation and Template Standards
+# Documentation and Template Standards
 
 ## Document Scopes
 
@@ -16,12 +16,12 @@ More specifics are below.
 ## Overview Documents
 
 Overview documents include the topics, components and or services that
-span the entire Paymoja project. The documents should have their own
+span the entire project. The documents should have their own
 readme file and be located in a corresponding sub-folder in [Docs
 repo](https://github.com/LevelOneProject/Docs). Examples or topics
 and examples that span the entire project are included below:
 
--   Paymoja Overview
+-   Overview
 -   Scenarios
 -   Scenario Tests
 -   Cross-service architecture

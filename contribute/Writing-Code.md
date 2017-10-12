@@ -1,4 +1,4 @@
-# Guidance for writing code for Paymoja
+# Guidance for writing code for the Level One Project
 
 * [Pragmatic REST Guidelines](./Pragmatic-REST-Guidelines.md) describes how we use restful interfaces
 

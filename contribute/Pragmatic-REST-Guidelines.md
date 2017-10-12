@@ -1,5 +1,5 @@
 # Pragmatic REST
-### For the Paymoja Project
+### For the Level One Project Project
 ---
 
 The emergence of API strategy as a scaling tool for Internet service
@@ -43,7 +43,7 @@ a bunch of extraneous code.
 At its most fundamental, a RESTful design is resource-centric and uses
 HTTP verbs. At its most advanced, a design that follows pure academic
 REST utilizes the HATEOAS principle by implementing Hypermedia Controls.
-We are advocating a Level 2 RESTful design for Paymoja.
+We are advocating a Level 2 RESTful design for the Level One Project.
 
 Why not Hypermedia Controls?
 ----------------------------
@@ -57,7 +57,7 @@ format of URIs.
 
 It is this final proscription that fails the test of Pragmatic REST:
 While HATEOAS is an interesting theoretical approach to limit coupling,
-it does not easily apply to Paymoja (or any other contract
+it does not easily apply to the Level One Project (or any other contract
 API design). When we take into account our audience for the interconnect
 APIs, we find a group of commercial entities that will be operating
 under a set of highly specific scheme rules. Interactions between the
