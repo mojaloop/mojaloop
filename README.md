@@ -1,4 +1,4 @@
-_Note: The name of the code will soon be updated to Mojaloop The code itself will remain the same._
+_Note: The name of the code will soon be updated to "Majaloop". The code itself will remain the same._
 
 # Level One Project Overview  
 Digital and mobile technologies make it possible to reach new customers in developing markets with innovative, low-cost financial services. The lack of a shared platform, though, means that financial providers have to build everything on their own. This raises costs and keeps the digital financial industry from growing and innovating as fast as it could.  
@@ -19,7 +19,7 @@ A nationwide interoperable digital payments platform requires really good code. 
 ## Getting Started
 The project is in GitHub and is organized on the basis of component microservices.  As such, there are over twenty different repositories in GitHub that align to the different services.  The _Docs_ repository documents the overall architecture, component design, message flow, and an overview of the Level One software. Individual repositories in the [Level One GitHub organization](https://github.com/LevelOneProject/) each describe component-specific details including source and APIs.
 
-New developers, see the [contributors guide](./contribute.md) for onboarding materials.
+New developers, see the [contributors guide](./contribute.md) for onboarding materials.  For additional infromation please review the [frequently asked questions](/FAQ.md).
 
 ## Level One Services
 The following architecture diagram shows the Level One services:
