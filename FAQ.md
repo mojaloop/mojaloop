@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-_Note: The name of the code will soon be updated to “Majaloop.” The code itself will remain the same._
+_Note: The name of the code will soon be updated to “Majaloop”. The code itself will remain the same._
 
 _What is Level One Project?_
 Level One Project is open-source software for building interoperable digital payments platforms on a national scale. It makes it easy for different kinds of providers to link up their services and deploylow-cost financial services innew markets.  
