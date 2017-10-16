@@ -1,4 +1,4 @@
-This is a list of larger initiatives and epics by area. Some of these have been entered as epics or stories, but most are still in the "unscoped idea" phase.
+Below is a list of larger initiatives and epics by area that will help to further develop the Mojaloop project. Some of these have been entered as epics or stories, but most are still in the "unscoped idea" phase.
 
 - Central Services
 	- Directory Interoperability
