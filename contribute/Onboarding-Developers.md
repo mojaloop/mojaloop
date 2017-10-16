@@ -1,7 +1,7 @@
 # Onboarding Developers
 The [Level One Project](https://leveloneproject.org/) site describes what we're accomplishing.
 
-We use a [standard developer code of conduct]( http://contributor-covenant.org/version/1/4/code_of_conduct.html)
+We use a [standard developer code of conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
 
 ## External Developer Tools 
 (See [Tools Choices](https://github.com/LevelOneProject/Docs/wiki/Tools,-technology,-and-process-choices) for a longer list that includes the reasoning behind each)
