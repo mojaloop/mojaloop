@@ -23,5 +23,18 @@ We use a [standard developer code of conduct](https://www.contributor-covenant.o
 Note: User, Pwd is Admin, 123
 * Financial information for countries with low infrastructure: [FSPMaps](http://fspmaps.org). You can click on individual dots to see pictures.
 
+## How do I start working with Mojaloop
+1)	Review the Readme.md, contributor.md and FAQ.md guides in GitHub 
+•	The Docs repository in GitHub includes the overall architecture, component design, message flow, and an overview of the Mojaloop software
+•	Individual repositories within the GitHub project each describe component-specific details including source and APIs
+2)	Before you start working with Mojaloop it is recommend that you review the details under the \contribute folder with specific emphasis on the roadmap.md
+3)	Once you are ready to contribute to Mojaloop it is recommended that you follow GitHub fundamentals:
+
+* Setup a local clone of the project locally; To perform a local setup, follow the setup instructions using Vagrant on your local environment in the [readme.md](https://github.com/LevelOneProject/interop-devops/blob/master/README.md) in the interop-devops repository. 
+
+* Do some work; Fix a bug, pick up an issue; Remember to write good commit messages
+
+* Create the pull request in GitHub; At this point someone from the maintainers team will review and approve or push back on your request
+
 ---
 <a name="Crosslake">1</a>: Request access from Crosslake Technologies
