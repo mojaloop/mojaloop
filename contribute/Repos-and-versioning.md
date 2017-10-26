@@ -6,7 +6,7 @@ Each repo has all the info for the software the ships from it: documentation, te
 Initially, we expect to have many repos, but as some related components become stable, they may be combined into a single versioned group in a single repo.
 
 ## Naming
-Repos are named following a simple convention of: **area-service** or **area-component**. Example: **dfsp-ledger**. Areas include: **dfsp**, **central**, **interop**, and **ilp**.
+Repos are named following a simple convention of: **service-microservice** or **Area-component**. Example: **dfsp-ledger**. Services/Areas include: **dfsp**, **central**, **interop**, and **ilp**.
 
 ## Versioning
 We use [semantic versioning](http://semver.org/) for each repo. 

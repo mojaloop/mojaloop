@@ -1,5 +1,5 @@
 # Documentation Style Guide
-In most cases, the Level One Project project follows the latest edition of the Associated Press Stylebook. The following are foundation-specific guidelines which have been updated and slightly modified.
+In most cases, Mojaloop follows the latest edition of the Associated Press Stylebook. The following are foundation-specific guidelines which have been updated and slightly modified.
 
 ### Academic degrees
 In most cases, you don’t need to mention a person’s academic degrees. It’s never necessary to mention a bachelor’s degree. 

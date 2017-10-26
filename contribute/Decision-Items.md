@@ -1,4 +1,4 @@
-# **Level One Project Design Decisions:**
+# **Mojaloop Design Decisions:**
 
 ## Bulk Payments
 The user number will be used for identification purposes; 2nd verification form is required for confirmation.
@@ -22,9 +22,9 @@ Realtime - show charges presented to the customer only show in flight charges (o
 For phase one we care about the retail fees that the payee needs to pay (especially if this is not a closed loop system.
 
 ## Fraud Management
-The Level One Project has a shared fraud detection system and will document best practices for DFSPs.  
+Mojaloop has a shared fraud detection system and will document best practices for DFSPs.  
 
-## The Level One Project Decimal Type
+## Mojaloop Decimal Type
 When dealing with ISO20022 systems without rewriting amounts, we should limit the amount to a format that matches closely the XML Schema definition and doesn't allow for exponents at that can lead to potential loss of precision when talking to those external systems. For now for this project we should use the decimal type based on the XML Schema.
 
 ## Pending transaction workflow
@@ -40,9 +40,9 @@ Refunds should be handled by the system and there should be meta-data to link to
 Customer that is paying the invoice needs to be informed with error messages.  Both limits need to be respected with scheme rules. Merchant and customer can both reject the invoice. No other special cases.  IST tier limits will focus on the tiers at the DFSP.
 
 ## No Reconciliation 
-Because the Level One Project is designed to enable many very small transactions in a very reliable way at low cost, we don't build in manual reconciliation into the system as this would make the system more expensive. The system is specifically designed to minimize counterparty risk to prevent the need for reconciliation. It is possible to perform reconciliation though a business process that compares DFSP and the Central ledger, but that is out of scope.
+Because Mojaloop is designed to enable many very small transactions in a very reliable way at low cost, we don't build in manual reconciliation into the system as this would make the system more expensive. The system is specifically designed to minimize counterparty risk to prevent the need for reconciliation. It is possible to perform reconciliation though a business process that compares DFSP and the Central ledger, but that is out of scope.
 
-# **The Level One Project Process Decisions**
+# **Mojaloop Process Decisions**
 
 ## GitHub
 Create one story every time there is integration work. Create bugs for any issues.  Ensure all stories are tracked throughout the pipeline to ensure reliable metrics.
@@ -58,12 +58,11 @@ Versioning of the API vs. versioning of a retrieved article - POR is staying wit
 URLs can not be stored in a DB
 
 ## RAML vs. Swagger
-Allow teams to use Swagger v2.0 so they can test, document, and share their work without the RAML tools. ModusBox will use RAML and convert Swagger programmatically to RAML v0.8 for production.  Public facing documentation in Swagger - (latest one is open api).  All components will be accessible over public internet by default.  Use Open API for public facing APIs.  See [Tools Decisions](Tools,-technology,-and-process-choices)
+Public facing documentation in Swagger/Open API.  All components will be accessible over public internet by default.  Use Open API for public facing APIs.  See [Tools Decisions](Tools,-technology,-and-process-choices)
 
 ## RDS and Postgres use
-Because our customers can't depend on AWS, we can't take a dependency on AWS for services, likewise RDS costs go up with usage unlike hosted services, so we are are not using RDS.
+Our customers can't take a dependency on AWS, likewise RDS costs go up with usage unlike hosted services, so we are are not using RDS.
 
 We'll be using Postgres as our backend DB, but should minimized dependencies on Postgres to be as generic to SQL as possible. There can be multiple schemas in the server, but not across domains. There can be a single Postgres server in each domain (each DFSP and the Central domain have one). 
 
 The Postgres server should NOT be in a Docker container as it doesn't scale or update properly. We'll needs scripts to backup and restore the DB and to reset the test accounts. Changes to the current configuration will occur over the next several sprints as lower priority backlog items.
-

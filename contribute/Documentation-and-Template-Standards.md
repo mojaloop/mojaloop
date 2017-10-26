@@ -18,7 +18,7 @@ More specifics are below.
 Overview documents include the topics, components and or services that
 span the entire project. The documents should have their own
 readme file and be located in a corresponding sub-folder in [Docs
-repo](https://github.com/LevelOneProject/Docs). Examples or topics
+repo](https://github.com/Mojaloop/Docs). Examples or topics
 and examples that span the entire project are included below:
 
 -   Overview
@@ -51,7 +51,7 @@ central service. Detail on each service is at the repo level.
 Each time you create a new repo, the readme file should provide standard
 information on the specific component/service and also make reference to
 the higher level component or service located in the [Docs
-repo](https://github.com/LevelOneProject/Docs). Examples or topics
+repo](https://github.com/Mojaloop/Docs). Examples or topics
 that will be part of a specific repo include:
 
 * Microservices/Components
@@ -67,7 +67,7 @@ For these topics, please use the [README-Template](./README-Template.md)
 ## API Documentation
 
 * All APIs should be documented in RAML or Swagger, see Architecture-Documentation-Guidelines](Architecture-Documentation-Guidelines.md)
-* Use [Central Ledger API](https://github.com/LevelOneProject/central-ledger/blob/master/API.md) as a template.
+* Use [Central Ledger API](https://github.com/Mojaloop/central-ledger/blob/master/API.md) as a template.
 
 
 ## Formatting Guidelines
@@ -80,7 +80,7 @@ For these topics, please use the [README-Template](./README-Template.md)
   * [Services Documenatation](services-documentation)
   * [Repo Level Documents](#repo-level-documents)
 
-* Make sure section headings (# _<Heading>_) match the heading to which they correspond in the comprehensive PDF (built from the [dactyl config file](https://github.com/LevelOneProject/Docs/blob/master/ExportDocs/dactyl-config.yml))
+* Make sure section headings (# _<Heading>_) match the heading to which they correspond in the comprehensive PDF (built from the [dactyl config file](https://github.com/Mojaloop/Docs/blob/master/ExportDocs/dactyl-config.yml))
 * Do not include the word "documentation" in headings
 
 ### Retrievability 

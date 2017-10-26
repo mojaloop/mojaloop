@@ -4,7 +4,7 @@ The master branch for each repo must represent a good state where all tests have
 We like code checked into master to have a simple clean story, so we want all repos to use the squash option:
 Under your repository settings uncheck allow merge:
 
-![Merge Button Settings](https://github.com/LevelOneProject/Docs/blob/master/Wiki/mergebtn.png)
+![Merge Button Settings](https://github.com/Mojaloop/Docs/blob/master/Wiki/mergebtn.png)
 
 This will force changes to master to be single named commit (see [Squash your commits](https://github.com/blog/2141-squash-your-commits).
 
@@ -45,7 +45,7 @@ The procedure above doesn’t really work for larger changes since you can’t s
 # Cloned or Forked repos
 Instead of just a local branch like above, you create the branch on the server.
 
-![Create Server Branch](https://github.com/LevelOneProject/Docs/blob/master/Wiki/CreateBranch.png)
+![Create Server Branch](https://github.com/Mojaloop/Docs/blob/master/Wiki/CreateBranch.png)
 
 Then, locally:
 
@@ -63,11 +63,11 @@ Then, locally:
 
 Now create a pull request from dev to master
 
-![Create Pull Request](https://github.com/LevelOneProject/Docs/blob/master/Wiki/CompareNPull.png)
+![Create Pull Request](https://github.com/Mojaloop/Docs/blob/master/Wiki/CompareNPull.png)
 
 After you resolve the comments, you can push the code.
 
-![Squash](https://github.com/LevelOneProject/Docs/blob/master/Wiki/ConfirmNSquash.png)
+![Squash](https://github.com/Mojaloop/Docs/blob/master/Wiki/ConfirmNSquash.png)
 
 # Open Source
 An open source contributor would follow almost the same steps. They’d fork instead of cloning. They’d do the same steps (without tags). The final step would be done by one of the repo owners. 

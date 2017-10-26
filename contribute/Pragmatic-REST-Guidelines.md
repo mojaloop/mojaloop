@@ -1,5 +1,5 @@
 # Pragmatic REST
-### For the Level One Project Project
+### For the Mojaloop Project
 ---
 
 The emergence of API strategy as a scaling tool for Internet service
@@ -23,7 +23,7 @@ at a QCon talk. Fowler refers to this as the Richardson Maturity Model
 of RESTful design.
 
 ![Figure 1. Richardson Maturity Model of RESTful
-Design](https://github.com/LevelOneProject/Docs/blob/master/Wiki/Glory%20of%20Rest.png)
+Design](https://github.com/Mojaloop/Docs/blob/master/Wiki/Glory%20of%20Rest.png)
 
 Martin Fowler, referencing *[Rest in
 Practice](https://www.amazon.com/gp/product/0596805829?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596805829),<sup>[2](#footnote2)</sup>
@@ -43,7 +43,7 @@ a bunch of extraneous code.
 At its most fundamental, a RESTful design is resource-centric and uses
 HTTP verbs. At its most advanced, a design that follows pure academic
 REST utilizes the HATEOAS principle by implementing Hypermedia Controls.
-We are advocating a Level 2 RESTful design for the Level One Project.
+We are advocating a Level 2 RESTful design for Mojaloop.
 
 Why not Hypermedia Controls?
 ----------------------------
@@ -57,7 +57,7 @@ format of URIs.
 
 It is this final proscription that fails the test of Pragmatic REST:
 While HATEOAS is an interesting theoretical approach to limit coupling,
-it does not easily apply to the Level One Project (or any other contract
+it does not easily apply to Mojaloop (or any other contract
 API design). When we take into account our audience for the interconnect
 APIs, we find a group of commercial entities that will be operating
 under a set of highly specific scheme rules. Interactions between the

@@ -1,17 +1,17 @@
-_Use this template for the README file when you create a component or a service that spans the entire LevelOneProject._
+_Use this template for the README file when you create a component or a service_
 
-_This should be created in a sub-folder in the [Docs repo](https://github.com/LevelOneProject/Docs), such as an architecture overview, user flow, and resilience modeling._ 
+_This should be created in a sub-folder in the [Docs repo](https://github.com/Mojaloop/Docs), such as an architecture overview, user flow, and resilience modeling._ 
 
 
 # File Formats
 
-LevelOneProject documentation uses GitHub markdown (md) files. Formatting is limited to GitHub compatible MD. 
+Mojaloop documentation uses GitHub markdown (md) files. Formatting is limited to GitHub compatible MD. 
 You can use any editor to create the files including the built-in GitHub editors or an external online tool like
 [StackEdit.IO](https://stackedit.io/editor) or a download like [Haroopad](http://pad.haroopress.com/), but be aware that some external tools, like StackEdit.IO, support a superset of GitHub MD and we are limiting the docs to just the GitHub
 MD. [Pandoc](http://pandoc.org/) is a good tool for coverting docs to and from MD format.
 
 Files can be viewed, reviewed, commented on, and edited directly in GitHub. One exception are diagrams, which will use the tool [Draw.IO](https://www.draw.io/). Architecture drawings saved as PNG files that are linked in mark down
-files. Syntax example: \[Display Text](./images/diagram.png). Diagrams are stored in GitHub their both their a SVG format as well as PNG. PNG is used for display,but SVG is the master format used for editing. Diagrams should be referenced using a relative path like ./wiki/diagram.png, not the full path such as https://github.com/LevelOneProject/Docs/blob/master/Wiki/diagram.png. For larger diagrams, put a blank line above them to allow them to be centered properly upon export.
+files. Syntax example: \[Display Text](./images/diagram.png). Diagrams are stored in GitHub their both their a SVG format as well as PNG. PNG is used for display,but SVG is the master format used for editing. Diagrams should be referenced using a relative path like ./wiki/diagram.png, not the full path such as https://github.com/Mojaloop/Docs/blob/master/Wiki/diagram.png. For larger diagrams, put a blank line above them to allow them to be centered properly upon export.
 
 
 # Template Overview
@@ -51,7 +51,7 @@ the design of a particular service.  These design documents might exist in the s
 Example:
 <https://github.com/interledger/rfcs/blob/master/0009-simple-payment-setup-protocol/0009-simple-payment-setup-protocol.md>. 
 
-(All APIs should be documented in RAML or Swagger, see [API Documentation](https://github.com/LevelOneProject/Docs/wiki/API-Documentation))
+(All APIs should be documented in Swagger, see [Open API Documentation](https://www.openapis.org/))
 
 
 ## Test Strategy
@@ -64,7 +64,7 @@ Example:
 (This contains data flow diagram of the system showing components and calls. Each call is threat modeled using STRIDE. Also see [threat modeling](https://msdn.microsoft.com/en-us/library/ff648644.aspx).)
 
 ## Resilience Model
-See [RMA](https://github.com/LevelOneProject/Docs/blob/master/test/RMA.md)
+See [RMA](https://github.com/Mojaloop/Docs/blob/master/test/RMA.md)
 
 (For background, see [resilience modeling](http://blogs.microsoft.com/cybertrust/2013/05/31/improve-the-reliability-of-your-service-with-resilience-modeling-analysis/) and the linked [white paper](http://download.microsoft.com/download/F/A/2/FA2A49AB-13AF-44FC-883C-7B8C48D8A042/Resilience-by-design-for-cloud-services.pdf).)
 

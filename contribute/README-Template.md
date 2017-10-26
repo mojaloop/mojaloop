@@ -1,6 +1,6 @@
-_Use this template for the README file when you create a repository for a new (micro)service or application under the LevelOneProject organization._
+_Use this template for the README file when you create a repository for a new (micro)service or application under the Mojaloop organization._
 
-_Also don't forget to provide higher-level documentation in the [Docs repo](https://github.com/LevelOneProject/Docs), such as an architecture overview, user flow, and resilience modeling. See [Architecture Documentation Guidelines](https://github.com/LevelOneProject/Docs/wiki/Architecture-Documentation-Guidelines) for details._
+_Also don't forget to provide higher-level documentation in the [Docs repo](https://github.com/Mojaloop/Docs), such as an architecture overview, user flow, and resilience modeling. See [Architecture Documentation Guidelines](https://github.com/Mojaloop/mojaloop/contribute/blob/master/Architecture-Documentation-Guidelines.md) for details._
 
 -----
 
@@ -26,11 +26,11 @@ Installation:
 
 1. Install [Node.js and npm](https://nodejs.org/en/)
 
-2. Configure your npm instance to use the LevelOneProject repository.
+2. Configure your npm instance to use the Mojaloop repository.
 
-    See [Docs/Artifactory/NPM Repos](https://github.com/LevelOneProject/Docs/blob/master/Artifactory/npm_repos.md) for detailed instructions.
+    <TBD>
 
-3. Install the `(package name)` package.
+3. Install the '(package name)' package.
 
         npm install (package name)
 
