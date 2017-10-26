@@ -1,24 +1,22 @@
-_Note: The name of the code will soon be updated to “Mojaloop.” The code itself will remain the same._  
-
 # What is this?  
-We’re sharing code to help create interoperable payments platforms that can be deployed on a national scale. The idea is to make it easier for financial providers to deliver digital financial services to new customers in new markets, especially in the developing world. See our [README.md](https://github.com/LevelOneProject/LevelOneProject/blob/master/README.md) for an overview, or visit [LevelOneProject.org](leveloneproject.org) for complete context and information.
+We’re sharing code to help create interoperable payments platforms that can be deployed on a national scale. The idea is to make it easier for financial providers to deliver digital financial services to new customers in new markets, especially in the developing world. See our [README.md](https://github.com/Mojaloop/Mojaloop/blob/master/README.md) for an overview, or visit [LevelOneProject.org](leveloneproject.org) for complete context and information.
 
 # What can I help with?
 
 ## What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
 
-There's a [roadmap](https://github.com/LevelOneProject/Docs/leveloneproject/contribute/Roadmap.md) that shows larger work that people could do or are working on. It has some main initiatives and epics and the order, but lacks dates as this work is community driven. Work is broken down from there into issues in GitHub.
+There's a [roadmap](https://github.com/Mojaloop/Mojaloop/blob/master/contribute/Roadmap.md) that shows larger work that people could do or are working on. It has some main initiatives and epics and the order, but lacks dates as this work is community driven. Work is broken down from there into issues in GitHub.
 
 In general, we are looking for example implementations and bug fixes, and project enhancements. 
 
 ## Where to I send bugs, questions, and feedback?
-For bugs, see [Reporting bugs](https://github.com/LevelOneProject/leveloneproject/contribute/Reporting-Bugs.md). 
+For bugs, see [Reporting bugs](https://github.com/Mojaloop/Mojaloop/blob/master/contribute/Reporting-Bugs.md). 
 
-For questions or feedback, we're on [Slack](leveloneproject.slack.com). Also checkout the [FAQ](https://github.com/LevelOneProject/Docs/leveloneproject/contribute/FAQ.md)
+For questions or feedback, we're on [Slack](leveloneproject.slack.com). Also checkout the [FAQ](https://github.com/Mojaloop/Mojaloop/FAQ.md)
 
 # How do I contribute?
-See also [Onboarding Developers](https://github.com/LevelOneProject/leveloneproject/blob/master/contribute/Onboarding-Developers.md)
+See also [Onboarding Developers](https://github.com/Mojaloop/Mojaloop/blob/master/contribute/Onboarding-Developers.md)
 
 ## Pull Request Process
 It's a good idea to ask about major changes on [Slack](https://leveloneproject.slack.com). Submit pull requests which include both the change and the reason for the change. Pull requests will be denied if they violate the [Level One Principles](https://leveloneproject.org/wp-content/uploads/2016/03/L1P_Level-One-Principles-and-Perspective.pdf)
