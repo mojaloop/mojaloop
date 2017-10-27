@@ -7,9 +7,9 @@ businesses, the focus on interconnect technology has shifted. Building
 on the principles that enabled the Web to form and scale, REST
 (Representational State Transfer) has become a design preference for
 Internet service APIs. But while the REST principles, proposed in Roy
-Fielding’s dissertation that defined them, have academic value as a
+Fielding's dissertation that defined them, have academic value as a
 basis for research, full REST design is not at present practical for
-most applications. We are advocating a kind of Pragmatic REST—a design
+most applications. We are advocating a kind of Pragmatic REST-a design
 pattern that adopts the beneficial components of RESTful design without
 requiring strict adherence to academic purity.
 
@@ -23,19 +23,19 @@ at a QCon talk. Fowler refers to this as the Richardson Maturity Model
 of RESTful design.
 
 ![Figure 1. Richardson Maturity Model of RESTful
-Design](https://github.com/Mojaloop/Docs/blob/master/Wiki/Glory%20of%20Rest.png)
+Design](https://github.com/mojaloop/docs/blob/master/Wiki/Glory%20of%20Rest.png)
 
 Martin Fowler, referencing *[Rest in
 Practice](https://www.amazon.com/gp/product/0596805829?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596805829),<sup>[2](#footnote2)</sup>
 summarizes the genesis of RESTful design:
 
-> …use Restful web services to handle many of the integration problems
-> that enterprises face. At its heart … is the notion that the web is an
+> use Restful web services to handle many of the integration problems
+> that enterprises face. At its heart . . . is the notion that the web is an
 > existence proof of a massively scalable distributed system that works
 > really well, and we can take ideas from that to build integrated
 > systems more easily.
 
-A pragmatic approach to RESTful design uses the best parts of Fielding’s
+A pragmatic approach to RESTful design uses the best parts of Fielding's
 conceptual framework to allow developers and integrators to understand
 what they can do with the API as rapidly as possible and without writing
 a bunch of extraneous code.
@@ -48,7 +48,7 @@ We are advocating a Level 2 RESTful design for Mojaloop.
 Why not Hypermedia Controls?
 ----------------------------
 
-Although HATEOAS is a fascinating principle—it advocates that a server
+Although HATEOAS is a fascinating principle-it advocates that a server
 should respond to each client action with a list of all possible actions
 that can lead the client to its next application state. And further,
 clients *must not* rely on out of band information (like a written API
@@ -87,7 +87,7 @@ URI paths that refer to a single object should consist of a plural noun
 identifier. E.g., /customers/123456 to refer to the specific customer
 with number 123456. The identifier must be unique within the containing
 collection and persist for the life of the object within that
-collection. IDs must not be ordinal values—ordinal retrieval of objects
+collection. IDs must not be ordinal values-ordinal retrieval of objects
 from a collection is possible using query parameters on the collection
 URI.
 
@@ -99,13 +99,13 @@ URI path and query segment identifiers should be chosen from the Roman
 character set, \[0-9A-Za-z\]. Use *camelCase* to define the elements of
 the URI path. Do not use snake\_case.
 
-For the avoidance of doubt, “\_” (underscore) and “-” (hyphen) should
+For the avoidance of doubt, "\_" (underscore) and "-" (hyphen) should
 not be used in URI path or query segment identifiers.
 
 This probably seems a bit parochial. The purpose is to find a
 well-defined URI format that is consistent with wide-spread practice,
 easy to define, predictable, and that maps to native environments and
-conventions. It isn’t going to satisfy everyone. Here is reasoning
+conventions. It isn't going to satisfy everyone. Here is reasoning
 behind this constraint:
 
 CapitalCase and camelCase are the defacto standard for NodeJS and
@@ -117,12 +117,12 @@ Field names in JSON and SQL should also follow this convention since
 they are often automatically mapped into variable name space and can be
 referenced in URIs as path or query segment identifiers.
 
-We should also avoid the use of “\$” unless it is required by a library
+We should also avoid the use of "\$" unless it is required by a library
 (e.g. JQuery). IBM JCL has passed away; let it rest in peace. There are
 better scope control tools to separate name spaces than introducing
 non-roman symbols.
 
-We should avoid “-” (hyphen) in path segment and query parameter names
+We should avoid "-" (hyphen) in path segment and query parameter names
 as it does not map into variable names, SQL or JSON field name
 identifiers.
 
@@ -138,8 +138,8 @@ consistent way.
 
 A set of standard query parameters should be used for collections to
 enable caller control over how much of the collection they see. E.g.
-“count” to determine how many objects to return, “start” to determine
-where to start counting in the result set, and “q” as a generic
+"count" to determine how many objects to return, "start" to determine
+where to start counting in the result set, and "q" as a generic
 free-form search query. We will define the standard set of parameters as
 we go and will apply them consistently.
 
@@ -157,11 +157,11 @@ specified ways. Posting a JSON document to a singular object URI may
 allow selected field values to be updated or trigger a state change or
 action without replacing the whole object.
 
-GET must be implemented in a *nullimpotent* manner—that is, GET never
+GET must be implemented in a *nullimpotent* manner-that is, GET never
 causes side effects and never modifies client-visible system state
 (other than logging events or updating instrumentation, e.g.).
 
-PUT and DELETE must be implemented in an *idempotent* manner—that is,
+PUT and DELETE must be implemented in an *idempotent* manner-that is,
 changes are applied consistently to the system data in a way that is
 dependent only on the state of the resource and inputs but on nothing
 else. The action has no additional effect if it is executed more than
@@ -224,7 +224,7 @@ supports normal production communication between client and server.
 ### Versioning
 
 API URIs should include a version identifier in the format v*M* as a
-leading path element (where *“M”* is the Major component of the
+leading path element (where *"M"* is the Major component of the
 multi-part version number). The API and its version identifier element
 must conform to the [semantic versioning](http://semver.org/)<span
 id="_Ref459290010" class="anchor"></span><sup>[8](#footnote8)</sup> 2.0 specification for API
@@ -239,7 +239,7 @@ for all successful and error responses.
 
 While an API version contract will be influenced by Major, minor, *and*
 patch levels, only the Major version number is a production API binding
-element—that is, a production client cannot request a particular minor
+element-that is, a production client cannot request a particular minor
 version or patch level and a production server will not accept a URI
 request that specifies these extra elements.
 
@@ -254,7 +254,7 @@ We May Need to Give REST a Rest
 -------------------------------
 
 As we design the interconnection APIs between components and between
-participating systems, we may find API requirements that don’t precisely
+participating systems, we may find API requirements that don't precisely
 match the Pragmatic REST pattern defined here. We will evaluate these
 case-by-case and make the best choice to support the project goals.
 

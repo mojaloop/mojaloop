@@ -2,22 +2,22 @@
 In most cases, Mojaloop follows the latest edition of the Associated Press Stylebook. The following are foundation-specific guidelines which have been updated and slightly modified.
 
 ### Academic degrees
-In most cases, you don’t need to mention a person’s academic degrees. It’s never necessary to mention a bachelor’s degree. 
+In most cases, you don't need to mention a person's academic degrees. It's never necessary to mention a bachelor's degree. 
 
 When you do mention academic degrees, as with formal bios, try to avoid abbreviations like Ph.D. by writing: John Jones, who has a doctorate in psychology. If that's cumbersome, use the abbreviation the first time you refer to a person, after his or her full name, and set it off with a comma. Example: _Jane Smith, M.D., M.P.H._ 
 
-Note that associate degrees are not possessive, unlike bachelor’s and master’s degrees.
+Note that associate degrees are not possessive, unlike bachelor's and master's degrees.
 
 ### Acronyms
 Spell out all acronyms on first reference. Include the acronym in parentheses immediately after the full spelling only if you refer to it again in the document. Example: _Kofi Annan, chairman of the board of the Alliance for a Green Revolution in Africa (AGRA), traveled to Nairobi this month. It was his first visit to the AGRA office._
 
 ### Ampersand
-Only use an ampersand (&) when it’s part of a formal name like the Bill & Melinda Gates Foundation. In all other cases, spell out and.
+Only use an ampersand (&) when it's part of a formal name like the Bill & Melinda Gates Foundation. In all other cases, spell out and.
 
 ### Bill & Melinda Gates Foundation
 Our formal legal name is the Bill & Melinda Gates Foundation. Use it on first reference. Always use the ampersand (&) and always capitalize Foundation when Bill & Melinda Gates comes before it. 
 
-Never abbreviate the foundation’s name as _BMGF_. 
+Never abbreviate the foundation's name as _BMGF_. 
 
 Never translate the foundation name into other languages, as it is a proper noun. The one exception to this is when translating the foundation's name into Chinese, in which case translation is acceptable. 
 
@@ -50,7 +50,7 @@ Caption photos whenever possible. It helps people understand our work.
 
 Write captions as single gerund (_ing verb_) phrases, followed by the city, state or country, and year the photo was taken in parentheses. Example: _A doctor preparing a vaccine for delivery _(Brazzaville, Congo, 2007)._
 
-When writing a caption, be sure to introduce the people featured and explain what's happening in the image as it relates to our areas of focus. Be as brief as possible so you don't distract from the image or layout. Avoid verbs that state the obvious about what the photo’s subject is doing _(e.g., smiling, standing, and so on)._ 
+When writing a caption, be sure to introduce the people featured and explain what's happening in the image as it relates to our areas of focus. Be as brief as possible so you don't distract from the image or layout. Avoid verbs that state the obvious about what the photo's subject is doing _(e.g., smiling, standing, and so on)._ 
 
 If one of the co-chairs appears in a photo with other people, be sure to identify the co-chair in the caption. Don't assume everyone knows what our co-chairs look like. 
 
@@ -58,14 +58,15 @@ If one of the co-chairs appears in a photo with other people, be sure to identif
 Most fields have their own citation conventions. Adopt those used by the field in question. When citation conventions are unavailable or uncertain, follow The Chicago Manual of Style. 
 
 When a document uses both footnotes and endnotes, for the footnotes, use the following symbols:
+
 - 1st note = * (asterisk)
-- 2nd note = † (dagger)
-- 3rd note = ‡ (double dagger)
-- 4th note = § (section sign)
+- 2nd note = &#8224; (dagger)
+- 3rd note = &#8225; (double dagger)
+- 4th note = &sect; (section sign)
 - 5th note = ** (2 asterisks)
-- 6th note = †† (2 daggers)
-- 7th note = ‡‡ (2 double daggers)
-- 8th note = §§ (2 section signs) 
+- 6th note = &#8224;&#8224; (2 daggers)
+- 7th note = &#8225;&#8225; (2 double daggers)
+- 8th note = &sect;&sect; (2 section signs) 
 
 Separate multiple superscript references (footnotes, endnotes) with commas, not semicolons.
 
@@ -75,7 +76,7 @@ Use Roman numerals when referring to clinical trial phases and always capitalize
 ### Contact information
 Use periods to separate parts of phone numbers, and begin each number with a plus sign. 
 
-Because we work with people throughout the world, omit the international access code, which differs from country to country (it’s 011 in the United States). 
+Because we work with people throughout the world, omit the international access code, which differs from country to country (it's 011 in the United States). 
 Examples:
 _+1.206.709.3100 (United States)_
 _+91.11.4100.3100 (India)_
@@ -83,7 +84,7 @@ _+91.11.4100.3100 (India)_
 ### Copyright and trademark notice
 All publications, media, and materials produced by or for the foundation should contain the notice shown below. The Legal team must approve all exceptions. 
 
-_© (year) Bill & Melinda Gates Foundation. All Rights Reserved._
+_ &copy; (year) Bill & Melinda Gates Foundation. All Rights Reserved._
 Bill & Melinda Gates Foundation is a registered trademark in the United States and other countries. 
 
 When possible, begin the trademark portion of the notice on a separate line.
@@ -96,7 +97,7 @@ Do not include a space before or after a dash.
 Examples:
 _We work to make safe, affordable financial services—particularly savings accounts—more widely available to people in developing countries._
 
-_In the 2004 presidential election, 76 percent of U.S. college graduates ages 25–44 voted._
+_In the 2004 presidential election, 76 percent of U.S. college graduates ages 25-44 voted._
 
 ### Dollars ($)
 In Global Health and Global Development materials, because more than a dozen countries use dollars, specify U.S. dollars in parentheses on first mention in a document. Example: _$100,000 (U.S.)_. 
@@ -118,7 +119,7 @@ Use Melinda Gates when formally referring to Melinda.
 
 Use William H. Gates Sr. when formally referring to Bill Gates Sr. There is no comma between Gates and Sr. Bill Sr. is acceptable in internal documents. 
 
-Plural: Gateses. Do not use an apostrophe to form the plural of the family’s name. Example: The Gateses attended the opening of the new University of Washington law building. 
+Plural: Gateses. Do not use an apostrophe to form the plural of the family's name. Example: The Gateses attended the opening of the new University of Washington law building. 
 
 Possessive: The apostrophe follows Gates when you refer to something owned by either Bill or Melinda. Example: Melinda Gates' speech was well received. The apostrophe follows Gateses when you refer to something Bill and Melinda own jointly. Example: _The Gateses' decision to provide free Internet access in U.S. public libraries has increased library usage and circulation overall._
 
@@ -148,10 +149,10 @@ When using numbers that have nothing to do with dollar figures or percentages, w
 
 In cases of grammatical parallelism, parallel construction always trumps this rule. For instance: Mr. Johnson has two children, 5-year-old Kyle and 13-year-old Frances. 
 
-Never begin a sentence with a numeral. Either spell the number out or revise the sentence so it doesn’t begin with a number.
+Never begin a sentence with a numeral. Either spell the number out or revise the sentence so it doesn't begin with a number.
 
 ### Percentages
-When using percentages, write out percent (don't use %). Use numerals instead of writing numbers out, even if they’re less than 10. 
+When using percentages, write out percent (don't use %). Use numerals instead of writing numbers out, even if they're less than 10. 
 
 Example: _This program accounts for 6 percent of our grantmaking._
 
@@ -192,19 +193,19 @@ _nonprofit:_ one word, no hyphen.
 
 _postsecondary:_ one word, no hyphen. 
 
-_Washington state:_ lowercase state (unless you’re referring to Washington State University, the Washington State Legislature, or something similar). 
+_Washington state:_ lowercase state (unless you're referring to Washington State University, the Washington State Legislature, or something similar). 
 
 _website:_ one word, lowercase
 
 ### Titles of people
-Formal titles should not be capitalized unless the title precedes a person’s name or appears in a headline. Example: _Co-chair Melinda Gates will speak at the Washington Economic Club this year._
+Formal titles should not be capitalized unless the title precedes a person's name or appears in a headline. Example: _Co-chair Melinda Gates will speak at the Washington Economic Club this year._
 
 Lowercase and spell out titles when they are not used with an individual's name. Example: _The foundation co-chair issued a statement._
 
 Lowercase and spell out titles in constructions that use commas to set them off from a name. Example: _Bill Gates, co-chair of the foundation, commented on the grant._
 
 ### United States
-Spell out United States when using it as a noun. Abbreviate it as U.S. (including periods) when using it as an adjective. In certain cases, as when referring to a person from the United States, it’s acceptable to use American. 
+Spell out United States when using it as a noun. Abbreviate it as U.S. (including periods) when using it as an adjective. In certain cases, as when referring to a person from the United States, it's acceptable to use American. 
 
 Examples:
 _The U.S. State Department is in the United States._

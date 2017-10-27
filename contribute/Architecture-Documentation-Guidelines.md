@@ -20,9 +20,9 @@ files. Syntax example: \[Display Text](./images/diagram.png). Diagrams are store
 
 (Intro blurb - a paragraph or two explaining what this component or service is for and how it fits into the overall Level One Project Project)
 
-It is expected that this template would not be fully complete at the beginning of development. Design details are expected to emerge in an Agile fashion. However, the building blocks such as key components, high-level interactions, protocols, approaches, and general test strategy need to be thought through due to all the moving parts in the project. Specify enough detail such that another engineer can review the approach and provide feedback, but don’t be too detailed that the architecture/design is obsolete in the very short term.  Architecture/Design documents are stored as many smaller files rather than one large one. This way individual parts of the design can be worked on separately and in parallel.
+It is expected that this template would not be fully complete at the beginning of development. Design details are expected to emerge in an Agile fashion. However, the building blocks such as key components, high-level interactions, protocols, approaches, and general test strategy need to be thought through due to all the moving parts in the project. Specify enough detail such that another engineer can review the approach and provide feedback, but don't be too detailed that the architecture/design is obsolete in the very short term.  Architecture/Design documents are stored as many smaller files rather than one large one. This way individual parts of the design can be worked on separately and in parallel.
 
-In keeping with agile development, documents can be simple diagrams and do not need to be formal UML. Some of the document names below might imply UML, and while that’s fine, it is not required. These docs are meant to be living representatives of our understanding. As such, they will likely start out as rough sketches and become more formal over time.
+In keeping with agile development, documents can be simple diagrams and do not need to be formal UML. Some of the document names below might imply UML, and while that's fine, it is not required. These docs are meant to be living representatives of our understanding. As such, they will likely start out as rough sketches and become more formal over time.
 
 
 ## Contents:
@@ -42,7 +42,7 @@ the design of a particular service.  These design documents might exist in the s
 
 ## User Message/Flow Diagrams
 
-(This set of diagrams shows the positive or “happy” path of the user. Negative and boundary cases are described. A data     flow diagram is also used for threat modeling (see below).)
+(This set of diagrams shows the positive or "happy" path of the user. Negative and boundary cases are described. A data     flow diagram is also used for threat modeling (see below).)
 
 ## Interfaces
 

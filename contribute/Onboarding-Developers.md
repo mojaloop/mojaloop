@@ -13,9 +13,9 @@ We use a [standard developer code of conduct](https://www.contributor-covenant.o
 * JFrog hosts our package repositories for Docker, Maven, and NodeJS. These should be made public soon.
 
 ## How do I start working with Mojaloop
-1)	Review the Readme.md, contributor.md and FAQ.md guides in GitHub 
-•	The Docs repository in GitHub includes the overall architecture, component design, message flow, and an overview of the Mojaloop software
-•	Individual repositories within the GitHub project each describe component-specific details including source and APIs
+1)	Review the Readme.md, contributor.md and FAQ.md guides in GitHub
+* The Docs repository in GitHub includes the overall architecture, component design, message flow, and an overview of the Mojaloop software
+* Individual repositories within the GitHub project each describe component-specific details including source and APIs
 2)	Before you start working with Mojaloop it is recommend that you review the details under the contribute folder with specific emphasis on the roadmap.md
 3)	Once you are ready to contribute to Mojaloop it is recommended that you follow GitHub fundamentals:
 
