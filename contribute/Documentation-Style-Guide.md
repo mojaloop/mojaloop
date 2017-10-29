@@ -1,13 +1,6 @@
 # Documentation Style Guide
 In most cases, Mojaloop follows the latest edition of the Associated Press Stylebook. The following are foundation-specific guidelines which have been updated and slightly modified.
 
-### Academic degrees
-In most cases, you don't need to mention a person's academic degrees. It's never necessary to mention a bachelor's degree. 
-
-When you do mention academic degrees, as with formal bios, try to avoid abbreviations like Ph.D. by writing: John Jones, who has a doctorate in psychology. If that's cumbersome, use the abbreviation the first time you refer to a person, after his or her full name, and set it off with a comma. Example: _Jane Smith, M.D., M.P.H._ 
-
-Note that associate degrees are not possessive, unlike bachelor's and master's degrees.
-
 ### Acronyms
 Spell out all acronyms on first reference. Include the acronym in parentheses immediately after the full spelling only if you refer to it again in the document. Example: _Kofi Annan, chairman of the board of the Alliance for a Green Revolution in Africa (AGRA), traveled to Nairobi this month. It was his first visit to the AGRA office._
 
