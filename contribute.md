@@ -9,9 +9,9 @@ There's a [roadmap](https://github.com/mojaloop/mojaloop/blob/master/contribute/
 In general, we are looking for example implementations and bug fixes, and project enhancements. 
 
 ## Where to I send bugs, questions, and feedback?
-For bugs, see [Reporting bugs](https://github.com/mojaloop/mojaloop/contribute/Reporting-Bugs.md). 
+For bugs, see [Reporting bugs](https://github.com/mojaloop/mojaloop/blob/master/contribute/Reporting-Bugs.md). 
 
-For questions or feedback, we're on [Slack](leveloneproject.slack.com). Also checkout the [FAQ](https://github.com/mojaloop/mojaloop/contribute/FAQ.md)
+For questions or feedback, we're on [Slack](leveloneproject.slack.com). Also checkout the [FAQ](https://github.com/mojaloop/mojaloop/blob/master/FAQ.md)
 
 # How do I contribute?
 See also [Onboarding Developers](https://github.com/mojaloop/mojaloop/blob/master/contribute/Onboarding-Developers.md)
@@ -20,17 +20,17 @@ See also [Onboarding Developers](https://github.com/mojaloop/mojaloop/blob/maste
 It's a good idea to ask about major changes on [Slack](https://leveloneproject.slack.com). Submit pull requests which include both the change and the reason for the change. Pull requests will be denied if they violate the [Level One Principles](https://leveloneproject.org/wp-content/uploads/2016/03/L1P_Level-One-Principles-and-Perspective.pdf)
 
 ## Style guides and templates
-- [Documentation standards](https://github.com/mojaloop/mojaloop/contribute/L1P-Documentation-and-Template-Standards.md)
-- [Documentation style guide](https://github.com/mojaloop/mojaloop/contribute/Documentation-Style-Guide.md)
+- [Documentation standards](https://github.com/mojaloop/mojaloop/blob/master/contribute/L1P-Documentation-and-Template-Standards.md)
+- [Documentation style guide](https://github.com/mojaloop/mojaloop/blob/master/contribute/Documentation-Style-Guide.md)
 - [Code Style](https://github.com/mojaloop/mojaloop/contribute/Code-Style.md)
-- [Code Quality Metrics](https://github.com/mojaloop/mojaloop/contribute/Code-Quality-Metrics.md)
+- [Code Quality Metrics](https://github.com/mojaloop/mojaloop/blob/master/contribute/Code-Quality-Metrics.md)
 
 
 ## Code of conduct
 We use a [standard developer code of conduct](http://contributor-covenant.org/version/1/4/code_of_conduct.md)
 
 ## Licensing
-See [License](https://github.com/mojaloop/mojaloop/contribute/License.md) policy
+See [License](https://github.com/mojaloop/mojaloop/blob/master/contribute/License.md) policy
 
 # How do I install this?
 
