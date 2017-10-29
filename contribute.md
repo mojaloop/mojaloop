@@ -20,14 +20,14 @@ See also [Onboarding Developers](https://github.com/mojaloop/mojaloop/blob/maste
 It's a good idea to ask about major changes on [Slack](https://leveloneproject.slack.com). Submit pull requests which include both the change and the reason for the change. Pull requests will be denied if they violate the [Level One Principles](https://leveloneproject.org/wp-content/uploads/2016/03/L1P_Level-One-Principles-and-Perspective.pdf)
 
 ## Style guides and templates
-- [Documentation standards](https://github.com/mojaloop/mojaloop/blob/master/contribute/L1P-Documentation-and-Template-Standards.md)
+- [Documentation standards](https://github.com/mojaloop/mojaloop/blob/master/contribute/Documentation-and-Template-Standards.md)
 - [Documentation style guide](https://github.com/mojaloop/mojaloop/blob/master/contribute/Documentation-Style-Guide.md)
-- [Code Style](https://github.com/mojaloop/mojaloop/contribute/Code-Style.md)
+- [Code Style](https://github.com/mojaloop/mojaloop/blob/master/contribute/Code-Style.md)
 - [Code Quality Metrics](https://github.com/mojaloop/mojaloop/blob/master/contribute/Code-Quality-Metrics.md)
 
 
 ## Code of conduct
-We use a [standard developer code of conduct](http://contributor-covenant.org/version/1/4/code_of_conduct.md)
+We use a [standard developer code of conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
 
 ## Licensing
 See [License](https://github.com/mojaloop/mojaloop/blob/master/contribute/License.md) policy
