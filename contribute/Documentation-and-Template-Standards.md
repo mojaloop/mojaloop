@@ -77,7 +77,7 @@ For these topics, please use the [README-Template](./README-Template.md)
 * Do not number headings - for example, "Prepare and Fulfill", not "C - Prepare and Fulfill"
 * Follow standards for specific section types as documented in:
   * [Overview Documents](#overview-documents)
-  * [Services Documenatation](services-documentation)
+  * [Services Documenatation](#services-documentation)
   * [Repo Level Documents](#repo-level-documents)
 
 * Make sure section headings (# _<Heading>_) match the heading to which they correspond in the comprehensive PDF (built from the [dactyl config file](https://github.com/Mojaloop/Docs/blob/master/ExportDocs/dactyl-config.yml))
