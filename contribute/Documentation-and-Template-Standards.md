@@ -18,7 +18,7 @@ More specifics are below.
 Overview documents include the topics, components and or services that
 span the entire project. The documents should have their own
 readme file and be located in a corresponding sub-folder in [docs
-repo](https://github.com/Mojaloop/docs). Examples or topics
+repository](https://github.com/Mojaloop/docs). Examples or topics
 and examples that span the entire project are included below:
 
 -   Overview
