@@ -4,7 +4,7 @@ We're sharing code to help create interoperable payments platforms that can be d
 ## What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
 
-There's a [roadmap](https://github.com/mojaloop/mojaloop/contribute/Roadmap.md) that shows larger work that people could do or are working on. It has some main initiatives and epics and the order, but lacks dates as this work is community driven. Work is broken down from there into issues in GitHub.
+There's a [roadmap](https://github.com/mojaloop/mojaloop/blob/master/contribute/Roadmap.md) that shows larger work that people could do or are working on. It has some main initiatives and epics and the order, but lacks dates as this work is community driven. Work is broken down from there into issues in GitHub.
 
 In general, we are looking for example implementations and bug fixes, and project enhancements. 
 
