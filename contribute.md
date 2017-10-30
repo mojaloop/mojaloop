@@ -1,5 +1,5 @@
 # What is this?  
-We're sharing code to help create interoperable payments platforms that can be deployed on a national scale. The idea is to make it easier for financial providers to deliver digital financial services to new customers in new markets, especially in the developing world. See our [README.md](https://github.com/mojaloop/mojaloop/blob/master/README.md) for an overview, or visit [mojaloop.io](mojaloop.io) for context and information.
+We're sharing code to help create interoperable payments platforms that can be deployed on a national scale. The idea is to make it easier for financial providers to deliver digital financial services to new customers in new markets, especially in the developing world. See our [README.md](https://github.com/mojaloop/mojaloop/blob/master/README.md) for an overview, or visit [mojaloop.io](http://mojaloop.io) for context and information.
 
 ## What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
