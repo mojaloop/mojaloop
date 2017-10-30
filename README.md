@@ -7,7 +7,7 @@ The intention is for financial institutions and commercial providers to use the 
 
 Mojaloop grew out of principles set forth by the Financial Services for the Poor team at the Bill & Melinda Gates Foundation to extend digital financial services to the world's two billion unbanked people. The code won't address the gap in digital financial services on its own, but we believe it is a strong foundation for opening the market and accelerating progress.  
 
-With support and funding from the Bill & Melinda Gates Foundation, Mojaloop was designed by a team of leading tech and fintech companies: [Ripple](https://github.com/ripple), [Dwolla](https://github.com/dwolla), [ModusBox](http://www.modusbox.com/), [Software Group](http://www.softwaregroup-bg.com/) and [Crosslake Technologies](http://www.crosslaketech.com/). It is available now as an open-source project. Free to be used and adapted by anyone under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0). For more information on Mojaloop, visit [LevelOneProject.org](leveloneproject.org).
+With support and funding from the Bill & Melinda Gates Foundation, Mojaloop was designed by a team of leading tech and fintech companies: [Ripple](https://github.com/ripple), [Dwolla](https://github.com/dwolla), [ModusBox](http://www.modusbox.com/), [Software Group](http://www.softwaregroup-bg.com/) and [Crosslake Technologies](http://www.crosslaketech.com/). It is available now as an open-source project. Free to be used and adapted by anyone under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0). For more information on how Mojaloop ties into the larger initative of finanical inclusion, visit [LevelOneProject.org](leveloneproject.org).
 
 ## Why should I contribute to Mojaloop?
 Mojaloop makes it easier for financial providers and entrepreneurs to go to market with products and services, especially in developing markets where demand is high and supply is low.  
@@ -15,16 +15,14 @@ Mojaloop makes it easier for financial providers and entrepreneurs to go to mark
 A nationwide interoperable digital payments platform requires really good code. Your contributions will help ensure that Mojaloop covers all the bases, translates well to real-world scenarios, and meets the many and diverse needs of financial providers and customers.  
 
 ## Getting Started
-The project is in GitHub and is organized on the basis of component microservices.  As such, there are over twenty different repositories in GitHub that align to the different services.  The _Docs_ repository documents the overall architecture, component design, message flow, and an overview of the Level One software. Individual repositories in the [Mojaloop GitHub organization](https://github.com/mojaloop/) each describe component-specific details including source and APIs.
+The project is in GitHub and is organized on the basis of component microservices.  As such, there are over twenty different repositories in GitHub that align to the different services.  The _Docs_ repository documents the overall architecture, component design, message flow, and an overview of Mojaloop. Individual repositories in the [Mojaloop GitHub organization](https://github.com/mojaloop/) each describe component-specific details including source and APIs.
 
 New developers, see the [contributors guide](./contribute.md) for onboarding materials.  For additional infromation please review the [frequently asked questions](/FAQ.md).
 
-## Level One Services
-The following architecture diagram shows the Level One services:
+## Mojaloop Services
+The following architecture diagram shows the Mojaloop services:
 
-![Level One Services](https://github.com/mojaloop/docs/blob/master/Wiki/Basic%20Overview.png)
-
-See the [physical machines](https://github.com/mojaloop/Docs/blob/master/AWS/Infrastructure/machines.md) for information about the test and demonstration implementations in Amazon Web Services (AWS).
+![Mojaloop Services](https://github.com/mojaloop/docs/blob/master/Wiki/Basic%20Overview.png)
 
 The basic idea behind Mojaloop is that we need to connect multiple Digital Financial Services Providers (DFSPs) together into a competitive and interoperable network in order to maximize opportunities for poor people to get access to financial services with low or no fees. We don't want a single monopoly power in control of all payments in a country, or a system that shuts out new players. It also doesn't help if there are too many isolated subnetworks. Our model addresses these issues in several key ways:
 
