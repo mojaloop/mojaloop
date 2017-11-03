@@ -21,7 +21,6 @@ New developers, see the [contributors guide](./contribute.md) for onboarding mat
 
 ## Mojaloop Services
 The following architecture diagram shows the Mojaloop services:
-
 ![Mojaloop Services](https://github.com/mojaloop/docs/blob/master/Wiki/Basic%20Overview.png)
 
 The basic idea behind Mojaloop is that we need to connect multiple Digital Financial Services Providers (DFSPs) together into a competitive and interoperable network in order to maximize opportunities for poor people to get access to financial services with low or no fees. We don't want a single monopoly power in control of all payments in a country, or a system that shuts out new players. It also doesn't help if there are too many isolated subnetworks. Our model addresses these issues in several key ways:
