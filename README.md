@@ -20,8 +20,8 @@ The project is in GitHub and is organized on the basis of component microservice
 New developers, see the [contributors guide](./contribute.md) for onboarding materials.  For additional infromation please review the [frequently asked questions](/FAQ.md).
 
 For more information please download and review our pdf's:
-[Comprehensive documentation] https://github.com/mojaloop/docs/blob/master/Mojaloop_Comprehensive_Documentation.pdf
-[Developers guide]https://github.com/mojaloop/docs/blob/master/Mojaloop_Developer_Onboarding.pdf 
+[Comprehensive documentation](https://github.com/mojaloop/docs/blob/master/Mojaloop_Comprehensive_Documentation.pdf)
+[Developers guide](https://github.com/mojaloop/docs/blob/master/Mojaloop_Developer_Onboarding.pdf)
 
 ## Mojaloop Services
 The following architecture diagram shows the Mojaloop services:
