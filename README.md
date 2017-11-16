@@ -21,7 +21,8 @@ New developers, see the [contributors guide](./contribute.md) for onboarding mat
 
 For more information please download and review our pdf's:
 [Comprehensive documentation](https://github.com/mojaloop/docs/blob/master/Mojaloop_Comprehensive_Documentation.pdf)
-[Developers guide](https://github.com/mojaloop/docs/blob/master/Mojaloop_Developer_Onboarding.pdf)
+or
+[Developers guide](https://github.com/mojaloop/docs/blob/master/Mojaloop_Developer_Onboarding.pdf).
 
 ## Mojaloop Services
 The following architecture diagram shows the Mojaloop services:
