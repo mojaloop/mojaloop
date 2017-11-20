@@ -17,7 +17,10 @@ A nationwide interoperable digital payments platform requires really good code. 
 ## Getting Started
 The project is in GitHub and is organized on the basis of component microservices.  As such, there are over twenty different repositories in GitHub that align to the different services.  The _Docs_ repository documents the overall architecture, component design, message flow, and an overview of Mojaloop. Individual repositories in the [Mojaloop GitHub organization](https://github.com/mojaloop/) each describe component-specific details including source and APIs.
 
-New developers, see the [contributors guide](./contribute.md) for onboarding materials.  For additional infromation please review the [frequently asked questions](/FAQ.md).
+The source code can be found in the interop-devops repository [release folder](https://github.com/mojaloop/interop-devops/releases)
+
+New developers, see the [contributors guide](./contribute.md) for onboarding materials.
+For additional infromation please review the [frequently asked questions](/FAQ.md).
 
 For more information please download and review our pdf's:
 [Comprehensive documentation](https://github.com/mojaloop/docs/blob/master/Mojaloop_Comprehensive_Documentation.pdf)
