@@ -43,5 +43,5 @@ Example: git tag v0.4.0 # update the version.
 ## Local Setup
 [Local environment setup instructions](https://github.com/mojaloop/interop-devops/blob/master/README.md) using Vagrant
 
-## Additional Informatino
+## Additional Information
 For additional information please review the [frequently asked questions](/FAQ.md).
