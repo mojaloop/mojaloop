@@ -1,4 +1,6 @@
 # Mojaloop Overview  
+
+[![Join the chat at https://gitter.im/mojaloop/mojaloop](https://badges.gitter.im/mojaloop/mojaloop.svg)](https://gitter.im/mojaloop/mojaloop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Digital and mobile technologies make it possible to reach new customers in developing markets with innovative, low-cost financial services. The lack of a shared platform, though, means that financial providers have to build everything on their own. This raises costs and keeps the digital financial industry from growing and innovating as fast as it could.  
 
 Mojaloop is open-source software for creating digital payments platforms that connect all customers, merchants, banks, and other financial providers in a country's economy. Rather than a financial product or application in itself, Mojaloop establishes a blueprint for technology that bridges all the financial products and applications in any given market.  
