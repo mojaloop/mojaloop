@@ -1,5 +1,6 @@
 # K8s Development Guide
 
+Refer to the following git repo for more information on running Mojaloop on Kubernetes: https://github.com/mojaloop/helm
 ## Local Minikube Deployment
 ### Setup local K8s environment
 1. Install VirtualBox
