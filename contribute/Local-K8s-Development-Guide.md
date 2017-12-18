@@ -1,5 +1,7 @@
 # K8s Development Guide
 
+Development Guide for Mojaloop on a local Kubernetes installation via Minikube.
+
 Refer to the following git repo for more information on running Mojaloop on Kubernetes: https://github.com/mojaloop/helm
 ## Local Minikube Deployment
 ### Setup local K8s environment
