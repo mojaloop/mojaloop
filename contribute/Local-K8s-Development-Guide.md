@@ -1,10 +1,9 @@
-# K8s Development Guide
+# Kubernetes Development Guide
 
 Development Guide for Mojaloop on a local Kubernetes installation via Minikube.
 
-Refer to the following git repo for more information on running Mojaloop on Kubernetes: https://github.com/mojaloop/helm
 ## Local Minikube Deployment
-### Setup local K8s environment
+### Setup local Kubernetes environment
 1. Install VirtualBox
     
     Refer to: https://www.virtualbox.org/wiki/Downloads
@@ -70,7 +69,7 @@ Refer to the following git repo for more information on running Mojaloop on Kube
 
     `helm install --namespace=mojaloop --name=dev -f ./config-central.yaml ./central`
 
-### Test Deplyoments
+### Test Deployments
 
 15. Refer to `Testing Deployments` Section in the `README.MD` of https://github.com/mojaloop/helm.
 
@@ -81,11 +80,11 @@ Refer to the following git repo for more information on running Mojaloop on Kube
 
 #### Scenario:
 
-A developer wants to test an enhancement for the Central Ledger Admin API which is running on the Minikube Kubern etes node against all down-stream dependencies to return `OK HELLOWORLD!` instead of `OK` on the /health probe.
+A developer wants to test an enhancement for the Central Ledger Admin API which is running on the Minikube Kubernetes node against all down-stream dependencies to return `OK HELLOWORLD!` instead of `OK` on the /health probe.
 
 #### Steps:
 
-1. Enable the docker registry on your K8s cluster
+1. Enable the docker registry on your Kubernetes cluster
 
     Run the following command:
 
@@ -234,7 +233,7 @@ A developer wants to test an enhancement for the Central Ledger Admin API which 
 
     `docker push $(minikube service --url --format "{{.IP}}" -n kube-system registry-nodeport):$(minikube service --url --format "{{.Port}}" -n kube-system registry-nodeport)/<IMAGE_NAME>:<IMAGE_TAG>`
 
-    Verify that the image was pushed succesfully:
+    Verify that the image was pushed successfully:
 
     `curl $(minikube service --url -n kube-system registry-nodeport)/v2/_catalog`
 
@@ -399,13 +398,13 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
         }
         ```
 
-        Expected output in Centeral Ledger log file:
+        Expected output in Central Ledger log file:
         
         `2017-12-20T09:19:08.628Z - info: L1p-Trace-Id=7a707ac8-bcd5-44ec-9582-3ae707780872 - Response: {"status":"OK"} Status: 200` 
 
     - Open the following URL in your web page: http://central-hub.local/members
 
-        Expected output in Centeral Ledger log file:
+        Expected output in Central Ledger log file:
 
         `2017-12-20T09:19:46.187Z - info: L1p-Trace-Id=0c8cbda4-4b71-4f3c-80c0-13a918281ec2 - Method: get Path: /accounts?token=some-token Query: {"token":"some-token"}`
 
