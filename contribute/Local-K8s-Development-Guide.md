@@ -254,7 +254,7 @@ A developer wants to test an enhancement for the Central Ledger Admin API which 
 
     `helm upgrade <HELM_RELEASE_NAME> <CHART_DIR>`
     
-### B.) Hi-jacking services for local development
+### B.) local development with dependencies running on Kubernetes
 
 #### Scenario:
 
@@ -313,7 +313,7 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
         ```
 
 6. Configure Central-Ledger Database environment variable
-    - `export CLEDG_DATABASE_URI=postgres://central_ledger:$(kubectl get secret --namespace mojaloop centralledgerdb-postgresql -o jsonpath="{.data.postgres-password}" | base64 --decode; echo)@localhost:5432/central_ledger` 
+    - `export CLEDG_DATABASE_URI=postgres://central_ledger:$(kubectl get secret --namespace mojaloop dev-centralledger-postgresql -o jsonpath="{.data.postgres-password}" | base64 --decode; echo)@localhost:5432/central_ledger` 
 
 7. Run the Central-Ledger Service
     - `cd <CENTRAL_LEDGER_REPO_DIR>`
@@ -330,7 +330,60 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
     - Run the Admin API: 
         - `node ./src/admin/index.js`
 
-8. Test Central-Ledger Admin Service is connected to DB:
+8. Swich the central-ledger service
+
+    1. Delete current central ledger service: `kubectl -n mojaloop delete svc/dev-centralledger`
+    
+    2. Create new service and associated end-point to your local service by running the following in your terminal: 
+
+        ``` YAML
+        cat <<EOF | kubectl -n mojaloop create -f -
+        apiVersion: v1
+        kind: Service
+        metadata:
+            name: dev-centralledger
+            labels:
+                app: centralledger
+                chart: centralledger-0.1.0
+                release: dev1
+                heritage: Tiller
+        spec:
+            type: ClusterIP
+            ports:
+            -   port: 3000
+                targetPort: 3000
+                protocol: TCP
+                name: http-api
+            -   port: 3001
+                targetPort: 3001
+                protocol: TCP
+                name: http-api-admin
+        ---
+        apiVersion: v1
+        kind: Endpoints
+        metadata:
+            name: dev-centralledger
+            labels:
+                app: centralledger
+                chart: centralledger-0.1.0
+                release: dev
+                heritage: Tiller
+        subsets:
+            -
+                addresses:
+                -
+                    ip: 10.0.2.2
+                ports:
+                -
+                    port: 3000
+                    name: http-api
+                -
+                    port: 3001
+                    name: http-api-admin
+        EOF
+        ```
+
+9. Test Central-Ledger Admin Service is connected to DB:
     - Local direct: `curl http://localhost:3001/accounts`
     - Ingress: `curl http://central-ledger.local/admin/accounts`
         
