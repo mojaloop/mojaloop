@@ -94,7 +94,8 @@ A developer wants to test an enhancement for the Central Ledger Admin API which 
 
     Run the following command:
 
-    `cat <<EOF | kubectl create -f -
+    ``` YAML
+    cat <<EOF | kubectl create -f -
     {
     "kind": "Service",
     "apiVersion": "v1",
@@ -120,7 +121,8 @@ A developer wants to test an enhancement for the Central Ledger Admin API which 
         "type": "NodePort"
     }
     }
-    EOF`
+    EOF
+    ```
 
     This will create a service to the registry on port `31555`.
 
