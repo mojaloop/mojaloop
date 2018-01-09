@@ -1,7 +1,6 @@
 # **Mojaloop Design Decisions:**
 
 ## Bulk Payments
-The user number will be used for identification purposes; 2nd verification form is required for confirmation.
 Bulk payments will actually be handled the same way as we do individual payments; We will figure out a way to throttle/meter the payments (either via Mule or by the DFSP)  We will not use the ILP to do batching.
 We will implement the simplest way possible and then identify where the loops are possible and the potential benefits of efficiency.
 
@@ -24,6 +23,12 @@ For phase one we care about the retail fees that the payee needs to pay (especia
 ## Fraud Management
 Mojaloop has a shared fraud detection system and will document best practices for DFSPs.  
 
+## Indivudal Payments
+The user number will be used for identification purposes; 2nd verification form is required for confirmation.
+
+## No Reconciliation 
+Because Mojaloop is designed to enable many very small transactions in a very reliable way at low cost, we don't build in manual reconciliation into the system as this would make the system more expensive. The system is specifically designed to minimize counterparty risk to prevent the need for reconciliation. It is possible to perform reconciliation though a business process that compares DFSP and the Central ledger, but that is out of scope.
+
 ## Mojaloop Decimal Type
 When dealing with ISO20022 systems without rewriting amounts, we should limit the amount to a format that matches closely the XML Schema definition and doesn't allow for exponents at that can lead to potential loss of precision when talking to those external systems. For now for this project we should use the decimal type based on the XML Schema.
 
@@ -39,9 +44,6 @@ Refunds should be handled by the system and there should be meta-data to link to
 ## Tier Limits
 Customer that is paying the invoice needs to be informed with error messages.  Both limits need to be respected with scheme rules. Merchant and customer can both reject the invoice. No other special cases.  IST tier limits will focus on the tiers at the DFSP.
 
-## No Reconciliation 
-Because Mojaloop is designed to enable many very small transactions in a very reliable way at low cost, we don't build in manual reconciliation into the system as this would make the system more expensive. The system is specifically designed to minimize counterparty risk to prevent the need for reconciliation. It is possible to perform reconciliation though a business process that compares DFSP and the Central ledger, but that is out of scope.
-
 # **Mojaloop Process Decisions**
 
 ## GitHub
@@ -52,10 +54,10 @@ Code Reviews are not required outside the team unless there is integration work
 All APIs should be documented, using the standard documentation and if changes occur all teams need to be notified
 
 ## Versioning 
-Versioning of the API vs. versioning of a retrieved article - POR is staying with version string
+Versioning of the API verses versioning of a retrieved article.  The plan of record is we are staying with version string.
 
 ## URLs
-URLs can not be stored in a DB
+URLs can not be stored in a database
 
 ## RAML vs. Swagger
 Public facing documentation in Swagger/Open API.  All components will be accessible over public internet by default.  Use Open API for public facing APIs.  See [Tools Decisions](Tools,-technology,-and-process-choices)
