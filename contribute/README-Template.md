@@ -49,7 +49,7 @@ Running the server locally:
 
 ## API
 
-(If the API is short, summarize it here; otherwise, link a separate page with the API docs or explain how to build the API docs from the repo.)
+(If the API is short, summarize it here.  Otherwise, link a separate page with the API docs or explain how to build the API docs from the repo.)
 
 ## Logging
 
