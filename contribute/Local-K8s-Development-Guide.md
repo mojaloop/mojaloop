@@ -65,13 +65,13 @@ Development Guide for Mojaloop on a local Kubernetes installation via Minikube.
 
 ### Deploy Central
 
-14. Deploy Central via Helm
+15. Deploy Central via Helm
 
     `helm install --namespace=mojaloop --name=dev -f ./config-central.yaml ./central`
 
 ### Test Deployments
 
-15. Refer to `Testing Deployments` Section in the `README.MD` of https://github.com/mojaloop/helm.
+16. Refer to `Testing Deployments` Section in the `README.MD` of https://github.com/mojaloop/helm.
 
 
 ## Local Minikube Development
