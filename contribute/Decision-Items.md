@@ -1,8 +1,5 @@
 # **Mojaloop Design Decisions:**
 
-- [Bulk Payments](#Bulk Payments)
-- [Cash In / Cash Out](#Cash In / Cash Out)
-
 ## Bulk Payments
 Bulk payments will actually be handled the same way as we do individual payments; We will figure out a way to throttle/meter the payments (either via Mule or by the DFSP)  We will not use the ILP to do batching.
 We will implement the simplest way possible and then identify where the loops are possible and the potential benefits of efficiency.
