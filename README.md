@@ -2,14 +2,14 @@
 The Mojaloop project is organized on the basis of component microservices.  As such, there are over twenty different repositories in GitHub that align to the different services.  The following three repositories are pinned to the project:
 - The [Docs repository](https://github.com/mojaloop/Docs) documents the overall architecture, component design, message flow, and an overview of Mojaloop. 
 - The [interop-devops repository](https://github.com/mojaloop/interop-devops) contains the necessary source code to setup the project.
-- The Mojaloop repository contains this master readme file along with the following documents to get a project started:
+- The [Mojaloop repository](https://github.com/mojaloop/mojaloop) contains this master readme file along with the following documents to get a project started:
   * [contributors guide](./contribute.md) for development onboarding materials.
   * [requirements guide](./requirements.md) for Mojaloop requirements.
   * [frequently asked questions](/FAQ.md).
 
 - Individual repositories in the [Mojaloop GitHub organization](https://github.com/mojaloop/) each describe component-specific details including source and APIs.
 
-For more information please download and review our pdf's:
+For the full documentation contained with the markdown files within this project you can view, download and review our pdf's:
 [Comprehensive documentation](https://github.com/mojaloop/docs/blob/master/Mojaloop_Comprehensive_Documentation.pdf)
 or
 [Developers guide](https://github.com/mojaloop/docs/blob/master/Mojaloop_Developer_Onboarding.pdf).
