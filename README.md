@@ -1,3 +1,19 @@
+# Getting Started
+The Mojaloop project is organized on the basis of component microservices.  As such, there are over twenty different repositories in GitHub that align to the different services.  The following three repositories are pinned to the project:
+- The [Docs repository](https://github.com/mojaloop/Docs) documents the overall architecture, component design, message flow, and an overview of Mojaloop. 
+- The [interop-devops repository](https://github.com/mojaloop/interop-devops) contains the necessary source code to setup the project.
+- The Mojaloop repository contains this master readme file along with the following documents to get a project started:
+  * [contributors guide](./contribute.md) for development onboarding materials.
+  * [requirements guide](./requirements.md) for Mojaloop requirements.
+  * [frequently asked questions](/FAQ.md).
+
+- Individual repositories in the [Mojaloop GitHub organization](https://github.com/mojaloop/) each describe component-specific details including source and APIs.
+
+For more information please download and review our pdf's:
+[Comprehensive documentation](https://github.com/mojaloop/docs/blob/master/Mojaloop_Comprehensive_Documentation.pdf)
+or
+[Developers guide](https://github.com/mojaloop/docs/blob/master/Mojaloop_Developer_Onboarding.pdf).
+
 # Mojaloop Overview  
 
 [![Join the chat at https://gitter.im/mojaloop/mojaloop](https://badges.gitter.im/mojaloop/mojaloop.svg)](https://gitter.im/mojaloop/mojaloop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -16,18 +32,6 @@ Mojaloop makes it easier for financial providers and entrepreneurs to go to mark
 
 A nationwide interoperable digital payments platform requires really good code. Your contributions will help ensure that Mojaloop covers all the bases, translates well to real-world scenarios, and meets the many and diverse needs of financial providers and customers.  
 
-## Getting Started
-The project is in GitHub and is organized on the basis of component microservices.  As such, there are over twenty different repositories in GitHub that align to the different services.  The _Docs_ repository documents the overall architecture, component design, message flow, and an overview of Mojaloop. Individual repositories in the [Mojaloop GitHub organization](https://github.com/mojaloop/) each describe component-specific details including source and APIs.
-
-**The source code can be found in the interop-devops repository [release folder.](https://github.com/mojaloop/interop-devops/releases)**
-
-New developers, see the [contributors guide](./contribute.md) for onboarding materials.
-For additional infromation please review the [frequently asked questions](/FAQ.md).
-
-For more information please download and review our pdf's:
-[Comprehensive documentation](https://github.com/mojaloop/docs/blob/master/Mojaloop_Comprehensive_Documentation.pdf)
-or
-[Developers guide](https://github.com/mojaloop/docs/blob/master/Mojaloop_Developer_Onboarding.pdf).
 
 ## Mojaloop Services
 The following architecture diagram shows the Mojaloop services:
