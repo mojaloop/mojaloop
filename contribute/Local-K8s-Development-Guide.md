@@ -194,7 +194,11 @@ A developer wants to test an enhancement for the Central Ledger Admin API which 
 
     `minikube stop; minikube start`
 
-7. Modify the code
+7. Clone Central-ledger repo
+
+    `git clone git@github.com:mojaloop/central-ledger.git`
+
+8. Modify the code
 
     `vi ./src/admin/root/routes.js`
     
@@ -209,7 +213,7 @@ A developer wants to test an enhancement for the Central Ledger Admin API which 
     }
     ```
 
-8. Build your docker image
+9. Build your docker image
 
     Modify the following parameters in the command below: 
     - `<IMAGE_NAME>`
@@ -225,7 +229,7 @@ A developer wants to test an enhancement for the Central Ledger Admin API which 
 
     `docker images | grep <IMAGE_NAME> | grep <IMAGE_TAG>`
 
-9. Push the image to the Docker Repo
+10. Push the image to the Docker Repo
 
     Modify the following parameters in the command below: 
     - `<IMAGE_NAME>`
@@ -245,14 +249,14 @@ A developer wants to test an enhancement for the Central Ledger Admin API which 
 
     This will publish the Docker Image to the Docker Repo.
 
-10. Edit the Helm `values.yaml` file of an existing Helm release (`<HELM_RELEASE_NAME>`) modifying the `repository` and `tag`
+11. Edit the Helm `values.yaml` file of an existing Helm release (`<HELM_RELEASE_NAME>`) modifying the `repository` and `tag`
 
     ``` YAML
     repository: <IP>:<PORT>/<IMAGE_NAME>
     tag: <IMAGE_TAG>
     ```
 
-11. Upgrade your Helm deployment
+12. Upgrade your Helm deployment
 
     `helm upgrade <HELM_RELEASE_NAME> <CHART_DIR>`
     
