@@ -196,7 +196,8 @@ A developer wants to test an enhancement for the Central Ledger Admin API which 
 
 7. Clone Central-ledger repo
 
-    `git clone git@github.com:mojaloop/central-ledger.git`
+    - `git clone git@github.com:mojaloop/central-ledger.git`
+    - `git checkout develop`
 
 8. Modify the code
 
@@ -273,12 +274,41 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
     - `git clone git@github.com:mojaloop/helm.git`
 
 2. Configure `values.yaml` for External Service enablement
+
+    **What:**
+
+    This will allow the Ingress for Central-Ledger (http://central-ledger.local) to be routed through Kubernetes to your local API. In otherwords you are short-circuiting Kubernete's Central-Ledger service to ignore the Central-Ledger PODs that are deployed and instead hit the API running on your local machine.
+
+    **How:**
     - `cd <HELM_REPO_DIR>`
-    - `vi ./config-central.yaml`
+    - `vi ./centralledger/values.yaml`
         - enabled External Service: `service.external.enabled: true`
         - update the external IP: `service.external.ip: 10.0.2.2`
         - update the external Port for API: `service.external.ports.api.externalPort: 3000`
         - update the external Port for ADMIN API: `service.external.ports.admin.externalPort: 3001`
+
+        The changes to `./centralledger/values.yaml` should look as follows:
+        ``` YAML
+        service:
+            type: ClusterIP
+
+            # This allows one to point the service to an external backend.
+            # This is useful for local development where one wishes to hijack
+            # the communication from the service to the node layer and point
+            # to a specific endpoint (IP, Port, etc).
+            external:
+                enabled: true
+                # 10.0.2.2 is the magic IP for the host on virtualbox's network
+                ip: 10.0.2.2
+                ports:
+                api:
+                    name: http-api
+                    externalPort: 3000
+                admin:
+                    name: http-api-admin
+                    externalPort: 3001
+        ```
+
 
 3. Deploy Central-Ledger
     - `cd <HELM_REPO_DIR>`
@@ -286,10 +316,17 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
     - `helm install --namespace=mojaloop --name=dev ./centralledger`
 
 4. Expose dependant services running on Kubernetes on the localhost
-    - Open a new terminal and run the following command to expose the Central-Ledger Database:
+    
+    **What:**
+
+    This will expose the backend systems required for Central-Ledger to operate against Kubernetes via your localhost on the respective port mappings specified.
+
+    **How:**
+
+    - Open a **new terminal** and run the following command to expose the Central-Ledger Database:
         - `kubectl --namespace=mojaloop port-forward $(kubectl get pods --namespace mojaloop -l "app=dev-centralledger-postgresql" -o jsonpath="{.items[0].metadata.name}") 5432:5432`
-    - Open a new terminal and run the following comman to expose the Forensic Logging Sidecar service:
-        - `kubectl --namespace=mojaloop port-forward $(kubectl get pods --namespace mojaloop -l "app=forensicloggingsidecar-ledger" -o jsonpath="{.items[0].metadata.name}") 5678:5678`
+    - Open a **new terminal** and run the following comman to expose the Forensic Logging Sidecar service:
+        - `kubectl --namespace=mojaloop port-forward $(kubectl get pods --namespace mojaloop -l "app=dev-forensicloggingsidecar-ledger" -o jsonpath="{.items[0].metadata.name}") 5678:5678`
 
 5.  Configure Central-Ledger Sidecar
     - `cd <CENTRAL_LEDGER_REPO_DIR>`
