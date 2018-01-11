@@ -287,7 +287,7 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
         - update the external Port for API: `service.external.ports.api.externalPort: 3000`
         - update the external Port for ADMIN API: `service.external.ports.admin.externalPort: 3001`
 
-        The changes to `./centralledger/values.yaml` should result in the following:
+        The changes to `./centralledger/values.yaml` should look as follows:
         ``` YAML
         service:
             type: ClusterIP
