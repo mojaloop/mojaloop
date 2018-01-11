@@ -287,6 +287,29 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
         - update the external Port for API: `service.external.ports.api.externalPort: 3000`
         - update the external Port for ADMIN API: `service.external.ports.admin.externalPort: 3001`
 
+        The changes to `./centralledger/values.yaml` should result in the following:
+        ``` YAML
+        service:
+            type: ClusterIP
+
+            # This allows one to point the service to an external backend.
+            # This is useful for local development where one wishes to hijack
+            # the communication from the service to the node layer and point
+            # to a specific endpoint (IP, Port, etc).
+            external:
+                enabled: true
+                # 10.0.2.2 is the magic IP for the host on virtualbox's network
+                ip: 10.0.2.2
+                ports:
+                api:
+                    name: http-api
+                    externalPort: 3000
+                admin:
+                    name: http-api-admin
+                    externalPort: 3001
+        ```
+
+
 3. Deploy Central-Ledger
     - `cd <HELM_REPO_DIR>`
     - `sh ./update-charts-dep.sh`
