@@ -323,9 +323,9 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
 
     **How:**
 
-    - Open a new terminal and run the following command to expose the Central-Ledger Database:
+    - Open a **new terminal** and run the following command to expose the Central-Ledger Database:
         - `kubectl --namespace=mojaloop port-forward $(kubectl get pods --namespace mojaloop -l "app=dev-centralledger-postgresql" -o jsonpath="{.items[0].metadata.name}") 5432:5432`
-    - Open a new terminal and run the following comman to expose the Forensic Logging Sidecar service:
+    - Open a **new terminal** and run the following comman to expose the Forensic Logging Sidecar service:
         - `kubectl --namespace=mojaloop port-forward $(kubectl get pods --namespace mojaloop -l "app=dev-forensicloggingsidecar-ledger" -o jsonpath="{.items[0].metadata.name}") 5678:5678`
 
 5.  Configure Central-Ledger Sidecar
