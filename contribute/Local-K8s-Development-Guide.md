@@ -273,7 +273,11 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
     - `git clone git@github.com:mojaloop/central-ledger.git`
     - `git clone git@github.com:mojaloop/helm.git`
 
-2. Configure `values.yaml` for External Service enablement
+2. Install all the Central-Ledger depdendencies:
+    - `cd ./central-ledger`
+    - `npm install`
+
+3. Configure `values.yaml` for External Service enablement
 
     **What:**
 
@@ -310,12 +314,12 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
         ```
 
 
-3. Deploy Central-Ledger
+4. Deploy Central-Ledger
     - `cd <HELM_REPO_DIR>`
     - `sh ./update-charts-dep.sh`
     - `helm install --namespace=mojaloop --name=dev ./centralledger`
 
-4. Expose dependant services running on Kubernetes on the localhost
+5. Expose dependant services running on Kubernetes on the localhost
     
     **What:**
 
@@ -328,7 +332,7 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
     - Open a **new terminal** and run the following comman to expose the Forensic Logging Sidecar service:
         - `kubectl --namespace=mojaloop port-forward $(kubectl get pods --namespace mojaloop -l "app=dev-forensicloggingsidecar-ledger" -o jsonpath="{.items[0].metadata.name}") 5678:5678`
 
-5.  Configure Central-Ledger Sidecar
+6.  Configure Central-Ledger Sidecar
     - `cd <CENTRAL_LEDGER_REPO_DIR>`
     - `vi ./config/default.json`
         - Ensure that the `SIDECAR.HOST` and `SIDECAR.PORT` are configured as follows: 
@@ -355,10 +359,10 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
         }
         ```
 
-6. Configure Central-Ledger Database environment variable
+7. Configure Central-Ledger Database environment variable
     - `export CLEDG_DATABASE_URI=postgres://central_ledger:$(kubectl get secret --namespace mojaloop dev-centralledger-postgresql -o jsonpath="{.data.postgres-password}" | base64 --decode; echo)@localhost:5432/central_ledger` 
 
-7. Run the Central-Ledger Service
+8. Run the Central-Ledger Service
     - `cd <CENTRAL_LEDGER_REPO_DIR>`
     - `vi ./src/admin/root/routes.js`
         - Modify the /health route response from `OK` to `OK HELLOWORLD!` as follows:
@@ -373,7 +377,7 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
     - Run the Admin API: 
         - `node ./src/admin/index.js`
 
-8. Swich the central-ledger service
+9. Swich the central-ledger service
 
     1. Delete current central ledger service: `kubectl -n mojaloop delete svc/dev-centralledger`
     
@@ -426,7 +430,7 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
         EOF
         ```
 
-9. Test Central-Ledger Admin Service is connected to DB:
+10. Test Central-Ledger Admin Service is connected to DB:
     - Local direct: `curl http://localhost:3001/accounts`
     - Ingress: `curl http://central-ledger.local/admin/accounts`
         
@@ -445,7 +449,7 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
         ]
         ```
 
-9. Test Central-Ledger Admin Service health enhancement:
+11. Test Central-Ledger Admin Service health enhancement:
     - Local direct: `curl http://localhost:3001/health`
     - Ingress: `curl http://central-ledger.local/admin/health`
      
