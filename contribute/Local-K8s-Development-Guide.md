@@ -315,9 +315,12 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
 
 
 4. Deploy Central-Ledger
-    - `cd <HELM_REPO_DIR>`
-    - `sh ./update-charts-dep.sh`
-    - `helm install --namespace=mojaloop --name=dev ./centralledger`
+    - Clean up previous deployment: 
+        - `helm del --purge dev`
+    - Install Central-Ledger
+        - `cd <HELM_REPO_DIR>`
+        - `sh ./update-charts-dep.sh`
+        - `helm install --namespace=mojaloop --name=dev ./centralledger`
 
 5. Expose dependant services running on Kubernetes on the localhost
     
