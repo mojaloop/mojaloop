@@ -63,7 +63,7 @@ Development Guide for Mojaloop on a local Kubernetes installation via Minikube.
 
     `helm install --namespace=kube-public --name=minikube -f ./config-ingress.yaml ./kube-public/ingress-nginx`
 
-### Deploy Central
+### Deploy all Central components
 
 15. Deploy Central via Helm
 
@@ -480,7 +480,7 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
         - update the external Port for API: `centralhub.centralledger.service.external.ports.api.externalPort: 3000`
         - update the external Port for ADMIN API: `centralhub.centralledger.service.external.ports.admin.externalPort: 3001`
 
-3. Deploy Central-Ledger
+3. Deploy all Central components
     - `cd <HELM_REPO_DIR>`
     - `sh ./update-charts-dep.sh`
     - `helm install --namespace=mojaloop --name=dev ./central`
