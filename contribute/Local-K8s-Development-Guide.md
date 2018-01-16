@@ -485,7 +485,7 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
     - `sh ./update-charts-dep.sh`
     - `helm install --namespace=mojaloop --name=dev ./central`
 
-4. Same steps from section #B.4 to #B.9
+4. Same steps from section #B.5 to #B.9
 
 5. Confirm that Central Hub is hitting your local Central Ledger ADMIN API
     - `curl http://central-ledger/admin/health`
