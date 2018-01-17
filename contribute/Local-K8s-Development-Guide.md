@@ -318,6 +318,7 @@ A developer wants to work on an enhancement for the Central Ledger Admin API whi
     - Clean up previous deployment: 
         - `helm del --purge dev`
     - Install Central-Ledger
+        - Refer to the Central-Ledger doc for more information on setup: https://github.com/mojaloop/central-ledger/blob/master/README.md
         - `cd <HELM_REPO_DIR>`
         - `sh ./update-charts-dep.sh`
         - `helm install --namespace=mojaloop --name=dev ./centralledger`
