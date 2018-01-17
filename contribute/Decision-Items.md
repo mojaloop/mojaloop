@@ -1,5 +1,8 @@
 # **Mojaloop Design Decisions:**
 
+## APIs
+Public facing documentation in Swagger/Open API.  All APIs should be documented, using the standard documentation and if changes occur all contributors need to be notified.
+
 ## Bulk Payments
 Bulk payments will actually be handled the same way as we do individual payments; We will figure out a way to throttle/meter the payments (either via Mule or by the DFSP)  We will not use the ILP to do batching.
 We will implement the simplest way possible and then identify where the loops are possible and the potential benefits of efficiency.
@@ -26,6 +29,9 @@ Mojaloop has a shared fraud detection system and will document best practices fo
 ## Indivudal Payments
 The user number will be used for identification purposes; 2nd verification form is required for confirmation.
 
+## Logging and Error Handling
+Mojaloop will use consistent logging format across the project applications and will implement ELK for storage, query and analytics.  Logging needs to support both operational and forensic scenarios.  At the beginning of the transaction flow the first system in the flow needs to generate a unique trace ID that flows through the system.
+
 ## No Reconciliation 
 Because Mojaloop is designed to enable many very small transactions in a very reliable way at low cost, we don't build in manual reconciliation into the system as this would make the system more expensive. The system is specifically designed to minimize counterparty risk to prevent the need for reconciliation. It is possible to perform reconciliation though a business process that compares DFSP and the Central ledger, but that is out of scope.
 
@@ -34,30 +40,6 @@ When dealing with ISO20022 systems without rewriting amounts, we should limit th
 
 ## Pending transaction workflow
 Model the vouchers as a closed systems (up to the DFSP to settle).  Vouchers would flow through the fabric but the merchant's DFSP has to deal with the settlement.  NFC out of scope for 0.5.  Utilize ripple invoicing tech.
-
-## Reliable Notifications
-Use Web Sockets // If you want an additional notification mechanism - any reliable one can be implemented in addition to this.  Ledgers do not need to mess with notifications (they would do it on the backside so they can make their own decisions).
-
-## Refunds
-Refunds should be handled by the system and there should be meta-data to link to the original transaction.  Gates getting more business requirements for reversals.  
-
-## Tier Limits
-Customer that is paying the invoice needs to be informed with error messages.  Both limits need to be respected with scheme rules. Merchant and customer can both reject the invoice. No other special cases.  IST tier limits will focus on the tiers at the DFSP.
-
-# **Mojaloop Process Decisions**
-
-## GitHub
-Create one story every time there is integration work. Create bugs for any issues.  Ensure all stories are tracked throughout the pipeline to ensure reliable metrics.
-
-## Code Reviews
-Code Reviews are not required outside the team unless there is integration work
-All APIs should be documented, using the standard documentation and if changes occur all teams need to be notified
-
-## Versioning 
-Versioning of the API verses versioning of a retrieved article.  The plan of record is we are staying with version string.
-
-## URLs
-URLs can not be stored in a database
 
 ## RAML vs. Swagger
 Public facing documentation in Swagger/Open API.  All components will be accessible over public internet by default.  Use Open API for public facing APIs.  See [Tools Decisions](Tools,-technology,-and-process-choices)
@@ -68,3 +50,20 @@ Our customers can't take a dependency on AWS, likewise RDS costs go up with usag
 We'll be using Postgres as our backend DB, but should minimized dependencies on Postgres to be as generic to SQL as possible. There can be multiple schemas in the server, but not across domains. There can be a single Postgres server in each domain (each DFSP and the Central domain have one). 
 
 The Postgres server should NOT be in a Docker container as it doesn't scale or update properly. We'll needs scripts to backup and restore the DB and to reset the test accounts. Changes to the current configuration will occur over the next several sprints as lower priority backlog items.
+
+## Refunds
+Refunds should be handled by the system and there should be meta-data to link to the original transaction.  Gates getting more business requirements for reversals.  
+
+## Reliable Notifications
+Use Web Sockets // If you want an additional notification mechanism - any reliable one can be implemented in addition to this.  Ledgers do not need to mess with notifications (they would do it on the backside so they can make their own decisions).
+
+## Tier Limits
+Customer that is paying the invoice needs to be informed with error messages.  Both limits need to be respected with scheme rules. Merchant and customer can both reject the invoice. No other special cases.  IST tier limits will focus on the tiers at the DFSP.
+
+## URLs
+URLs can not be stored in a database
+
+## Versioning 
+Versioning of the API verses versioning of a retrieved article.  The plan of record is we are staying with version string.
+
+
