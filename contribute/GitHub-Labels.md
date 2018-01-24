@@ -1,10 +1,10 @@
 ## Story
 A story should be granular to be completed within 1 sprint (2 week iteration)
 
-See [Story Template](https://github.com/LevelOneProject/Docs/issues/17)
+See [Story Template](https://github.com/Mojaloop/mojaloop/issues/123)
   
 ## bug
-See [Bug Template](https://github.com/LevelOneProject/Docs/issues/81)
+See [Bug Template](https://github.com/mojaloop/mojaloop/issues/123)
 
 ## duplicate
 Link item to duplicate item and close
