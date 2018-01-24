@@ -4,7 +4,7 @@ A story should be granular to be completed within 1 sprint (2 week iteration)
 See [Story Template](https://github.com/Mojaloop/mojaloop/issues/123)
   
 ## bug
-See [Bug Template](https://github.com/mojaloop/mojaloop/issues/123)
+See [Bug Template](https://github.com/mojaloop/mojaloop/issues/124)
 
 ## duplicate
 Link item to duplicate item and close
