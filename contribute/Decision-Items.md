@@ -58,7 +58,7 @@ Versioning of the API vs. versioning of a retrieved article - POR is staying wit
 URLs can not be stored in a DB
 
 ## RAML vs. Swagger
-Public facing documentation in Swagger/Open API.  All components will be accessible over public internet by default.  Use Open API for public facing APIs.  See [Tools Decisions](Tools,-technology,-and-process-choices)
+Public facing documentation in Swagger/Open API.  All components will be accessible over public internet by default.  Use Open API for public facing APIs.  See [Tools Decisions](Tools-technology-and-process-choices.md)
 
 ## RDS and Postgres use
 Our customers can't take a dependency on AWS, likewise RDS costs go up with usage unlike hosted services, so we are are not using RDS.
