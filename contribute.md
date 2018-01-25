@@ -43,5 +43,9 @@ Example: git tag v0.4.0 # update the version.
 ## Local Setup
 [Local environment setup instructions](https://github.com/mojaloop/interop-devops/blob/master/README.md) using Vagrant
 
+Repositories for Docker containers, NPM packages, etc. are provided by JFrog
+
+![Artifactory](https://github.com/mojaloop/docs/blob/master/Wiki/Powered-by-artifactory_02.png) at https://mojaloop.jfrog.io/mojaloop
+
 ## Additional Information
 For additional information please review the [frequently asked questions](/FAQ.md).
