@@ -61,7 +61,10 @@ Use Web Sockets // If you want an additional notification mechanism - any reliab
 Customer that is paying the invoice needs to be informed with error messages.  Both limits need to be respected with scheme rules. Merchant and customer can both reject the invoice. No other special cases.  IST tier limits will focus on the tiers at the DFSP.
 
 ## URLs
-URLs can not be stored in a database
+URLs can not be stored in a DB
+
+## RAML vs. Swagger
+Public facing documentation in Swagger/Open API.  All components will be accessible over public internet by default.  Use Open API for public facing APIs.  See [Tools Decisions](Tools-technology-and-process-choices.md)
 
 ## Versioning 
 Versioning of the API verses versioning of a retrieved article.  The plan of record is we are staying with version string.

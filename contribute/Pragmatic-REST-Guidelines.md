@@ -1,15 +1,14 @@
 # Pragmatic REST
-### For the Mojaloop Project
----
+## For the Mojaloop Project
 
-The emergence of API strategy as a scaling tool for Internet service
+With the emergence of API strategy as a scaling tool for Internet service
 businesses, the focus on interconnect technology has shifted. Building
 on the principles that enabled the Web to form and scale, REST
 (Representational State Transfer) has become a design preference for
 Internet service APIs. But while the REST principles, proposed in Roy
 Fielding's dissertation that defined them, have academic value as a
-basis for research, full REST design is not at present practical for
-most applications. We are advocating a kind of Pragmatic REST-a design
+basis for research, a pure REST design is not at present practical for
+most applications. We are advocating a kind of Pragmatic REST—a design
 pattern that adopts the beneficial components of RESTful design without
 requiring strict adherence to academic purity.
 
@@ -22,11 +21,9 @@ developed by Leonard Richardson and
 at a QCon talk. Fowler refers to this as the Richardson Maturity Model
 of RESTful design.
 
-![Figure 1. Richardson Maturity Model of RESTful
-Design](https://github.com/mojaloop/docs/blob/master/Wiki/Glory%20of%20Rest.png)
+![Figure 1. Richardson Maturity Model of RESTful Design](https://GitHub.com/Mojaloop/docs/Wiki/Glory%20of%20Rest.png)
 
-Martin Fowler, referencing *[Rest in
-Practice](https://www.amazon.com/gp/product/0596805829?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596805829),<sup>[2](#footnote2)</sup>
+Martin Fowler, referencing [Rest in Practice](https://www.amazon.com/gp/product/0596805829?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596805829),<sup>[2](#footnote2)</sup>
 summarizes the genesis of RESTful design:
 
 > use Restful web services to handle many of the integration problems
@@ -74,7 +71,8 @@ Pragmatic RESTful Principles
 A well-designed URI pattern makes an API easy to consume, discover, and
 extend, just as a carefully designed API does in a traditional
 programming language. Pure REST disdains this principle in favor of
-HATEOAS.
+HATEOAS. But pragmatic REST follows a normal pattern for URI definitions to improve
+human understanding, even if HATEOAS principles are employed for discovery. 
 
 URI paths that refer to a collection of objects should consist of a
 plural noun, e.g. /customers, to refer to a set of customers. When a
@@ -99,7 +97,7 @@ URI path and query segment identifiers should be chosen from the Roman
 character set, \[0-9A-Za-z\]. Use *camelCase* to define the elements of
 the URI path. Do not use snake\_case.
 
-For the avoidance of doubt, "\_" (underscore) and "-" (hyphen) should
+For the avoidance of doubt, “\_” (underscore) and “-” (hyphen) should
 not be used in URI path or query segment identifiers.
 
 This probably seems a bit parochial. The purpose is to find a
@@ -117,19 +115,24 @@ Field names in JSON and SQL should also follow this convention since
 they are often automatically mapped into variable name space and can be
 referenced in URIs as path or query segment identifiers.
 
-We should also avoid the use of "\$" unless it is required by a library
+We should also avoid the use of “\$” unless it is required by a library
 (e.g. JQuery). IBM JCL has passed away; let it rest in peace. There are
 better scope control tools to separate name spaces than introducing
 non-roman symbols.
 
 We should avoid "-" (hyphen) in path segment and query parameter names
-as it does not map into variable names, SQL or JSON field name
+as it does not map into variable names, SQL, or JSON field name
 identifiers.
+
+Underscore characters must
+be escaped in markdown source by prefixing each with a “\\” character.
 
 Snake\_case has been reported to be slightly easier to read than
 camelCase in variable names, but it actually does not improve
 readability of URIs, as it visually interferes with path and query
-segment delimiters making it difficult to visually parse them.
+segment delimiters making it difficult to visually parse them. And when URIs are 
+underlined in presentation, the underscores become illegible.
+
 
 ### URI Parameters
 
@@ -157,11 +160,11 @@ specified ways. Posting a JSON document to a singular object URI may
 allow selected field values to be updated or trigger a state change or
 action without replacing the whole object.
 
-GET must be implemented in a *nullimpotent* manner-that is, GET never
+GET must be implemented in a *nullipotent* manner—that is, GET never
 causes side effects and never modifies client-visible system state
 (other than logging events or updating instrumentation, e.g.).
 
-PUT and DELETE must be implemented in an *idempotent* manner-that is,
+PUT and DELETE must be implemented in an *idempotent* manner—that is,
 changes are applied consistently to the system data in a way that is
 dependent only on the state of the resource and inputs but on nothing
 else. The action has no additional effect if it is executed more than

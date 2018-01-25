@@ -12,7 +12,7 @@ This will force changes to master to be single named commit (see [Squash your co
 Based on [semantic versioning](http://semver.org/) (Breaking.Feature.Fix), as long a component is not shipped, the major version will be less than 1 (example: 0.15.1). Most user stories will increment the middle number. Minor changes and bug fixes increment the last number. 
 Example: 
 
-`git tag # this will tell you the current tags including the version
+`git tag #` this will tell you the current tags including the version
 
 `git tag v0.3.0` # this sets a version tag
 
