@@ -8,7 +8,7 @@
 
 * Setting up a [new repository](https://github.com/Mojaloop/Docs/blob/master/mule/Repository/NewRepository.md) (if needed).
 
-* An example of how to [Build and Publish NodeJS](./Build-and-Publish-NodeJS.md) using CircleCI to the private package repository.
+* An example of how to [Build and Publish Node.js](./Build-and-Publish-NodeJS.md) using CircleCI to the private package repository.
 
 * Guidance for setting up and building a new [Java repository](https://github.com/Mojaloop/Docs/blob/master/mule/CircleCI/CircleCI.md)
 

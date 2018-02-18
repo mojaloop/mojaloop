@@ -4,13 +4,13 @@ The [Mojaloop](https://mojaloop.io/) site describes what we're accomplishing.
 We use a [standard developer code of conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
 
 ## External Developer Tools 
-(See [Tools Choices](https://github.com/mojaloop/Docs/wiki/Tools,-technology,-and-process-choices) for a longer list that includes the reasoning behind each)
+(See [Tools Choices](https://github.com/mojaloop/docs/decisions.md) for a longer list that includes the reasoning behind each)
 * Shipping docs and code are in GitHub at https://github.com/Mojaloop.
 * [GitHub Wiki search bar](https://chrome.google.com/webstore/detail/wiki-search-for-github/gdifdhnjmjaidbajhapmbcbnoocoeooc) This is a Chrome extension that adds a search for the GitHub Wiki. Not a required tool, but useful.
 * Continuous Integration is via [CircleCI](https://circleci.com/gh/Leveloneproject)
-* Hosting is via AWS, using and AWS VPC. See [test machine info](https://github.com/mojaloop/Docs/blob/master/AWS/Infrastructure/machines.md)
+* Hosting is via AWS, using and AWS VPC
 * Docker is used for packaging and deployment and hosts the registry of docker packages. Typically using an [Alpine Linux base image](https://alpinelinux.org/)
-* JFrog hosts our package repositories for Docker, Maven, and NodeJS. These should be made public soon.
+* JFrog hosts our package repositories for Docker, Maven, and Node.js. These should be made public soon.
 
 ## How do I start working with Mojaloop
 1)	Review the Readme.md, contributor.md and FAQ.md guides in GitHub

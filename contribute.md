@@ -8,7 +8,7 @@ There's a [roadmap](https://github.com/mojaloop/mojaloop/blob/master/contribute/
 
 In general, we are looking for example implementations and bug fixes, and project enhancements. 
 
-## Where to I send bugs, questions, and feedback?
+## Where do I send bugs, questions, and feedback?
 For bugs, see [Reporting bugs](https://github.com/mojaloop/mojaloop/blob/master/contribute/Reporting-Bugs.md). 
 
 For questions or feedback, we're on [Slack](leveloneproject.slack.com). Also checkout the [FAQ](https://github.com/mojaloop/mojaloop/blob/master/FAQ.md)
