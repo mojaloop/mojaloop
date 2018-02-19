@@ -6,7 +6,7 @@ Under your repository settings uncheck allow merge:
 
 ![Merge Button Settings](https://github.com/mojaloop/docs/blob/master/Wiki/mergebtn.png)
 
-This will force changes to master to be single named commit (see [Squash your commits](https://github.com/blog/2141-squash-your-commits).
+This will force changes to master to be single named commit (see [Squash your commits](https://github.com/blog/2141-squash-your-commits)).
 
 # Versioning
 Based on [semantic versioning](http://semver.org/) (Breaking.Feature.Fix), as long a component is not shipped, the major version will be less than 1 (example: 0.15.1). Most user stories will increment the middle number. Minor changes and bug fixes increment the last number. 
