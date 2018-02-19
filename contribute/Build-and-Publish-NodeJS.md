@@ -31,7 +31,7 @@ The CircleCI file defines the version of Node to use and when to publish to the 
     email = ${NPM_EMAIL}
     always-auth = true
 
-The .npmrc file for the repo defines where the private npm package repo is, the authorization token to write to it and the email to notify. To test that publishing works locally, you'll run _npm publish_. You'll want a local .npmrc file at cd ~ that defines the real values for your email and the auth token.
+The .npmrc file for the repo defines where the private npm package repo is, the authorization token to write to it and the email to notify. To test that publishing works locally, you'll run _npm publish_. You'll want a local .npmrc file at cd ~ that defines the real values for your email and the auth token. [Here are instructions to get the auth token](https://docs.npmjs.com/private-modules/ci-server-config#getting-an-authentication-token).
 
 CircleCI doesn't have your local environment variables so you have to add the email and auth token to it. Use the UI at
 https://circleci.com/gh/mojaloop/YourRepoNameHere/edit#env-vars to add the two variables. 
