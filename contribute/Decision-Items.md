@@ -68,5 +68,3 @@ Public facing documentation in Swagger/Open API.  All components will be accessi
 
 ## Versioning 
 Versioning of the API verses versioning of a retrieved article.  The plan of record is we are staying with version string.
-
-
