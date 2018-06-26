@@ -8,10 +8,13 @@ There's a [roadmap](https://github.com/mojaloop/mojaloop/blob/master/contribute/
 
 In general, we are looking for example implementations and bug fixes, and project enhancements. 
 
+## Where do I get help?
+Join the [Mojaloop #General Channel](https://mojaloop-slack.herokuapp.com/) to connect with other developers.
+
+Also checkout the [FAQ](https://github.com/mojaloop/mojaloop/blob/master/FAQ.md)
+
 ## Where to I send bugs, questions, and feedback?
 For bugs, see [Reporting bugs](https://github.com/mojaloop/mojaloop/blob/master/contribute/Reporting-Bugs.md). 
-
-For questions or feedback, we're on [Slack](mojaloop.slack.com). Also checkout the [FAQ](https://github.com/mojaloop/mojaloop/blob/master/FAQ.md)
 
 # How do I contribute?
 See also [Onboarding Developers](https://github.com/mojaloop/mojaloop/blob/master/contribute/Onboarding-Developers.md)
