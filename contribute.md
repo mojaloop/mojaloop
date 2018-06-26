@@ -3,10 +3,11 @@ We're sharing code to help create interoperable payments platforms that can be d
 
 # How do I contribute?
 ## Local Development Setup
-1) Setup the Central Ledger
-To Setup the Mojaloop Central Ledger on your local machine follow the setup instructions detailed in the [onboarding.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/Onboarding.md).
-2) Setup Kubernetes
-To Setup Kubernetes to run the Central Ledger follow the setup instructions detailed in the [kubernetes.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/KUBERNETES.md).
+Steps to setup your local enviroment to contibute to the Mojaloop project:
+1) Central Ledger Setup: To setup the Mojaloop Central Ledger on your local machine follow the instructions detailed in the [onboarding.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/Onboarding.md).
+
+2) Kubernetes Setup: To setup Kubernetes to run the Central Ledger follow the setup instructions detailed in the [kubernetes.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/KUBERNETES.md).
+
 
 ## Local Environment Setup
 To setup a local instance of Mojaloop in a lab or similar environment using vagant follow the [Local environment setup instructions](https://github.com/mojaloop/interop-devops/blob/master/README.md).
