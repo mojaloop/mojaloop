@@ -8,8 +8,8 @@ To Setup the Mojaloop Central Ledger on your local machine follow the setup inst
 2) Setup Kubernetes
 To Setup Kubernetes to run the Central Ledger follow the setup instructions detailed in the [kubernetes.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/KUBERNETES.md).
 
-## Local Environement Setup
-To setup a local instance of Mojaloop in a lab or similar environement using vagant follow the [Local environment setup instructions](https://github.com/mojaloop/interop-devops/blob/master/README.md).
+## Local Environment Setup
+To setup a local instance of Mojaloop in a lab or similar environment using vagant follow the [Local environment setup instructions](https://github.com/mojaloop/interop-devops/blob/master/README.md).
 
 Repositories for Docker containers, NPM packages, etc. are provided by JFrog
 ![Artifactory](https://github.com/mojaloop/docs/blob/master/Wiki/Powered-by-artifactory_02.png) at https://mojaloop.jfrog.io/mojaloop
