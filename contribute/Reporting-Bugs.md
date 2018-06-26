@@ -7,9 +7,9 @@ Perform a cursory search to see if the problem has already been reported. If it 
 Note: If you find a Closed issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 Check the [FAQ](https://github.com/Mojaloop/mojaloop/blob/master/FAQ.md) in the Wiki for a list of common questions and problems.
+Join the [Mojaloop #General Channel](https://mojaloop-slack.herokuapp.com/) to connect with other developers.
 
 ## How Do I Submit a (Good) Bug Report?
-
 Bugs are tracked as GitHub issues. 
 
 Determine which repository the problem should be reported in. If the bug spans multiple repos use the mojaloop repo. 
