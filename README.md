@@ -2,7 +2,6 @@
 The Mojaloop project is organized on the basis of component microservices.  As such, there are over twenty different repositories in GitHub that align to the different services.  The following six repositories are pinned to the project:
 - The [Mojaloop repository](https://github.com/mojaloop/mojaloop) contains this master readme file along with the following documents to get started.
   * [contributors guide](./contribute.md) for development and installation materials.
-  * [requirements guide](./requirements.md) for Mojaloop requirements.
   * [frequently asked questions](/FAQ.md).
 - The [interop-devops repository](https://github.com/mojaloop/interop-devops) contains the necessary source code to setup the project.
 - The [helm repository](https://github.com/mojaloop/helm) contains the packaging format called charts which is a collection of files that describe a related set of Kubernetes resources for the Mojaloop project. 
