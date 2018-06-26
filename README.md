@@ -3,8 +3,6 @@ The Mojaloop project is organized on the basis of component microservices.  As s
 - The [Mojaloop repository](https://github.com/mojaloop/mojaloop) contains this master readme file along with the following documents to get started.
   * [contributors guide](./contribute.md) for development and installation materials.
   * [frequently asked questions](/FAQ.md).
-- The [interop-devops repository](https://github.com/mojaloop/interop-devops) contains the necessary source code to setup the project.
-- The [helm repository](https://github.com/mojaloop/helm) contains the packaging format called charts which is a collection of files that describe a related set of Kubernetes resources for the Mojaloop project. 
 - The [docs repository](https://github.com/mojaloop/docs) documents the overall architecture, component design, message flow, and an overview of Mojaloop. 
 - The [project repository](https://github.com/mojaloop/project) is the cetnral repostiorty to track product development issues for the Mojaloop project.
 - The [mojaloop-specificiation](https://github.com/mojaloop/mojaloop-specification) contains the specification document set of the Open API for Financial Service Provider Interoperability. 
