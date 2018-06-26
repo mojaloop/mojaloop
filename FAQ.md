@@ -31,3 +31,6 @@ Yes. All core modules, documentation and white papers are available under a [Apa
 
 _How can I contribute to Mojaloop?_
 You can contribute by helping us create new functionality on our roadmap or by helping us improve the platform. For our roadmap, go to the [Roadmap.md](https://github.com/mojaloop/mojaloop/blob/master/contribute/Roadmap.md). We recommend starting with the onboarding guide and sample problem. This has been designed by the team to introduce the core ideas of the platform and software, the build methods, and our process for check-ins.
+
+_What is supported?_
+Currently the Central ledger components are supported by the team.  The DFSP components are outdated and thus the end-to-end environment and full setup is challenging to install.
