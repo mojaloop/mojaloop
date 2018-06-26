@@ -9,11 +9,6 @@ The Mojaloop project is organized on the basis of component microservices.  As s
 
 - Individual repositories in the [Mojaloop GitHub organization](https://github.com/mojaloop/) each describe component-specific details including source and APIs.
 
-For the full documentation contained with the markdown files within this project you can view, download and review our pdf's:
-[Comprehensive documentation](https://github.com/mojaloop/docs/blob/master/Mojaloop_Comprehensive_Documentation.pdf)
-or
-[Developers guide](https://github.com/mojaloop/docs/blob/master/Mojaloop_Developer_Onboarding.pdf).
-
 # Mojaloop Overview  
 
 [![Join the chat at https://gitter.im/mojaloop/mojaloop](https://badges.gitter.im/mojaloop/mojaloop.svg)](https://gitter.im/mojaloop/mojaloop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
