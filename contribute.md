@@ -8,14 +8,6 @@ Steps to setup your local enviroment to contibute to the Mojaloop project:
 
 2) Kubernetes Setup: To setup Kubernetes to run the Central Ledger follow the setup instructions detailed in the [kubernetes.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/KUBERNETES.md).
 
-
-## Local Environment Setup
-To setup a local instance of Mojaloop in a lab or similar environment using vagant follow the [Local environment setup instructions](https://github.com/mojaloop/interop-devops/blob/master/README.md).
-
-Repositories for Docker containers, NPM packages, etc. are provided by JFrog
-![Artifactory](https://github.com/mojaloop/docs/blob/master/Wiki/Powered-by-artifactory_02.png) at https://mojaloop.jfrog.io/mojaloop
-
-
 # What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
 
