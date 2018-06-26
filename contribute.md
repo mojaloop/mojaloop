@@ -2,18 +2,18 @@
 We're sharing code to help create interoperable payments platforms that can be deployed on a national scale. The idea is to make it easier for financial providers to deliver digital financial services to new customers in new markets, especially in the developing world. See our [README.md](https://github.com/mojaloop/mojaloop/blob/master/README.md) for an overview, or visit [mojaloop.io](http://mojaloop.io) for context and information.
 
 # How do I contribute?
-## Local Setup
-[Local environment setup instructions](https://github.com/mojaloop/interop-devops/blob/master/README.md) using Vagrant
+## Local Development Setup
+1) Setup the Central Ledger
+To Setup the Mojaloop Central Ledger on your local machine follow the setup instructions detailed in the [onboarding.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/Onboarding.md).
+2) Setup Kubernetes
+To Setup Kubernetes to run the Central Ledger follow the setup instructions detailed in the [kubernetes.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/KUBERNETES.md).
+
+## Local Environement Setup
+To setup a local instance of Mojaloop in a lab or similar environement using vagant follow the [Local environment setup instructions](https://github.com/mojaloop/interop-devops/blob/master/README.md).
 
 Repositories for Docker containers, NPM packages, etc. are provided by JFrog
-
 ![Artifactory](https://github.com/mojaloop/docs/blob/master/Wiki/Powered-by-artifactory_02.png) at https://mojaloop.jfrog.io/mojaloop
 
-## Kubernetes Setup
-To Setup Kubernetes to run the Central Ledger: Follow the setup instructions detailed in the [kubernetes.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/KUBERNETES.md).
-
-## Central Ledger Setup
-To Setup the Mojaloop Central Ledger: Follow the setup instructions detailed in the [onboarding.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/Onboarding.md).
 
 # What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
