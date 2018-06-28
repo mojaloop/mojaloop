@@ -39,7 +39,11 @@ The basic idea behind Mojaloop is that we need to connect multiple Digital Finan
 - Complete working open-source implementations of both sides of the interfaces - an example DFSP that can send and receive payments and the client that an existing DFSP could host to connect to the network.
 
 ## What's here and what's not
-This is free code provided under an [Apache 2.0 license](https://github.com/mojaloop/mojaloop/blob/master/LICENSE.md). We don't provide production servers to run it on. That's up to you. You are free (and encouraged!) to clone these repositories, participate in the community of developers, and contribute back to the code.
+This is free code provided under an [Apache 2.0 license](https://github.com/mojaloop/mojaloop/blob/master/LICENSE.md). 
+
+The code is released with an Apache 2.0 license but the Specification documents under the ‘mojaloop-specification’ documents are published with CC BY-ND 4.0 License
+
+We don't provide production servers to run it on. That's up to you. You are free (and encouraged!) to clone these repositories, participate in the community of developers, and contribute back to the code.
 
 We are not trying to replace any mobile wallet or financial providers. We provide code to link together new and existing financial providers using a common scheme. There are central services for identifying a customer's provider, quoting, fulfillment, deferred net settlement, and shared fraud management. Each provider can take advantage of these services to send and receive money with others on the system and there's no cost to them to onboard new providers. We provide code for a simple example mobile money provider to show how integration can be done, but our example DFSP is not meant to be a production mobile money provider.
 
