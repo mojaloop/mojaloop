@@ -8,6 +8,8 @@ Steps to setup your local enviroment to contibute to the Mojaloop project:
 
 2) Kubernetes Setup: To setup Kubernetes to run the Central Ledger follow the setup instructions detailed in the [kubernetes.md](https://github.com/mojaloop/central-ledger/blob/develop-PI3/KUBERNETES.md).
 
+3) Helm Setup: To setup Helm charts to streamlines the installation and management of Kubernetes applications follow the setup instructions detailed in the Helm [readme.md](https://github.com/mojaloop/helm/blob/master/README.md)
+
 # What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
 
