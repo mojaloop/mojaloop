@@ -34,7 +34,7 @@ Below is a list of larger initiatives and epics by area that will help to furthe
 * Native Implementation Payee: Implementation of resources to support Payee initiated transactions and ones that involve OTPs
 * Bulk Payments: Design & Implementation of resources to support Bulk Payments
 
-# Central Services
+## Central Services
 * Directory Interoperability
 * Multi-currency and schemes
 * Enforcing Currency configurations
@@ -46,7 +46,7 @@ Below is a list of larger initiatives and epics by area that will help to furthe
 * Stopping/Pausing a DFSP
 * boarding protocol
 			
-# DFSP/Account Management
+## DFSP/Account Management
 * Agent Network
 * NFCC identity merchant
 * Persistent merchant ID
@@ -55,16 +55,16 @@ Below is a list of larger initiatives and epics by area that will help to furthe
 * Password requirements
 * Hold/Restart account
 
-# Security
+## Security
 * Central certificate service
 * Implement fee quote transfer service in the center
 * Prevent user guessing from rogue DFSPs
 * Preferred authorizations
 	
-# Market Deployment
+## Market Deployment
 * Integration with major mobile money vendors in Africa (PDP initiative)
 	
-# CI/CD & Testing
+## CI/CD & Testing
 * Implement auto deployment to test environment
 * Automatically run acceptance tests in test environment as part of build/deploy
 * Automate bulk import tests
