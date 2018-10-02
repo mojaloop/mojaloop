@@ -22,11 +22,3 @@ Limited to what the consuming teams need that isn't covered by existing unit, co
 ## End to End
 End to end tests cover acceptance tests from scenarios.
 
-# Non Functional
-
-## Performance and scale
-
-## Security
-All issues on the threat model logged and triaged, all higher priority issues closed.
-
-## Availability and System Health
