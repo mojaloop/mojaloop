@@ -2,7 +2,7 @@
 
 The [Contribution Guides](../contribute.md) describes how developers collaborate together on the code base.
 
-The [Level One Project **Docs** repo](https://github.com/mojaloop/Docs) details overall architecture of the Level One Project (starting in it's README.md) while each other repo has architecture details specific to it (starting in the README.md for that repo).
+The [Level One Project **docs** repo](https://github.com/mojaloop/docs) details overall architecture of the Level One Project (starting in it's README.md) while each other repo has architecture details specific to it (starting in the README.md for that repo).
 
 * The [Level One Project Documentation and Template Standards](./Documentation-and-Template-Standards.md) describes how the documents are structured.
 
