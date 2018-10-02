@@ -1,6 +1,6 @@
 _Use this template for the README file when you create a component or a service_
 
-_This should be created in a sub-folder in the [Docs repo](https://github.com/Mojaloop/Docs), such as an architecture overview, user flow, and resilience modeling._ 
+_This should be created in a sub-folder in the [docs repo](https://github.com/Mojaloop/Docs), such as an architecture overview, user flow, and resilience modeling._ 
 
 
 # File Formats
