@@ -1,4 +1,6 @@
-It's helpful if an issue is in the repo the code is in. This allows the team to filter on the issues for that code. Since many issues are currently in Docs, teams will want to move them.
+#Moving Issues
+
+Typically we put all the issues in the [project](https://github.com/mojaloop/project/issues) repo.  Sometimes it is helpful if an issue is in the repo the code is in. This allows the team to filter on the issues for that code. Since many issues are currently in Docs, teams will want to move them.
 
 There is a move issue button at the bottom of the page for the issue, however, many attributes don't move with the issue
 
