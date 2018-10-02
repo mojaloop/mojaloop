@@ -28,16 +28,16 @@ and examples that span the entire project are included below:
 -   Test strategy
 -   Physical Architecture
 -   Overall threat model
--   Overall resilience model
 
 ## Services Documentation
 
 Each of the main services also have a section describing them in the Docs repo.  They should follow the template and format specified here in the [Architecture-Documentation-Guidelines](./Architecture-Documentation-Guidelines.md)
 
 
--   DFSP
--   Central Services (Overview)
--   Portal
+-   Central Ledger
+-   Central Services 
+-   DFSP scheme adapter
+-   Central Settlement
 
 Services docs cover the service architecture, service deployment,
 configuration, health model, integration tests, and API docs. If there
@@ -50,16 +50,12 @@ central service. Detail on each service is at the repo level.
 
 Each time you create a new repo, the readme file should provide standard
 information on the specific component/service and also make reference to
-the higher level component or service located in the [Docs
-repo](https://github.com/Mojaloop/Docs). Examples or topics
+the higher level component or service located in the [docs
+repo](https://github.com/Mojaloop/docs). Examples or topics
 that will be part of a specific repo include:
 
-* Microservices/Components
-* USSD Admin
-* DFSP USSD
 * Central Rules
 * Fraud Services
-* SPSP Client
 * ILP Adapter
 
 For these topics, please use the [README-Template](./README-Template.md)
@@ -69,8 +65,6 @@ For these topics, please use the [README-Template](./README-Template.md)
 * All APIs should be documented in RAML or Swagger, see Architecture-Documentation-Guidelines](Architecture-Documentation-Guidelines.md)
 * Use [Central Ledger API](https://github.com/Mojaloop/central-ledger/blob/master/API.md) as a template.
 
-
-## Formatting Guidelines
 
 ### Section Headings
 
