@@ -1,7 +1,7 @@
 # Mojaloop Contributor Information
 
 ## Mojaloop Deployment and Setup Guide
-* [Deployment and Setup PDF](https://github.com/mojaloop/docs/blob/develop/WorkShops/Presentations/Mojaloop_Phase2_Wrap-up_Deployment-Day3_V2.0-published.pdf))
+* [Deployment and Setup PDF](https://github.com/mojaloop/docs/blob/develop/WorkShops/Presentations/Mojaloop_Phase2_Wrap-up_Deployment-Day3_V2.0-published.pdf)
 
 ## Documentation
 * The [Structure of the Documentation](Structure-of-the-Documentation.md)
