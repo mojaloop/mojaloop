@@ -4,7 +4,8 @@ We're sharing code to help create interoperable payments platforms that can be d
 # How do I contribute?
 ## Review the Deployment Guide
 Review the Mojaloop deployment guide and follow the instructions for deployment:
-[Deployment and Setup PDF](https://github.com/mojaloop/docs/blob/develop/WorkShops/Presentations/Mojaloop_Phase2_Wrap-up_Deployment-Day3_V2.0-published.pdf)
+[Deployment and Setup PDF](https://github.com/mojaloop/docs/blob/develop/WorkShops/Presentations/Mojaloop_Phase2_Wrap-up_Deployment-Day3_V2.0-published.pdf).
+For additional information review our our [contributors document](https://github.com/mojaloop/mojaloop/blob/master/contribute/Readme.md).
 
 ## What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
