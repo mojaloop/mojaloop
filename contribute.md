@@ -2,15 +2,11 @@
 We're sharing code to help create interoperable payments platforms that can be deployed on a national scale. The idea is to make it easier for financial providers to deliver digital financial services to new customers in new markets, especially in the developing world. See our [README.md](https://github.com/mojaloop/mojaloop/blob/master/README.md) for an overview, or visit [mojaloop.io](http://mojaloop.io) for context and information.
 
 # How do I contribute?
-## Local Development Setup
-Steps to setup your local enviroment to contibute to the Mojaloop project:
-1) Central Ledger Setup: To setup the Mojaloop Central Ledger on your local machine follow the instructions detailed in the [onboarding.md](https://github.com/mojaloop/central-ledger/blob/develop/Onboarding.md).
+## Review the Deployment Guide
+Review the Mojaloop deployment guide and follow the instructions for deployment:
+[Deployment and Setup PDF](https://github.com/mojaloop/docs/blob/develop/WorkShops/Presentations/Mojaloop_Phase2_Wrap-up_Deployment-Day3_V2.0-published.pdf)
 
-2) Kubernetes Setup: To setup Kubernetes to run the Central Ledger follow the setup instructions detailed in the [kubernetes.md](https://github.com/mojaloop/central-ledger/blob/develop/KUBERNETES.md).
-
-3) Helm Setup: To setup Helm charts to streamlines the installation and management of Kubernetes applications follow the setup instructions detailed in the Helm [readme.md](https://github.com/mojaloop/helm/blob/master/README.md)
-
-# What work is needed?
+## What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
 
 There's a [roadmap](https://github.com/mojaloop/mojaloop/blob/master/contribute/Roadmap.md) that shows larger work that people could do or are working on. It has some main initiatives and epics and the order, but lacks dates as this work is community driven. Work is broken down from there into issues in GitHub.
