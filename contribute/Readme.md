@@ -24,7 +24,7 @@
 * [Writing Code](Writing-Code.md)
 * [Branching](branching-Strategy.md)
 * [Building and Publishing NodeJS](Build-and-Publish-NodeJS.md)
-* [Code Quality] (Code-Quality-Metrics.md)
+* [Code Quality](Code-Quality-Metrics.md)
 * [API Guidelines](Pragmatic-REST-Guidelines.md)
 * [Repos and Versioning](Repos-and-versioning.md)
 
