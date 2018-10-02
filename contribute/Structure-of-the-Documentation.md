@@ -1,6 +1,6 @@
 # Structure of the Documentation
 
-The [Contribution Guides](../contribute.md) describes how developers collaborate together on the code base.
+The [Contribute Guide](../contribute.md) describes how developers collaborate together on the code base.
 
 The [Mojaloop **docs** repo](https://github.com/mojaloop/docs) details overall architecture of the Level One Project (starting in it's README.md) while each other repo has architecture details specific to it (starting in the README.md for that repo).
 
