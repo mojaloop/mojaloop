@@ -35,7 +35,7 @@ summarizes the genesis of RESTful design:
 A pragmatic approach to RESTful design uses the best parts of Fielding's
 conceptual framework to allow developers and integrators to understand
 what they can do with the API as rapidly as possible and without writing
-a bunch of extraneous code.
+extraneous code.
 
 At its most fundamental, a RESTful design is resource-centric and uses
 HTTP verbs. At its most advanced, a design that follows pure academic
