@@ -11,14 +11,15 @@ You can use any editor to create the files including the built-in GitHub editors
 MD. [Pandoc](http://pandoc.org/) is a good tool for coverting docs to and from MD format.
 
 Files can be viewed, reviewed, commented on, and edited directly in GitHub. One exception are diagrams, which will use the tool [Draw.IO](https://www.draw.io/). Architecture drawings saved as PNG files that are linked in mark down
-files. Syntax example: \[Display Text](./images/diagram.png). Diagrams are stored in GitHub their both their a SVG format as well as PNG. PNG is used for display,but SVG is the master format used for editing. Diagrams should be referenced using a relative path like ./wiki/diagram.png, not the full path such as https://github.com/Mojaloop/Docs/blob/master/Wiki/diagram.png. For larger diagrams, put a blank line above them to allow them to be centered properly upon export.
+files. 
+Syntax example: \[Display Text](./images/diagram.png). Diagrams are stored in GitHub their both their a SVG format as well as PNG. PNG is used for display,but SVG is the master format used for editing. Diagrams should be referenced using a relative path like ./wiki/diagram.png, not the full path such as https://github.com/Mojaloop/Docs/blob/master/Wiki/diagram.png. For larger diagrams, put a blank line above them to allow them to be centered properly upon export.
 
 
 # Template Overview
 
 ## Component/Service Name
 
-(Intro blurb - a paragraph or two explaining what this component or service is for and how it fits into the overall Level One Project Project)
+Each component should include and introduction paragraph or two explaining what this component or service is for and how it fits into the overall Mojaloop project.
 
 It is expected that this template would not be fully complete at the beginning of development. Design details are expected to emerge in an Agile fashion. However, the building blocks such as key components, high-level interactions, protocols, approaches, and general test strategy need to be thought through due to all the moving parts in the project. Specify enough detail such that another engineer can review the approach and provide feedback, but don't be too detailed that the architecture/design is obsolete in the very short term.  Architecture/Design documents are stored as many smaller files rather than one large one. This way individual parts of the design can be worked on separately and in parallel.
 
