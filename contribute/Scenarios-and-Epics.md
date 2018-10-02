@@ -1,7 +1,5 @@
 # Overview
-A **scenario** is a customer facing work item that may be bigger than a single program increment and require work from multiple teams for one team. 
-An **Epic** fits within a single PI and can be done by a single team
-Scenarios are broken into multiple epics. Epics are broken into user stories. A typical epic contains 3 to 8 stories.
+A **Feature** or scenario is a customer facing work item that may be bigger than a single program increment and require work from multiple teams for one team.  Typically, a Feature is broken down into several **Epics**.  An Epic fits within a single PI and can be done by a single team. Epics are broken into user stories. A typical epic contains 3 to 8 stories.
 
 # Description
 Both the scenario and epic contain much of the same information that the user stories does, but more of it. The customer, problem and outcomes are better defined. There are almost always multiple outcomes, as they often lead to multiple stories. 
@@ -15,7 +13,7 @@ The scenario description follows a two paragraph format:
 The epic description _DOESN'T_ contain information about _HOW_ the problem should be solved or what technology is used, unless that technology is given in the product definition (such as the cell phone in the example below). 
 
 
-## Scenario Example: 
+## Feature Example: 
 Description
 
 > Venya is waiting in line to buy plantains at her local market. She is corralling her elder child with one hand and has her baby in a sling. She often comes to this seller and she knows he has a good price. She also knows that even though she carries no money and he is not on her financial network, she can buy from him. As she approaches the head of the line she juggles the children and pulls out a simple flip phone. She tells him 3 pounds and he tells her the price, which she agrees to. 
