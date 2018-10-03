@@ -6,7 +6,7 @@
 
 * Our [Branching Strategy](./Branching-Strategy.md) and versioning is fairly simple
 
-* An example of how to [Build and Publish NodeJS](./Build-and-Publish-NodeJS.md) using CircleCI to the private package repository.
+* An example of how to [Build and Publish Node.js](./Build-and-Publish-NodeJS.md) using CircleCI to the private package repository.
 
 * Guidance for setting up and building a new [Java repository](https://github.com/Mojaloop/Docs/blob/master/mule/CircleCI/CircleCI.md)
 
