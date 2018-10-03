@@ -15,7 +15,7 @@ There's a [roadmap](https://github.com/mojaloop/mojaloop/blob/master/contribute/
 In general, we are looking for example implementations and bug fixes, and project enhancements. 
 
 ## Where do I get help?
-Join the [Mojaloop #General Channel](https://mojaloop-slack.herokuapp.com/) to connect with other developers.
+Join the [Mojaloop Slack Discussions](https://mojaloop-slack.herokuapp.com/) to connect with other developers.
 
 Also checkout the [FAQ](https://github.com/mojaloop/mojaloop/blob/master/FAQ.md)
 
@@ -43,7 +43,6 @@ See [License](https://github.com/mojaloop/mojaloop/blob/master/contribute/Licens
 ## What version?
 Naturally, we use [semantic versioning](http://semver.org/), and each repo has it's own version.
 Update the version appropriately when you submit a pull request. 
-
 Example: git tag v0.4.0 # update the version.
 
 ## Additional Information
