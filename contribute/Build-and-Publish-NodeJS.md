@@ -31,14 +31,14 @@ The CircleCI file defines the version of Node to use and when to publish to the 
     email = ${NPM_EMAIL}
     always-auth = true
 
-The .npmrc file for the repo defines where the private npm package repo is, the authorization token to write to it and the email to notify. To test that publishing works locally, you'll run _npm publish_. You'll want a local .npmrc file at cd ~ that defines the real values for your email and the auth token. [Here are instructions to get the auth token](https://github.com/mojaloop/Docs/blob/master/Artifactory/npm_repos.md).
+The .npmrc file for the repo defines where the private npm package repo is, the authorization token to write to it and the email to notify. To test that publishing works locally, you'll run _npm publish_. You'll want a local .npmrc file at cd ~ that defines the real values for your email and the auth token. [Here are instructions to get the auth token](https://docs.npmjs.com/private-modules/ci-server-config#getting-an-authentication-token).
 
 CircleCI doesn't have your local environment variables so you have to add the email and auth token to it. Use the UI at
 https://circleci.com/gh/mojaloop/YourRepoNameHere/edit#env-vars to add the two variables. 
 
 Your account will need full read and write access to your private npm repo. 
 
-See more info at[Adding a new project into CircleCI](https://github.com/mojaloop/Docs/blob/master/mule/CircleCI/CircleCI.md)
+See more info at [Adding a new project into CircleCI](https://github.com/mojaloop/docs/blob/master/DevOps/CircleCi.md)
 
 # Installing from the Private Repo
 So, you have another repo that takes a dependency on the package you've published...in order to npm install from the private repo you need a few pieces in the package.json
