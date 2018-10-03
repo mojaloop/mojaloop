@@ -1,58 +1,57 @@
 Here we document the reasoning behind certain tools, technology and process choices for Mojaloop.
 
-* **Agile development** - The requirements need to be refined as the project is developed, therefore we picked agile development over waterfall or lean.
+* **Agile development** - This methodology is used to track and run the project. The requirements need to be refined as the project is developed, therefore we picked agile development over waterfall or lean.
 
 * **APIs** - In order to avoid confusion from too many changing microservices, we use strongly defined APIs that conform to our [Pragmatic REST](Pragmatic-REST-Guidelines.md) design pattern. APIs will be defined using [OpenAPI or RAML](/Docs/wiki/API-Documentation.md). Teams document their APIs with Swagger v2.0 or RAML v0.8 so they can automatically test, document, and share their work. Swagger is slightly preferred as there are free tools. Mule will make use of RAML 0.8. Swagger can be automatically converted to RAML v0.8, or manually to RAML v1.0 if additional readability is desired.We also use the following tools to support API development:
   * **RAML** and **Swagger 2.0** is leveraged for API development.
   * **WSO2** offers an enterprise platform for integrating APIs, applications, and web services—locally and across the Internet. It also provides Mojaloop with a Security Layer, and Development Portal.
   * **Postman** is a Google Chrome application for interacting with HTTP APIs.  It presents you with a friendly GUI for constructing requests and reading responses.
 
-* **Automated Testing** - for the most part, most testing will be automated to allow for easy regression. See the [automated testing strategy](https://github.com/mojaloop/Docs/wiki/Architecture-Documentation-Guidelines#second-round).
+* **Automated Testing** - For the most part, most testing will be automated to allow for easy regression. See the [automated testing strategy](https://github.com/mojaloop/Docs/wiki/Architecture-Documentation-Guidelines#second-round).
 
 * **Checkstyle** - Within Java code, we use [Checkstyle](http://checkstyle.sourceforge.net/) as a code style guide and style enforcement tool.
 
-* **Circle-CI** is used for continuous build and continuous deployment.  We needed an online continuous build and testing system that can work with many small projects and a distributed team. Jenkins was considered, but it requires hosting a server and a lot of configuration. CircleCI allowed for a no host solution that could be started with no cost and very limited configuration. We thought we might start with CircleCI and move off later if we outgrew it, but that hasn’t been needed.
+* **Circle-CI** - This tool is used for continuous build and continuous deployment.  We needed an online continuous build and testing system that can work with many small projects and a distributed team. Jenkins was considered, but it requires hosting a server and a lot of configuration. CircleCI allowed for a no host solution that could be started with no cost and very limited configuration. We thought we might start with CircleCI and move off later if we outgrew it, but that hasn’t been needed.
 
 * **Dactyl** – We need to be able to print the online documentation. While it’s possible to print markdown files directly one at a time, we’d like to put the files into set of final PDF documents, where one page might end up in more than one final manual. [Dactyl](https://github.com/ripple/dactyl) is a maintained open source conversion tool that converts between markdown and PDF. We originally tried Pandoc, but it had bugs with converting tables. Dactyl fixes that and is much more flexible.
 
-* **Docker**  Docker container engine creates and runs the Docker container from the Docker image file.  **Docker hub** is used to link, build, test and push the Mojaloop code repositories.  We needed to support both local and cloud execution. We have many small microservices that have very simple specific configurations and requirements. The easiest way to guarantee that the service works the same way in every environment from local development, to cloud, to hosted production is to put each microservice in a Docker container along with all the prerequisites it needs to run. The container becomes a secure, closed, pre-configured, runnable unit. 
+* **Docker** - The Docker container engine creates and runs the Docker container from the Docker image file.  **Docker hub** is used to link, build, test and push the Mojaloop code repositories.  We needed to support both local and cloud execution. We have many small microservices that have very simple specific configurations and requirements. The easiest way to guarantee that the service works the same way in every environment from local development, to cloud, to hosted production is to put each microservice in a Docker container along with all the prerequisites it needs to run. The container becomes a secure, closed, pre-configured, runnable unit. 
 
 * **Draw.io** – We need to create pictures for our [documents and architecture diagrams](https://github.com/mojaloop/Docs/wiki/Architecture-Documentation-Guidelines) using an (ideally free) open source friendly tool, that is platform agnostic, supports vector and raster formats, allows WYSIWYG drawing, works with markdown, and is easy to use. We looked at many tools including: Visio, Mermaid, PlantUML, Sketchboard.io, LucidChart, Cacoo, Archi, and Google Drawings. Draw.io scored at the top for our needs. It’s free, maintained, easy to use, produces our formats, integrates with DropBox and GitHub, and platform agnostic. In order to save our diagrams, we have to save two copies – one in SVG (scalable vector) format and the other in PNG (raster). We use the PNG format within the docs since it can be viewed directly in GitHub. The SVG is used as the master copy as it is editable. 
 
 * **GitHub** – [GitHub](https://github.com/Mojaloop) is a widely-used source code repository service, based on git, the standard source code version control system for open source projects. So the decision to use GitHub was straightforward. We create a story every time for integration work. Create bugs for any issues. Ensure all stories are tracked throughout the pipeline to ensure reliable metrics.
 
-* **Helm** The Helm package manager for Kubernetes provides templatized deployments and configurations and allow for overall complexity management.
+* **Helm** - The Helm package manager for Kubernetes provides templatized deployments and configurations and allow for overall complexity management.
 
-* **Hosting**  Mojaloop has been designed to be infrastructure agnostic and as such is supported by AWS, Azure and On-Premise installations.
-
+* **Hosting**  - Mojaloop has been designed to be infrastructure agnostic and as such is supported by AWS, Azure and On-Premise installations.
 
 * **Interledger** – Mojaloop needed a lightweight, open, and secure transport protocol for funds. [Interledger.org](http://Interledger.org) provides all that. It also provides the ability to connect to other systems. We also considered block chain systems, but block chain systems send very large messages which will be harder to guarantee delivery of in third world infrastructure. Also, while blockchain systems provide good anonymity, that is not a project goal. To enable fraud detection, regulatory authorities need to be able to request records of transfers by account and person.
 
-* **JavaScript** The Mojaloop application is primarily written in JavaScript.
+* **JavaScript** - The Mojaloop application is primarily written in JavaScript.
 
-* **Kafka** is leveraged to support Mojaloop’s demand for a high velocity and high volume data messaging but keep our hardware requirements minimum.
+* **Kafka** - This technology is leveraged to support Mojaloop’s demand for a high velocity and high volume data messaging but keep our hardware requirements minimum.
 
-* **Kubectl** is a command line interface for running commands against Kubernetes clusters. 
+* **Kubectl** - This is a command line interface for running commands against Kubernetes clusters. 
 
-* **Kubernetes** provides an extraction layer, infrastructure management and a container-orchestration system.  
+* **Kubernetes** - This enterprise tool provides an extraction layer, infrastructure management and a container-orchestration system.  
 
 * **Markdown** – Documentation is a deliverable for this project, just like the code, and so we want to treat it like the code in terms of versioning, review, check in, and tracking changes. We also want the documentation to be easily viewable online without constantly opening a viewer. GitHub has a built-in format called Markdown which solves this well. The same files work for the Wiki and the documents. They can be reviewed with the check in using the same tools and viewed directly in GitHub. We considered Google Docs, Word and PDF, but these binary formats aren’t easily diff-able. A disadvantage is that markdown only allows simple formatting – no complex tables or font changes - but this should be fine when our main purpose is clarity.
 
 * **Microservices** - Because the architecture needs to easily deploy, scale, and have components be easily replaced or upgraded, it will be built as a set of microservices. 
 
-* **NodeJS** is a JavaScript runtime built on Chrome's V8 JavaScript engine that runs Mojaloop. NodeJS is designed to create simple microservices and it has a huge set of open source libraries available. Node performance is fine and while Node components don’t scale vertically a great deal, but we plan to scale horizontally, which it does fine. The original Interledger code was written in NodeJS as was the level one prototype. Most teams used Node already, so this made sense as a language.  Within NodeJS code, we use [Standard](https://www.npmjs.com/package/standard) as a code style guide and to enforce code style.
+* **NodeJS** - This development tool is a JavaScript runtime built on Chrome's V8 JavaScript engine that runs Mojaloop. NodeJS is designed to create simple microservices and it has a huge set of open source libraries available. Node performance is fine and while Node components don’t scale vertically a great deal, but we plan to scale horizontally, which it does fine. The original Interledger code was written in NodeJS as was the level one prototype. Most teams used Node already, so this made sense as a language.  Within NodeJS code, we use [Standard](https://www.npmjs.com/package/standard) as a code style guide and to enforce code style.
 
-* **NPM** is the package manager for Mojaloop since JavaScript is the default programming language. 
+* **NPM** - NPM is the package manager for Mojaloop since JavaScript is the default programming language. 
 
-* **Open source** - the entire project has been released as open source in accordance with the [Level One Project principles](https://leveloneproject.org/wp-content/uploads/2016/03/L1P_Level-One-Principles-and-Perspective.pdf). All tools and processes must be open source friendly and support projects that use an Apache 2.0 license with no restrictive licenses requirements on developers.
+* **Open source** - The entire project has been released as open source in accordance with the [Level One Project principles](https://leveloneproject.org/wp-content/uploads/2016/03/L1P_Level-One-Principles-and-Perspective.pdf). All tools and processes must be open source friendly and support projects that use an Apache 2.0 license with no restrictive licenses requirements on developers.
 
-* **Operating System** – Again, Microsoft Windows is widely used in many target countries, but we need an operating system that is free of license fees and is open source compatible. We are using Linux. We don’t have a dependency on the particular flavor, but are using the basic Amazon Linux. In the Docker containers, [Alpine Linux](https://alpinelinux.org/) is used.
+* **Operating System** – Microsoft Windows is widely used in many target countries, but we need an operating system that is free of license fees and is open source compatible. We are using Linux. We don’t have a dependency on the particular flavor, but are using the basic Amazon Linux. In the Docker containers, [Alpine Linux](https://alpinelinux.org/) is used.
 
-* **Percona** for **MySQL** is leveraged as a relational database management system to ensure high performance and enterprise-grade functionality for the Mojaloop system.  We needed a SQL backend that is open source friendly and can scale in a production environment. Thus, we chose MySQL, an open-source relational database management system.
+* **Percona** for **MySQL**  - These tools are leveraged as a relational database management system to ensure high performance and enterprise-grade functionality for the Mojaloop system.  We needed a SQL backend that is open source friendly and can scale in a production environment. Thus, we chose MySQL, an open-source relational database management system.
 
-* **Rancher 2.0**  The Infrastructure management, provisioning and monitoring is provided by Rancher 2.0 which is an enterprise Kubernetes platform that manage Kubernetes deployments, clusters, on cloud & on-prem.  Rancher makes it easy for DevOps teams to test, deploy and manage the Mojaloop system no matter where it is running.
+* **Rancher 2.0**  - The Infrastructure management, provisioning and monitoring is provided by Rancher 2.0 which is an enterprise Kubernetes platform that manage Kubernetes deployments, clusters, on cloud & on-prem.  Rancher makes it easy for DevOps teams to test, deploy and manage the Mojaloop system no matter where it is running.
 
-* **Scaled Agile Framework** - there are four initial development teams that are geographically separate. To keep the initial phase of the project on track, the [scaled agile framework (SAFe)](www.scaledagileframework.com) was picked. This means work is divided into program increments (PI) that are typically four 2 week sprints long.  As with the sprints, the PI has demo-able objective goals defined in each PI meeting.
+* **Scaled Agile Framework** - There were four initial development teams that are geographically separate. To keep the initial phase of the project on track, the [scaled agile framework (SAFe)](www.scaledagileframework.com) was picked. This means work is divided into program increments (PI) that are typically four 2 week sprints long.  As with the sprints, the PI has demo-able objective goals defined in each PI meeting.
 
 * **Services** - Microservices are grouped and deployed in a few services such as the DFSP, Central Directory, etc. Each of these will have simple defined interfaces, configuration scripts, tests, and documentation.
 
@@ -60,7 +59,7 @@ Here we document the reasoning behind certain tools, technology and process choi
 
 * **SonarQube** – We need an online dashboard of code quality (size, complexity, issues, and coverage) that can aggregate the code from all the repos. We looked at several online services (CodeCov, Coveralls, and Code Climate), but most couldn’t do complexity or even number of lines of code. Code Climate has limited complexity (through ESLint), but costs 6.67/seat/month. SonarQube is free, though it required us to setup and maintain our own server. It gave the P1 features we wanted. 
 
-* **Threat Modeling, Resilience Modeling, and Health Modeling** - because this code needs to exchange money in an environment with very flaky infrastructure it must have good security, resilience, and easily report it's health state and automatically attempt to return to it. To achieve this we employ basic tried and true [modeling practices](https://github.com/mojaloop/Docs/wiki/Architecture-Documentation-Guidelines#second-round). 
+* **Threat Modeling, Resilience Modeling, and Health Modeling** - Since the Mojallop code needs to exchange money in an environment with very flaky infrastructure it must have good security, resilience, and easily report it's health state and automatically attempt to return to it. To achieve this we employ basic tried and true [modeling practices](https://github.com/mojaloop/Docs/wiki/Architecture-Documentation-Guidelines#second-round). 
 
 * **USSD** - Smart phones are only 25% of the target market and not currently supported by most money transfer service, so we need a protocol that will work on simple feature phones. Like M-Pesa, we are using USSD between the phone and the digital financial service provider (DFSP).
 
