@@ -1,5 +1,5 @@
 # Phase 3 Roadmap
-Competition of Phase 3 is scheduled for February 2019
+Cmpletion of Phase 3 is scheduled for February 2019
 
 ## Functional Epics
 * Event Logging Framework: Support operational reporting and auditing of processing
