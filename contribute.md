@@ -9,9 +9,10 @@ Review the Mojaloop deployment guide and follow the instructions for deployment:
 
 ## What is the current release?
 The last fully tested release is called Phase 2.  We took a snapshot of this release in mid-October and the release notes and compoents are as follows:
-* central-ledger: *3.7.2* [Phase 2 Snapshot central-ledger](https://github.com/mojaloop/central-ledger/releases/tag/v3.7.2-snapshot) 
-* central-settlement: *3.7.2* [Phase 2 Snapshot central-settlement](https://github.com/mojaloop/central-settlement/releases/tag/v3.7.2-snapshot) 
-* ml-api-adapter: *3.7.1* - [Phase 2 Snapshot ml-api-adapter](https://github.com/mojaloop/ml-api-adapter/releases/tag/v3.7.1-snapshot)
+
+* central-ledger: [Phase 2 Snapshot central-ledger](https://github.com/mojaloop/central-ledger/releases/tag/v3.8.0)
+* central-settlement: [Phase 2 Snapshot central-settlement](https://github.com/mojaloop/central-settlement/releases/tag/v3.8.0) 
+* ml-api-adapter: [Phase 2 Snapshot ml-api-adapter](https://github.com/mojaloop/ml-api-adapter/releases/tag/v3.8.0)
 
 ## What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
