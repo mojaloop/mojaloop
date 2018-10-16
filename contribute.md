@@ -7,7 +7,7 @@ Review the Mojaloop deployment guide and follow the instructions for deployment:
 * [Deployment and Setup PDF](https://github.com/mojaloop/docs/blob/develop/WorkShops/Presentations/Mojaloop_Phase2_Wrap-up_Deployment-Day3_V2.0-published.pdf).
 * For additional information review our [onboarding document](https://github.com/mojaloop/mojaloop/blob/master/contribute/Readme.md).
 
-## What Release is current?
+## What is the current release?
 The last fully tested release is called Phase 2.  We took a snapshot of this release in mid-October and the release notes and compoents are as follows:
 * central-ledger: *3.7.2* [Phase 2 Snapshot central-ledger](https://github.com/mojaloop/central-ledger/releases/tag/v3.7.2-snapshot) 
 * central-settlement: *3.7.2* [Phase 2 Snapshot central-settlement](https://github.com/mojaloop/central-settlement/releases/tag/v3.7.2-snapshot) 
