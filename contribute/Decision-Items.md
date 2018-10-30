@@ -8,7 +8,7 @@ Bulk payments will actually be handled the same way as we do individual payments
 We will implement the simplest way possible and then identify where the loops are possible and the potential benefits of efficiency.
 
 ## Cash In / Cash Out
-The Network times out after 75 seconds and users are dropped/ need to determine the use case.  We don’t want users to use other people's pins.  Fees are paid by DFSP not center and stored in a second account for transparency  (Shows the mini statement).
+The Network times out after 75 seconds and users are dropped/ need to determine the use case.  We don't want users to use other people's pins.  Fees are paid by DFSP not center and stored in a second account for transparency  (Shows the mini statement).
 
 ## Central Directory
 Need to come up with some decorating scheme to define which you get to the generic thing to the user specific thing -- define a protocol. Takes multiple possible IDS - Returns dfsp server endpoints and standard UID
