@@ -18,7 +18,7 @@ Mojaloop is open-source software for creating digital payments platforms that co
 
 The intention is for financial institutions and commercial providers to use the open-source software to help build digital, interoperable payments platforms that drive financial inclusion on a national scale. Specifically, the platforms will enable seamless, low-cost transactions between individual users, merchants, banks, providers, and even government offices - helping connect poor customers with everyone else in the digital economy.  
 
-Mojaloop grew out of principles set forth by the Financial Services for the Poor team at the Bill & Melinda Gates Foundation. These principles form the cornerstone of the Level One Project, which is the foundation’s initiative for designing and implementing digital financial services and systems to include and benefit the world’s 2 billion unbanked. The code won’t address the gap in digital financial services on its own, but it can help service providers open markets and accelerate progress. 
+Mojaloop grew out of principles set forth by the Financial Services for the Poor team at the Bill & Melinda Gates Foundation. These principles form the cornerstone of the Level One Project, which is the foundation's initiative for designing and implementing digital financial services and systems to include and benefit the world's 2 billion unbanked. The code won't address the gap in digital financial services on its own, but it can help service providers open markets and accelerate progress. 
 
 With support and funding from the Bill & Melinda Gates Foundation, Mojaloop was designed by a team of leading tech and fintech companies: [Ripple](https://github.com/ripple), [Dwolla](https://github.com/dwolla), [ModusBox](http://www.modusbox.com/), [Software Group](http://www.softwaregroup-bg.com/) and [Crosslake Technologies](http://www.crosslaketech.com/). It is available now as an open-source project. Free to be used and adapted by anyone under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0). For more information on how Mojaloop ties into the larger initative of finanical inclusion, visit [LevelOneProject.org](https://leveloneproject.org/).
 
@@ -41,7 +41,7 @@ The basic idea behind Mojaloop is that we need to connect multiple Digital Finan
 ## What's here and what's not
 This is free code provided under an [Apache 2.0 license](https://github.com/mojaloop/mojaloop/blob/master/LICENSE.md). 
 
-The code is released with an Apache 2.0 license but the Specification documents under the ‘mojaloop-specification’ documents are published with CC BY-ND 4.0 License
+The code is released with an Apache 2.0 license but the Specification documents under the 'mojaloop-specification' documents are published with CC BY-ND 4.0 License
 
 We don't provide production servers to run it on. That's up to you. You are free (and encouraged!) to clone these repositories, participate in the community of developers, and contribute back to the code.
 
