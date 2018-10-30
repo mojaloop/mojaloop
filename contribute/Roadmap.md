@@ -21,10 +21,10 @@ Cmpletion of Phase 3 is scheduled for February 2019
 
 ## Non-Functional Epics
 * Deprecate Postgres: Avoid usage of multiple databases to improve supportability and maintenance and move to MySQL
-* Security & Threat Modeling: Address security vulnerabilities, issues and provide a report on status of the System’s security so that they can be addressed
+* Security & Threat Modeling: Address security vulnerabilities, issues and provide a report on status of the System's security so that they can be addressed
 * Documentation: Update documentation to support adoption by community, for labs, deployment by various partners
-* API-Led Design: Refactor central services so that schema validation, paths can be addressed thoroughly (automatically) and decrease maintenance, development effort (for those services don’t already follow this)
-	* API-led connectivity is a methodical way to connect data to applications through reusable and purposeful APIs.
+* API-Led Design: Refactor central services so that schema validation, paths can be addressed thoroughly (automatically) and decrease maintenance, development effort (for those services don't already follow this)
+* API-led connectivity is a methodical way to connect data to applications through reusable and purposeful APIs.
 
 # Beyond Phase 3
 Below is a list of larger initiatives and epics by area that will help to further develop the Mojaloop project. Some of these have been entered as epics or stories, but most are still in the "concept" phase.
