@@ -1,5 +1,5 @@
 # Mojaloop Core Related Components
-## Document Catalogue
+## Document Virtual Catalog
 
 #### What is this document about.
 This document is intended to provide the reader with an insight into the core related component repositories and the documentation currently available for Mojaloop. Navigation within the document and the respective repositories are possible by following the hyper-link. This document serves to consolidate all documentation under one "virtual map" of the entire Mojaloop related document suite.

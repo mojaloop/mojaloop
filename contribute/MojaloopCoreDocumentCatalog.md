@@ -1,5 +1,5 @@
 # Mojaloop Core Components
-## Document Catalogue
+## Document Virtual Catalog
 
 #### What is this document about.
 This document is intended to provide the reader with an insight into the core component repositories and the documentation currently available for Mojaloop. Navigation within the document and the respective repositories are possible by following the hyper-link. This document serves to consolidate all documentation under one "virtual map" of the entire Mojaloop document suite.
@@ -131,8 +131,8 @@ All references point to the master branch of each repository. The project develo
   ##### Implementation of Mojaloop API that provides the main features of lookup, quote.
    |Artefact|Artefact Description|
    |---|---|
-   |[LICENSE]()|Project Licensing information.|
-   |[README.md]()|Interop-account-lookup - provides the implementation of participants and its associated endpoints in PDP API:<ul><li>[Deployment](https://github.com/mojaloop/interop-switch/blob/master/README.md#deployment)</li><li>[Configuration](https://github.com/mojaloop/interop-switch/blob/master/README.md#configuration)</li><li>[API](https://github.com/mojaloop/interop-switch/blob/master/README.md#api)</li><li>[Logging](https://github.com/mojaloop/interop-switch/blob/master/README.md#logging)</li><li>[Tests](https://github.com/mojaloop/interop-switch/blob/master/README.md#tests)</li><li>[Docker](https://github.com/mojaloop/interop-switch/blob/master/README.md#docker)</li></ul>|
+   |[LICENSE](https://github.com/mojaloop/interop-switch/blob/master/LICENSE.md)|Project Licensing information.|
+   |[README.md](https://github.com/mojaloop/interop-switch/blob/master/README.md)|Interop-account-lookup - provides the implementation of participants and its associated endpoints in PDP API:<ul><li>[Deployment](https://github.com/mojaloop/interop-switch/blob/master/README.md#deployment)</li><li>[Configuration](https://github.com/mojaloop/interop-switch/blob/master/README.md#configuration)</li><li>[API](https://github.com/mojaloop/interop-switch/blob/master/README.md#api)</li><li>[Logging](https://github.com/mojaloop/interop-switch/blob/master/README.md#logging)</li><li>[Tests](https://github.com/mojaloop/interop-switch/blob/master/README.md#tests)</li><li>[Docker](https://github.com/mojaloop/interop-switch/blob/master/README.md#docker)</li></ul>|
 
 ### mock-pathfinder
   Click on [mock-pathfinder](https://github.com/mojaloop/mock-pathfinder) to navigate to the mock pathfinder repository.
