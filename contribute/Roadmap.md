@@ -1,5 +1,5 @@
 # Phase 3 Roadmap
-C
+
 ## Functional Epics
 * Event Logging Framework: Support operational reporting and auditing of processing
 * Error Handling Framework: Consistent reporting in line with specification and support operational auditing
