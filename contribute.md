@@ -14,6 +14,10 @@ The last fully tested release is called Phase 2.  We took a snapshot of this rel
 * central-settlement: [Phase 2 Snapshot central-settlement](https://github.com/mojaloop/central-settlement/releases/tag/v3.8.0) 
 * ml-api-adapter: [Phase 2 Snapshot ml-api-adapter](https://github.com/mojaloop/ml-api-adapter/releases/tag/v3.8.0)
 
+We have created a document combining all active repositories into a kind of virtual catalog where anyone can jump directly to any topic of interest. The respective documents can be accessed by following the links:
+ * [Core Repositories](https://github.com/mojaloop/mojaloop/blob/master/contribute/MojaloopCoreDocumentCatalog.md)
+ * [Core Related Repositories](https://github.com/mojaloop/mojaloop/blob/master/contribute/MojaloopCoreRelatedDocumentCatalog.md)
+
 ## What work is needed?
 Work is tracked as issues in GitHub. You'll see issues there that are open and marked as bugs, stories, or epics. An epic is larger work that contains multiple stories. Anything that is in the backlog and not assigned to someone are things we could use help with. Stories that have owners are in someone's backlog already, though you can always ask about them in the issue or on Slack. 
 
