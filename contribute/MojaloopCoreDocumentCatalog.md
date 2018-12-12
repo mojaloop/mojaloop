@@ -10,6 +10,10 @@ All references point to the master branch of each repository. The project develo
 ##### The following Mojaloop core components repository are part of this document:
 - [central-directory](#central-directory)
 - [central-end-user-registry](#central-end-user-registry)
+- [central-event-processor](#central-event-processor)
+  - [docs](#docs)
+    - [database](#database)
+    - [images](#images)
 - [central-kms](#central-kms)
 - [central-ledger](#central-ledger)
 - [central-services-auth](#central-services-auth)
@@ -17,6 +21,7 @@ All references point to the master branch of each repository. The project develo
 - [central-services-error-handling](#central-services-error-handling)
 - [central-services-shared](#central-services-shared)
 - [central-settlement](#central-settlement)
+- [email-notifier](#email-notifier)
 - [forensic-logging-sidecar](#forensic-logging-sidecar)
 - [interop-switch](#interop-switch)
 - [mock-pathfinder](#mock-pathfinder)
@@ -47,6 +52,35 @@ All references point to the master branch of each repository. The project develo
    |[LICENSE.md](https://github.com/mojaloop/central-end-user-registry/blob/master/LICENSE.md)|Project Licensing information.|
    |[Onboarding.md](https://github.com/mojaloop/central-end-user-registry/blob/master/Onboarding.md)|In this document we'll guide developers through the setup for the Central End User Registry. It consists of three sections:<ul><li>[Software List](https://github.com/mojaloop/central-end-user-registry/blob/master/Onboarding.md#software-list)</li><li>[Setup](https://github.com/mojaloop/central-end-user-registry/blob/master/Onboarding.md#setup)</li><li>[Errors On Setup](https://github.com/mojaloop/central-end-user-registry/blob/master/Onboarding.md#setup)</li></ul>|
    |[README.md](https://github.com/mojaloop/central-end-user-registry/blob/master/README.md)|Provides an overview of services. The following documentation represents the services, APIs and endpoints responsible for various end user registry functions:<ul><li>[Deployment](https://github.com/mojaloop/central-end-user-registry/blob/master/README.md#deployment)</li><li>[Configuration](https://github.com/mojaloop/central-end-user-registry/blob/master/README.md#deployment)</li><li>[API](https://github.com/mojaloop/central-end-user-registry/blob/master/README.md#api)</li><li>[Logging](https://github.com/mojaloop/central-end-user-registry/blob/master/README.md#logging)</li><li>[Tests](https://github.com/mojaloop/central-end-user-registry/blob/master/README.md#tests)</li></ul>|
+
+### central-event-processor
+  Click on [central-event-processor](https://github.com/mojaloop/docs/tree/master/Central-event-processor) to navigate to central event processor repository.
+  ##### Standalone service that process events based on set of rules. Currently used to monitor the notification topic and create various notifications (e.g. email, etc).
+   |Artefact|Artefact Description|
+   |---|---|
+   |[README.md](https://github.com/mojaloop/central-event-processor/blob/master/README.md)|Provides an overview of the event processor and notification service.|
+   |[LICENSE.md](https://github.com/mojaloop/central-event-processor/blob/master/LICENSE.md)|Project Licensing information.
+
+  #### docs
+  Click on [docs](https://github.com/mojaloop/central-event-processor/tree/master/docs) to navigate to docs directory within the central event processor repository.
+  ###### Contains the public documents and high block diagrams for the Central Event Processor service.  
+   ##### Database
+   Click on [database](https://github.com/mojaloop/central-event-processor/tree/master/docs/database) to navigate to database directory within the docs directory within the central event processor repository.
+   ###### Contains the public document for the Central Event Processor database design.
+   |Artefact|Artefact Description|
+   |---|---|
+   |[Mojaloop_central-notifications_Db_ver1.0.html](https://github.com/mojaloop/central-event-processor/blob/master/docs/database/Mojaloop_central-notifications_Db_ver1.0.html)|Provides an overview of the Central Event Processor notifications service database design.|
+   ##### images
+   Click on [images](https://github.com/mojaloop/central-event-processor/tree/master/docs/images) to navigate to images directory within the docs directory within the central event processor repository.
+   ###### Contains the public documents and high level block diagrams for the Central Event Processor and processes.
+   |Artefact|Artefact Description|
+   |---|---|
+   |[1.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/1.png)|Rest API calls for this Central Notifications serves.|
+   |[2.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/2.png)|Notification System general process overview.|
+   |[3.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/3.png)|Limit adjustment rule validation.|
+   |[4.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/4.png)|Limit position breach.|
+   |[5.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/5.png)|Action flow.|
+   |[6.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/6.png)|Notifier service.|
 
 ### central-kms
   Click on [central-kms](https://github.com/mojaloop/central-kms) to navigate to the central kms repository.  
@@ -115,6 +149,14 @@ All references point to the master branch of each repository. The project develo
    |[Onboarding.md](https://github.com/mojaloop/central-settlement/blob/master/Onboarding.md)|Document to guide developers through the setup process for Central Settlements. (document content to be provided by project team).|
    |[README.md](https://github.com/mojaloop/central-settlement/blob/master/README.md)|High level explanation of the service. This service is currently still being developed. Content will be updated as project progress.|
    |[TransferGuide.md](https://github.com/mojaloop/central-settlement/blob/master/TransferGuide.md)|Document to guide through the Settlement process.(document content to be provided by project team).|
+
+### email-notifier
+  Click on [email-notifier](https://github.com/mojaloop/email-notifier) to navigate to the email notifier repository.
+  ##### Stand-alone email service that consumes messages from kafka topic, produced by the central-notifications service. 
+   |Artefact|Artefact Description|
+   |---|---|
+   |[README.md](https://github.com/mojaloop/email-notifier/blob/master/README.md)|The document will guide you to the following:<ul><li>Central Notification Service</li><li>Configuration required for email notifications.</li></ul>
+   |[LICENSE.md](https://github.com/mojaloop/email-notifier/blob/master/LICENSE.md)|Project Licensing information.|
 
 ### forensic-logging-sidecar
   Click on [forensic-logging-sidecar](https://github.com/mojaloop/forensic-logging-sidecar) to navigate to the forensic logging sidecar repository.

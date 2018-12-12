@@ -9,10 +9,6 @@ All references point to the master branch of each repository. The project develo
 
 ##### The following Mojaloop core related components repository are part of this document:
 
-- [Central-event-processor](#central-event-processor)
-  - [Docs](#docs)
-    - [Database](#database)
-    - [Images](#images)
 - [Docs](#docs)
   - [CentralDirectory](#centraldirectory)
   - [CentralLedger](#centralledger)
@@ -48,7 +44,6 @@ All references point to the master branch of each repository. The project develo
     - [End-to-end](#end-to-end)
     - [Ilp-integration](#ilp-integration)
     - [Performance](#performance)
-- [Email-notifier](#email-notifier)
 - [Helm](#helm)
 - [Interop-common](#interop-common)
 - [Interop-devops](#interop-devops)
@@ -64,35 +59,6 @@ All references point to the master branch of each repository. The project develo
 
 
 ## Repository
-
-### Central-event-processor
- Click on [Central-event-processor](https://github.com/mojaloop/docs/tree/master/Central-event-processor) to navigate to _central-event-processor_ repository.
- ##### Standalone service that process events based on set of rules. Currently used to monitor the notification topic and create various notifications (e.g. email, etc).
- |Artefact|Artefact Description|
- |---|---|
- |[README.md](https://github.com/mojaloop/central-event-processor/blob/master/README.md)|Provides an overview of the event processor and notification service|
- |[LICENSE.md](https://github.com/mojaloop/central-event-processor/blob/master/LICENSE.md)|Project Licensing information.
-
-  #### Docs
-  Click on [Docs](https://github.com/mojaloop/central-event-processor/tree/master/docs) to navigate to _docs_ directory within the _central-event-processor_ repository.
-  ###### Contains the public documents and high block diagrams for the Central Event Processor service.  
-   ##### Database
-   Click on [Database](https://github.com/mojaloop/central-event-processor/tree/master/docs/database) to navigate to _database_ directory within the _docs_ directory within the _central-event-processor_ repository.
-   ###### Contains the public document for the Central Event Processor database design.
-  |Artefact|Artefact Description|
-  |---|---|
-  |[Mojaloop_central-notifications_Db_ver1.0.html](https://github.com/mojaloop/central-event-processor/blob/master/docs/database/Mojaloop_central-notifications_Db_ver1.0.html)|Provides an overview of the Central Event Processor notifications service database design|
-   ##### Images
-   Click on [Images](https://github.com/mojaloop/central-event-processor/tree/master/docs/images) to navigate to _images_ directory within the _docs_ directory within the _central-event-processor_ repository.
-   ###### Contains the public documents and high block diagrams for the Central Event Processor and processes.
-  |Artefact|Artefact Description|
-  |---|---|
-  |[1.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/1.png)|Rest API calls for this Central Notifications serves|
-  |[2.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/2.png)|Notification System general process overview|
-  |[3.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/3.png)|Limit adjustment rule validation|
-  |[4.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/4.png)|Limit position breach|
-  |[5.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/5.png)|Action flow|
-  |[6.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/6.png)|Notifier service|
 
 ### Docs
  Click on [docs](https://github.com/mojaloop/docs) to navigate to the _docs_ repository.
@@ -392,13 +358,6 @@ All references point to the master branch of each repository. The project develo
    |---|---|
    |[Performance Testing Summary.pdf](https://github.com/mojaloop/docs/blob/develop/Test/performance/Performance%20Testing%20Summary.pdf)|Provides insight into the L1P Performance Testing Framework.|
 
-### Email-notifier
-  Click on [email-notifier](https://github.com/mojaloop/email-notifier) to navigate to the _email-notifier_ repository.
-  ##### Stand-alone email service that consumes messages from kafka topic, produced by the central-notifications service. 
-  |Artefact|Artefact Description|
-  |---|---|
-  |[README.md](https://github.com/mojaloop/email-notifier/blob/master/README.md)|The document will guide you to the following:<ul><li>Central Notification Service</li><li>Configuration required for email notifications.</li></ul>
-  |[LICENSE.md](https://github.com/mojaloop/email-notifier/blob/master/LICENSE.md)|Project Licensing information.|
 
 ### Helm
   Click on [helm](https://github.com/mojaloop/helm) to navigate to the _helm_ repository.
