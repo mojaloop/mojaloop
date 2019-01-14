@@ -27,7 +27,6 @@ Mojaloop makes it easier for financial providers and entrepreneurs to go to mark
 
 A nationwide interoperable digital payments platform requires really good code. Your contributions will help ensure that Mojaloop covers all the bases, translates well to real-world scenarios, and meets the many and diverse needs of financial providers and customers.  
 
-
 ## Mojaloop Services
 The following architecture diagram shows the Mojaloop services:
 ![Mojaloop Services](https://github.com/mojaloop/docs/blob/master/Wiki/Mojaloop%20Services%20Overview.png)
