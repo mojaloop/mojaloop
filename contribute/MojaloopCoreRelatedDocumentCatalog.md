@@ -294,7 +294,7 @@ All references point to the master branch of each repository. The project develo
 
   #### Interop
   Click on [Interop](https://github.com/mojaloop/docs/tree/master/Interop) to navigate to _Interop_ directory within the _docs_ repository.
-  ######Contains a document that describes an outline design to support transfers of funds between parties.
+  ###### Contains a document that describes an outline design to support transfers of funds between parties.
    |Artefact|Artefact Description|
    |---|---|
    |[transfers-between-mojaloop-implementations.md](https://github.com/mojaloop/docs/blob/master/Interop/transfers-between-mojaloop-implementations.md)|This document describes an outline design to support transfers of funds between parties who are customers of DFSPs which belong to different Mojaloop implementations.|
@@ -346,7 +346,7 @@ All references point to the master branch of each repository. The project develo
 
    ##### Ilp-integration
    Click on [ilp-integration](https://github.com/mojaloop/docs/tree/master/Test/ilp-integration) to navigate to the _ilp-integration_ sub directory in the _Test_ directory within the _docs_ repository.
-   ######  Contains the initial performance and functional tests for Mojaloop assets.
+   ###### Contains the initial performance and functional tests for Mojaloop assets.
    |Artefact|Artefact Description|
    |---|---|
    |[README.md](https://github.com/mojaloop/docs/blob/master/Test/ilp-integration/README.md)|Shows initial attempt at providing performance and functional tests for Mojaloop assets.|
@@ -358,12 +358,13 @@ All references point to the master branch of each repository. The project develo
    |---|---|
    |[Performance Testing Summary.pdf](https://github.com/mojaloop/docs/blob/develop/Test/performance/Performance%20Testing%20Summary.pdf)|Provides insight into the L1P Performance Testing Framework.|
 
+
 ### Helm
   Click on [helm](https://github.com/mojaloop/helm) to navigate to the _helm_ repository.
   ##### A collection of _chart_ files that describe a related set of Kubernetes resources. The _charts_ are packaged into versioned archives to be deployed.
-   |Artefact|Artefact Description|
-   |---|---|
-   |[README.md](https://github.com/mojaloop/helm/blob/master/README.md)|A guide in assisting with the following:<ul><li>Deployment from Repo</li><li>Upgrading Deployments from Repo</li><li>Update Chart Dependencies for Source</li><li>Deployment from Source</li><li>Upgrading Deployments from Source</li><li>Testing Deployments</li><li>Removing Deployments</li><li>Debugging Charts</li><li>Helper scripts for deploying Ingress, deploying Central and Package charts.</li></ul>
+  |Artefact|Artefact Description|
+  |---|---|
+  |[README.md](https://github.com/mojaloop/helm/blob/master/README.md)|A guide in assisting with the following:<ul><li>Deployment from Repo</li><li>Upgrading Deployments from Repo</li><li>Update Chart Dependencies for Source</li><li>Deployment from Source</li><li>Upgrading Deployments from Source</li><li>Testing Deployments</li><li>Removing Deployments</li><li>Debugging Charts</li><li>Helper scripts for deploying Ingress, deploying Central and Package charts.</li></ul>
 
 ### Interop-common
   Click on [Interop-common](https://github.com/mojaloop/interop-common) to navigate to the _Interop-common_ repository.
@@ -404,7 +405,7 @@ All references point to the master branch of each repository. The project develo
   ##### Provides an overview of the project and navigates the reader Starting point for on-boarding and contribution documentation for Mojaloop.
    ##### Contribute
    Click on [contribute](https://github.com/mojaloop/mojaloop/tree/master/contribute) to go to the _contribute_ sub directory in the _mojaloop_ repository.
-   #####Contains helpful artefacts about Mojaloop. Also provides guidelines how to contribute to the project as a community member.|
+   ##### Contains helpful artefacts about Mojaloop. Also provides guidelines how to contribute to the project as a community member.|
    |Artefact|Artefact Description|
    |---|---|
    |[Architecture-Documentation-Guidelines.md](https://github.com/mojaloop/mojaloop/blob/master/contribute/Architecture-Documentation-Guidelines.md)|Guidelines for creating project documentation.|
