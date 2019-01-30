@@ -78,7 +78,7 @@ All references point to the master branch of each repository. The project develo
    |[1.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/1.png)|Rest API calls for this Central Notifications serves.|
    |[seq-cep-10.1-processes-overview](https://github.com/mojaloop/central-event-processor/blob/master/docs/sequenceDiagrams/seq-cep-10.1-processes-overview.svg)|Notification System general process overview.|
    |[seq-cep-10.2-adjustment-rule-validation](https://github.com/mojaloop/central-event-processor/blob/master/docs/sequenceDiagrams/seq-cep-10.2-adjustment-rule-validation.svg)|Limit adjustment rule validation.|
-   |[seq-cep-10.3.-breaching-threshold-percentage-limit](https://github.com/mojaloop/central-event-processor/blob/master/docs/sequenceDiagrams/seq-cep-10.3.-breaching-threshold-percentage-limit.svg)|Limit position breach.|
+   |[seq-cep-10.3-breaching-threshold-percentage-limit](https://github.com/mojaloop/central-event-processor/blob/master/docs/sequenceDiagrams/seq-cep-10.3-breaching-threshold-percentage-limit.svg)|Limit position breach.|
    |[seq-cep-10.4-action-flow](https://github.com/mojaloop/central-event-processor/blob/master/docs/seq-cep-10.4-action-flow.svg)|Action flow.|
    |[seq-cep-10.5-scheduler-flow](https://github.com/mojaloop/central-event-processor/blob/master/docs/sequenceDiagrams/seq-cep-10.5-scheduler-flow.svg)|Scheduler flow.|
    |[6.png](https://github.com/mojaloop/central-event-processor/blob/master/docs/images/6.png)|Notifier service.|
