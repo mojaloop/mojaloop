@@ -1,6 +1,6 @@
 Here we document the reasoning behind certain tools, technology and process choices for Mojaloop.  We also have included the recommendation links/versions for each of these tools.
 
-*TOOL CHOICES*
+**TOOL CHOICES**
 
 * **API Development**
   * **RAML** and **Swagger 2.0** is leveraged for API development.
@@ -49,7 +49,7 @@ Here we document the reasoning behind certain tools, technology and process choi
 * **ZenHub** – We needed a project management solution that was very light weight and cloud based to support distributed teams. It had to support epics, stories, and bugs and a basic project board. VS and Jira online offerings were both considered.  For a small distributed development team an online service was better. For an open source project, we didn’t want ongoing maintenance costs of a server. Direct and strong GitHub integration was important. It was very useful to track work for each microservice with that microservice. Jira and VS both have more overhead than necessary for a project this size and don’t integrate as cleanly with GitHub as we’d want. ZenHub allowed us to start work immediately. A disadvantage is the lack of support for cumulative flow diagrams and support for tracking # of stories instead of points, so we do these manually with a spreadsheet updated daily and the results published to the "Project Management" Slack channel.
 
 
-* **TECHNOLOGY CHOICES**
+**TECHNOLOGY CHOICES**
 
 * **Agile development** - This methodology is used to track and run the project. The requirements need to be refined as the project is developed, therefore we picked agile development over waterfall or lean.
 
