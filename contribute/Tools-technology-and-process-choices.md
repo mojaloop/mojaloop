@@ -1,6 +1,6 @@
 Here we document the reasoning behind certain tools, technology and process choices for Mojaloop.  We also have included the recommendation links/versions for each of these tools.
 
-* **TOOL CHOICES**
+*TOOL CHOICES*
 
 * **API Development**
   * **RAML** and **Swagger 2.0** is leveraged for API development.
@@ -20,11 +20,7 @@ Here we document the reasoning behind certain tools, technology and process choi
 
 * **Helm** - The Helm package manager for Kubernetes provides templatized deployments and configurations and allow for overall complexity management.
 
-* **Postman** is a Google Chrome application for interacting with HTTP APIs.  It presents you with a friendly GUI for constructing requests and reading responses.
-
 * **Kafka** - This technology is leveraged to support Mojaloop’s demand for a high velocity and high volume data messaging but keep our hardware requirements minimum.
-
-* **Microservices** - Because the architecture needs to easily deploy, scale, and have components be easily replaced or upgraded, it will be built as a set of microservices. 
 
 * **JavaScript** - The Mojaloop application is primarily written in JavaScript.
 
@@ -40,11 +36,15 @@ Here we document the reasoning behind certain tools, technology and process choi
 
 * **Percona** for **MySQL**  - These tools are leveraged as a relational database management system to ensure high performance and enterprise-grade functionality for the Mojaloop system.  We needed a SQL backend that is open source friendly and can scale in a production environment. Thus, we chose MySQL, an open-source relational database management system.
 
+* **Postman** is a Google Chrome application for interacting with HTTP APIs.  It presents you with a friendly GUI for constructing requests and reading responses.
+
 * **Rancher 2.0**  - The Infrastructure management, provisioning and monitoring is provided by Rancher 2.0 which is an enterprise Kubernetes platform that manage Kubernetes deployments, clusters, on cloud & on-prem.  Rancher makes it easy for DevOps teams to test, deploy and manage the Mojaloop system no matter where it is running.
 
 * **Slack** – Slack is used for internal team communication. This was largely picked because several team already used it and liked it as a lightweight approach compared to email. 
 
 * **SonarQube** – We need an online dashboard of code quality (size, complexity, issues, and coverage) that can aggregate the code from all the repos. We looked at several online services (CodeCov, Coveralls, and Code Climate), but most couldn’t do complexity or even number of lines of code. Code Climate has limited complexity (through ESLint), but costs 6.67/seat/month. SonarQube is free, though it required us to setup and maintain our own server. It gave the P1 features we wanted. 
+
+* **Stories On Board** - We use Stories on Board to help capture our high level Epics at a portfolio level before they are commmitted and moved to Github.  Our Story Board for Mojaloop is located [here](https://mojaloop.storiesonboard.com/m/ml-phase3-planning)
 
 * **ZenHub** – We needed a project management solution that was very light weight and cloud based to support distributed teams. It had to support epics, stories, and bugs and a basic project board. VS and Jira online offerings were both considered.  For a small distributed development team an online service was better. For an open source project, we didn’t want ongoing maintenance costs of a server. Direct and strong GitHub integration was important. It was very useful to track work for each microservice with that microservice. Jira and VS both have more overhead than necessary for a project this size and don’t integrate as cleanly with GitHub as we’d want. ZenHub allowed us to start work immediately. A disadvantage is the lack of support for cumulative flow diagrams and support for tracking # of stories instead of points, so we do these manually with a spreadsheet updated daily and the results published to the "Project Management" Slack channel.
 
@@ -64,6 +64,8 @@ Here we document the reasoning behind certain tools, technology and process choi
 * **Open source** - The entire project has been released as open source in accordance with the [Level One Project principles](https://leveloneproject.org/wp-content/uploads/2016/03/L1P_Level-One-Principles-and-Perspective.pdf). All tools and processes must be open source friendly and support projects that use an Apache 2.0 license with no restrictive licenses requirements on developers.
 
 * **Operating System** – Microsoft Windows is widely used in many target countries, but we need an operating system that is free of license fees and is open source compatible. We are using Linux. We don’t have a dependency on the particular flavor, but are using the basic Amazon Linux. In the Docker containers, [Alpine Linux](https://alpinelinux.org/) is used.
+
+* **Microservices** - Because the architecture needs to easily deploy, scale, and have components be easily replaced or upgraded, it will be built as a set of microservices. 
 
 * **Scaled Agile Framework** - There were four initial development teams that are geographically separate. To keep the initial phase of the project on track, the [scaled agile framework (SAFe)](www.scaledagileframework.com) was picked. This means work is divided into program increments (PI) that are typically four 2 week sprints long.  As with the sprints, the PI has demo-able objective goals defined in each PI meeting.
 
