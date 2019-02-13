@@ -16,7 +16,9 @@ More specifics are below.
 ## Overview Documents
 
 Overview documents include the topics, components and or services that
-span the entire project. The documents should have their own
+span the entire project. 
+
+The documents should have their own
 readme file and be located in a corresponding sub-folder in [docs
 repository](https://github.com/Mojaloop/docs). Examples or topics
 and examples that span the entire project are included below:
@@ -36,8 +38,6 @@ Each of the main services also have a section describing them in the Docs repo. 
 
 -   Central Ledger
 -   Central Services 
--   DFSP scheme adapter
--   Central Settlement
 
 Services docs cover the service architecture, service deployment,
 configuration, health model, integration tests, and API docs. If there
@@ -56,7 +56,6 @@ that will be part of a specific repo include:
 
 * Central Rules
 * Fraud Services
-* ILP Adapter
 
 For these topics, please use the [README-Template](./README-Template.md)
 
