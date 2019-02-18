@@ -1,3 +1,5 @@
+NOTE - THIS MD FILE HAS MOVED TO THE \DOCUMENTAITON\CONTRIBUTE repo.
+
 Here we document the reasoning behind certain tools, technology and process choices for Mojaloop.  We also have included the recommendation links/versions for each of these tools.
 
 **TOOL CHOICES**
