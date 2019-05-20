@@ -12,5 +12,7 @@ _This list (in alphabetical order) is by no means exhaustive and complete. Pleas
 
 - [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/)
 - [Crosslake](https://crosslaketech.com/)
+- [Fintech Inversiones](http://www.fintechinversiones.com.py)
 - [Modusbox](http://modusbox.com/)
 - [![pullreminders](https://pullreminders.com/badge.svg)](https://pullreminders.com?ref=badge)
+- [Vessels Tech](https://vesselstech.com/)
