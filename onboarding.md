@@ -3,12 +3,12 @@
 ## <a name='Contents'></a>Contents 
 
 <!-- vscode-markdown-toc -->
-* [Installing CLI Tools](#InstallingCLITools)
-* [Non-CLI Tools](#Non-CLITools)
-* [Development Workflow](#DevelopmentWorkflow)
-* [Contributing to a Specific Sub Project](#ContributingtoaSpecificSubProject)
-* [Other Useful Links](#OtherUsefulLinks)
-* [Common Errors & FAQs](#CommonErrorsFAQs)
+1. [Installing CLI Tools](#InstallingCLITools)
+2. [Non-CLI Tools](#Non-CLITools)
+3. [Development Workflow](#DevelopmentWorkflow)
+4. [Contributing to a Specific Sub Project](#ContributingtoaSpecificSubProject)
+5. [Other Useful Links](#OtherUsefulLinks)
+6. [Common Errors & FAQs](#CommonErrorsFAQs)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
