@@ -21,8 +21,10 @@ Mojaloop aims at creating payment platforms that are interoperable, connecting d
 
 __Channels:__
 - `#announcements` - Announcements for new Releases and QA Status
+- `#design-authority`- Questions + Discussion around Mojaloop Design
 - `#general` - General discussion about Mojaloop
 - `#help-mojaloop` - Ask for help with installing or running Mojaloop
+- `#ml-oss-bug-triage` - Discussion and triage for new bugs and issues
 
 ## Contributing
 
