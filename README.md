@@ -1,14 +1,46 @@
-# Welcome to the Mojaloop Open Source Project
+<p align="center">
+  <a target="_blank" href="https://mojaloop.io">
+    <img src="./images/mojaloop_logo.png"/>
+  </a>
+</p>
 
-### Mojaloop aims at creating payment platforms that are interoperable, connecting digital financial service providers and customers by providing specifications, standards and open-source software.  
+Mojaloop aims at creating payment platforms that are interoperable, connecting digital financial service providers and customers by providing specifications, standards and open-source software.
 
-## Please review the full [Mojaloop Documentation](http://mojaloop.io/documentation/)
+[![Git Releases](https://img.shields.io/github/v/release/mojaloop/helm?label=helm%20version)](https://github.com/mojaloop/helm/releases)
+[![License](https://img.shields.io/badge/Licence-Apache%202.0-orange.svg)](./LICENSE.md)
+
+## Documentation
+- [Official Mojaloop Documentation](https://mojaloop.io/documentation)
+- [Developer Onboarding Guide](./onboarding.md)
+- [Deploy Mojaloop On Kubernetes](https://mojaloop.io/documentation/deployment-guide/)
+- [Mojaloop Business Documentation](https://mojaloop.io/mojaloop-business-docs/)
+
+## Contact
+
+[Slack](https://mojaloop-slack.herokuapp.com/) is the best way to keep in touch with the Mojaloop Community. Sign up for your Mojaloop Slack account [here](https://mojaloop-slack.herokuapp.com/).
+
+__Channels:__
+- `#announcements` - Announcements for new Releases and QA Status
+- `#general` - General discussion about Mojaloop
+- `#help-mojaloop` - Ask for help with installing or running Mojaloop
+
+## Contributing
+
+Refer to the [Contributors guide](https://mojaloop.io/documentation/contributors-guide/) to get started making contributions.
+
+You may also want to read:
+- [Mojaloop Github Project](github.com/mojaloop/project) 
+  > _note: You must install the [ZenHub extension](https://www.zenhub.com/extension) in order to see the Project Kanban Board_
+- [Developer Onboarding Guide](./onboarding.md)
+- [Mojaloop Repo Overview](https://mojaloop.io/documentation/repositories/)
+
+If you have any trouble getting started, or want to know where to start, reach out to us on the `#general` channel in [Slack](https://mojaloop-slack.herokuapp.com/)!
 
 ## Support from the wider community
 
 Special thanks to all the organizations and individuals who have supports this Open-Source effort.
 
-_This list (in alphabetical order) is by no means exhaustive and complete. Please raise a Pull-Request if you believe your Organisation should be included in this list._
+>_This list (in alphabetical order) is by no means exhaustive and complete. Please raise a Pull Request if you believe your Organization should be included in this list._
 
 - [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/)
 - [Coil](https://coil.com/)
@@ -16,4 +48,3 @@ _This list (in alphabetical order) is by no means exhaustive and complete. Pleas
 - [Fintech Inversiones](http://www.fintechinversiones.com.py)
 - [Modusbox](http://modusbox.com/)
 - [![pullreminders](https://pullreminders.com/badge.svg)](https://pullreminders.com?ref=badge)
-- [Vessels Tech](https://vesselstech.com/)
