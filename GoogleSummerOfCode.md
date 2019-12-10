@@ -1,4 +1,4 @@
-# Goggle Summer of Code Ideas
+# Google Summer of Code Ideas
 
 ## Non-functional Requirements
 Work alongside seasoned developers to help with performance testing, penetration testing for security and improving quality.
