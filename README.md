@@ -38,11 +38,11 @@ You may also want to read:
 
 If you have any trouble getting started, or want to know where to start, reach out to us on the `#general` channel in [Slack](https://mojaloop-slack.herokuapp.com/)!
 
-### Mojaloop Repos
+### Mojaloop Repositories
 
-Refer to the [Mojaloop Repo Overview](https://mojaloop.io/documentation/repositories/) for a detailed breakdown of each Mojaloop Repo in development.
+Refer to the [Mojaloop Repository Overview](https://mojaloop.io/documentation/repositories/) for a detailed breakdown of each Mojaloop Repository in development.
 
-As a quick reference, some of the most important repos for contributors are:
+As a quick reference, some of the most important repositories for contributors are:
 
 - [central-ledger](https://github.com/mojaloop/central-ledger) - Core Service in charge of managing transfers between DFSPs
 - [ml-api-adapter](https://github.com/mojaloop/ml-api-adapter) - Translation layer to convert to/from Mojaloop API to an internal format that is used in Central Services Stack.
@@ -53,7 +53,7 @@ As a quick reference, some of the most important repos for contributors are:
 
 ### Creating New Issues
 
-We use the [mojaloop/project](https://github.com/mojaloop/project) repo as an issue tracker for all repos across the Mojaloop Project.
+We use the [mojaloop/project](https://github.com/mojaloop/project) repository as an issue tracker for all repositories across the Mojaloop Project.
 
 When creating a new issue, select from the issue templates provided [here](https://github.com/mojaloop/project/issues/new/choose)
 
