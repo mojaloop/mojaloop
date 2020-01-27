@@ -60,7 +60,7 @@ When creating a new issue, select from the issue templates provided [here](https
 
 ## Support from the wider community
 
-Special thanks to all the organizations and individuals who have supports this Open-Source effort.
+Special thanks to all the organizations and individuals who have supported this Open-Source effort.
 
 >_This list (in alphabetical order) is by no means exhaustive and complete. Please raise a Pull Request if you believe your Organization should be included in this list._
 
