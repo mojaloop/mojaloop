@@ -110,7 +110,15 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 Then follow the rest of the MacOS installation steps.
 
 ##### macOS
-Download and install the nvm installer with curl:
+
+Use a `brew` package manager
+
+```bash
+brew install nvm
+```
+and follow instructions shown in terminal to properly setup your shell environment for `nvm`.
+
+Or download and install the nvm installer with curl:
 
 ```bash
 curl https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
@@ -151,8 +159,8 @@ You will need to run `source ~/.bash_profile`, or restart your shell for these c
 
 #### <a name='NPM'></a>NPM
 
-Npm is the node package manager. It allows us to install and manage the dependencies for each of the sub-projects.
-We also use npm as the entrypoint for many different commands, such as running tests [finish]
+NPM is the node package manager. It allows us to install and manage the dependencies for each of the sub-projects.
+We also use npm as the entry point for many different commands, such as running tests [finish]
 
 If you installed `nvm` above, you can skip this step, as `npm` will already be installed.
 
@@ -164,6 +172,8 @@ Use homebrew to install `node` and `npm` together.
 ```bash
 brew install node
 ```
+
+If you have already installed `nvm` (see above) you can skip this step. Elsewhere you can have multiple Node.js instances and it could bring some problems in future.
 
 ##### Linux
 
@@ -216,7 +226,7 @@ sudo ln -s /opt/Postman/Postman /usr/bin/postman
 
 #### <a name='PostmanSetup'></a>Postman Setup
 
-There are already a number of readymade Mojaloop Postman collections in the [Postman Repo](https://github.com/mojaloop/postman).
+There are already a number of ready-made Mojaloop Postman collections in the [Postman Repo](https://github.com/mojaloop/postman).
 
 ```bash
 git clone git@github.com:mojaloop/postman.git
@@ -263,10 +273,16 @@ We will only cover the installation of MySQLWorkbench in this guide. For using M
 
 #### macOS
 
+use `brew` package manager
+```bash
+brew cask install mysqlworkbench
+```
+
+Or: 
 * Go to this page [here](https://dev.mysql.com/downloads/workbench/)
 * Scroll down the page > select **macOS** for the operating system > *Download*
 
->_Note: this version of MySQLWorkbench is compatible with Mojave (10.14) and High Sierra (10.13)_
+>_Note: this version of MySQLWorkbench is compatible with Mojave (10.14) and High Sierra (10.13)_ 
 
 #### Linux
 
