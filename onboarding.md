@@ -226,7 +226,7 @@ sudo ln -s /opt/Postman/Postman /usr/bin/postman
 
 #### <a name='PostmanSetup'></a>Postman Setup
 
-There are already a number of ready made Mojaloop Postman collections in the [Postman Repo](https://github.com/mojaloop/postman).
+There are already a number of ready-made Mojaloop Postman collections in the [Postman Repo](https://github.com/mojaloop/postman).
 
 ```bash
 git clone git@github.com:mojaloop/postman.git
