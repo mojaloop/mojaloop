@@ -47,7 +47,7 @@ Most of the tools we install with `brew` are available on existing linux package
 
 ### <a name='docker'></a>2. `docker`
 
-We use docker to build relaible images of the Mojaloop components, as well as install and run other developer tools such as MySQL and Kafka without requiring the overhead of installing a bunch of stuff.
+We use docker to build reliable images of the Mojaloop components, as well as install and run other developer tools such as MySQL and Kafka without requiring the overhead of installing a bunch of stuff.
 
 #### macOS
 Follow the Docker for Mac installation guide [here](https://docs.docker.com/docker-for-mac/)
