@@ -10,11 +10,11 @@ Mojaloop aims at creating payment platforms that are interoperable, connecting d
 [![License](https://img.shields.io/badge/Licence-Apache%202.0-orange.svg)](./LICENSE.md)
 
 ## Documentation
-- [Official Mojaloop Documentation](https://mojaloop.io/documentation)
+- [Official Mojaloop Documentation](https://docs.mojaloop.io/documentation)
 - [Mojaloop Specification](https://github.com/mojaloop/mojaloop-specification)
 - [Developer Onboarding Guide](./onboarding.md)
-- [Deploy Mojaloop On Kubernetes](https://mojaloop.io/documentation/deployment-guide/)
-- [Mojaloop Business Documentation](https://mojaloop.io/mojaloop-business-docs/)
+- [Deploy Mojaloop On Kubernetes](https://docs.mojaloop.io/documentation/deployment-guide/)
+- [Mojaloop Business Documentation](https://docs.mojaloop.io/mojaloop-business-docs/)
 
 ## Contact
 
@@ -29,7 +29,7 @@ __Channels:__
 
 ## Contributing
 
-Refer to the [Contributors guide](https://mojaloop.io/documentation/contributors-guide/) to get started making contributions.
+Refer to the [Contributors guide](https://docs.mojaloop.io/documentation/contributors-guide/) to get started making contributions.
 
 You may also want to read:
 - [Mojaloop Github Project](github.com/mojaloop/project) 
@@ -40,7 +40,7 @@ If you have any trouble getting started, or want to know where to start, reach o
 
 ### Mojaloop Repositories
 
-Refer to the [Mojaloop Repository Overview](https://mojaloop.io/documentation/repositories/) for a detailed breakdown of each Mojaloop Repository in development.
+Refer to the [Mojaloop Repository Overview](https://docs.mojaloop.io/documentation/repositories/) for a detailed breakdown of each Mojaloop Repository in development.
 
 As a quick reference, some of the most important repositories for contributors are:
 
@@ -49,7 +49,7 @@ As a quick reference, some of the most important repositories for contributors a
 - [account-lookup-service](https://github.com/mojaloop/account-lookup-service) - A service for managing party accounts across a Mojaloop environment
 - [helm](https://github.com/mojaloop/helm) - The Helm chart development for deploying Mojaloop on Kubernetes
 - [postman](https://github.com/mojaloop/postman) - A set of Postman scripts for testing and managing a Mojaloop environment
-- [documentation](https://github.com/mojaloop/documentation) - The mojaloop documentation, published [here](https://mojaloop.io/documentation)
+- [documentation](https://github.com/mojaloop/documentation) - The mojaloop documentation, published [here](https://docs.mojaloop.io/documentation)
 
 ### Creating New Issues
 
