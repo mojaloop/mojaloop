@@ -32,7 +32,7 @@ __Channels:__
 Refer to the [Contributors guide](https://docs.mojaloop.io/documentation/contributors-guide/) to get started making contributions.
 
 You may also want to read:
-- [Mojaloop Github Project](github.com/mojaloop/project) 
+- [Mojaloop Github Project](https://github.com/mojaloop/project)
   > _note: You must install the [ZenHub extension](https://www.zenhub.com/extension) in order to see the Project Kanban Board_
 - [Developer Onboarding Guide](./onboarding.md)
 
