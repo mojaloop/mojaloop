@@ -68,5 +68,6 @@ Special thanks to all the organizations and individuals who have supported this 
 - [Coil](https://coil.com/)
 - [Crosslake](https://crosslaketech.com/)
 - [Fintech Inversiones](http://www.fintechinversiones.com.py)
+- [Google LLC](https://opensource.google/)
 - [Modusbox](http://modusbox.com/)
 - [![pullreminders](https://pullreminders.com/badge.svg)](https://pullreminders.com?ref=badge)
